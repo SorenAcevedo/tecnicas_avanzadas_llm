@@ -8,3 +8,4 @@ pages:
   home: "https://www.bancodeoccidente.com.co/"
   sitemap_xml: "https://www.bancodeoccidente.com.co/sitemap.xml"
   robots_txt: "https://www.bancodeoccidente.com.co/robots.txt"
+  branches_root: "https://www.bancodeoccidente.com.co/BuscadordePuntosOccidente/?entidad=occidente"

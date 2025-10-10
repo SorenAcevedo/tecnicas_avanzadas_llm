@@ -1,7 +1,10 @@
 # Banco de Occidente — Selectores iniciales (Tarifas / fees)
 
 ## Fuente
-- URL: (pega aquí la URL exacta donde el banco publica **tarifas/comisiones**)
+- URL (landing): https://portalpublico.bancodeoccidente.com.co/tarifas
+PDF Personas:  https://portalpublico.bancodeoccidente.com.co/documents/d/guest/tarifas-persona-2-
+PDF Empresas:  https://portalpublico.bancodeoccidente.com.co/documents/d/guest/tarifas-empresariales-1-
+
 - Si no hay tabla HTML y usan **PDF**, capturar el enlace al PDF.
 
 ## Estructura esperada (CSS para Scrapy)

@@ -1,8 +1,7 @@
 # Banco de Occidente — Selectores iniciales (Sucursales / branches)
 
 ## Fuente
-- URL: (pega aquí la URL exacta del localizador de sucursales/canales)
-
+- URL:(https://www.bancodeoccidente.com.co/BuscadordePuntosOccidente/)
 ## Estructura esperada (CSS para Scrapy)
 > Nota: muchos bancos cargan sucursales vía JS o un endpoint JSON. Si ves que el HTML está vacío, revisa el panel “Network” del navegador y documenta la URL del API (GET /sucursales?...).
 

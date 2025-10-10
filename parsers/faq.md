@@ -1,7 +1,7 @@
 # Banco de Occidente — Selectores iniciales (FAQ)
 
 ## Fuente
-- URL: (pega aquí la URL exacta de la sección de FAQ/ayuda del banco)
+- URL: (https://webavc.bancodeoccidente.com.co/wps/portal/banco-de-occidente/bancodeoccidente/canales-servicios/contactanos/preguntas-frecuentes/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8zifQIszTwsTQx8DJxDzA0c_bw8vExdLY3NAkz1w1EVuLsHugAVGDkaBjs7GQcYGuhHEaPfAAdwJFI_HgVR-I0P14_Ca4WvOboCLF5EU-BqZmHgaO5hYOTrE2BgEGAIVYDHFQW5oaERBpme6Y6KigAW8dp1/dz/d5/L2dBISEvZ0FBIS9nQSEh/)
 - Nota: si luego cambia, actualizamos este archivo. Este doc guía a Scrapy; no es código.
 
 ## Estructura esperada (CSS para Scrapy)

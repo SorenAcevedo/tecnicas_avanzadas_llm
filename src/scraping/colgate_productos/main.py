@@ -107,7 +107,7 @@ for card in cards:
     )
 
 # 2. Recorremos los detalles
-for product in products[1:2]:
+for product in products:
     try:
         driver.get(product["url_detalle"])
         time.sleep(3)

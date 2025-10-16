@@ -163,9 +163,6 @@ logs/*.log
 *.log
 
 # Scrapy data
-*.json
-*.jsonl
-*.csv
 jobs/
 httpcache/
 

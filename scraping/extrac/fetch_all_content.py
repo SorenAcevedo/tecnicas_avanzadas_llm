@@ -12,7 +12,7 @@ except ImportError:
     pdfplumber = None
     print("pdfplumber not installed. PDF extraction will be skipped.")
 
-URLS_FILE = "scraping/extrac/colgate_urls_crawled.json"
+URLS_FILE = "scraping/extrac/urls_selected.json"
 OUTPUT_FILE = "scraping/extrac/colgate_data.json"
 
 def fetch_html(url):

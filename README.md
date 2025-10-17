@@ -36,12 +36,10 @@ Este proyecto implementa un sistema de **Retrieval-Augmented Generation (RAG)** 
 
 ## 🏭 Componentes Principales
 
-### 1. **Scraping Engine** (Basado en Scrapy)
-- **Justificación**: Scrapy es el framework más robusto para web scraping a escala empresarial [1]
+### 1. **Scraping Engine** (Basado en Selenium y BeautifulSoup)
 - **Características**:
   - Middleware personalizado para rotación de proxies y user agents
   - Pipeline de procesamiento para limpieza automática de datos
-  - Sistema de colas distribuidas con Redis para manejo de requests
   - Manejo inteligente de rate limiting y respeto de robots.txt
 
 ### 2. **Data Processing Pipeline** 

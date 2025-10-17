@@ -75,7 +75,7 @@ def obtener_tiendas(driver):
         return []
 
 
-service = Service(executable_path="../driver/chromedriver.exe")
+service = Service(executable_path="./driver/chromedriver.exe")
 driver = webdriver.Chrome(service=service)
 
 # 1. Página principal
@@ -175,6 +175,6 @@ driver.quit()
 
 # 3. Guardar en CSV
 df = pd.DataFrame(products)
-df.to_csv("../../../data/raw/productos_colgate.csv", index=False, encoding="utf-8-sig")
+df.to_csv("../../data/raw/productos_colgate.csv", index=False, encoding="utf-8-sig")
 
-print("\n✅ Scraping completado y CSV guardado correctamente.")
+print("Scraping completado y CSV guardado correctamente.")

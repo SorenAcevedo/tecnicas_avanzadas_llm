@@ -130,7 +130,7 @@ def obtener_tiendas(driver):
 
 
 # Configuración del driver
-service = Service(executable_path="./driver/chromedriver.exe")
+service = Service(executable_path="./src/scraping/driver/chromedriver.exe")
 driver = webdriver.Chrome(service=service)
 
 # 1. Página principal

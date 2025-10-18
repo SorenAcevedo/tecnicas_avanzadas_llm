@@ -121,13 +121,13 @@ def preprocess_csv(
 
 if __name__ == "__main__":
     df_colgate = preprocess_csv(
-        "../../data/raw/productos_colgate.csv",
+        "./data/raw/productos_colgate.csv",
         schema="colgate",
-        output_path="../../data/processed/productos_colgate_clean.csv",
+        output_path="./data/processed/productos_colgate_clean.csv",
     )
     df_palmolive = preprocess_csv(
-        "../../data/raw/productos_palmolive.csv",
+        "./data/raw/productos_palmolive.csv",
         schema="palmolive",
-        output_path="../../data/processed/productos_palmolive_clean.csv",
+        output_path="./data/processed/productos_palmolive_clean.csv",
     )
     print("Preprocesamiento completado.")

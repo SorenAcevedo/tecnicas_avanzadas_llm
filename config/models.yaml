@@ -1,0 +1,10 @@
+ollama:
+  models:
+    - qwen3:1.7b
+    - gemma3:1b
+openai:
+  models:
+    - gpt-5-mini
+gemini:
+  models:
+    - gemini-2.5-flash

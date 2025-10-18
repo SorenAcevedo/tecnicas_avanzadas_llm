@@ -153,17 +153,28 @@ rag_knowledge_system/
 
 ## 🚀 Pipeline de Datos
 
+### Módulo 1: Pipeline sin chunking, embedding, vector db, tag
 ```mermaid
-graph TB
-    A[Web Scraping] --> B[Raw Data Storage]
-    B --> C[Data Cleaning & Preprocessing]
-    C --> D[Text Chunking]
-    D --> E[Embedding Generation]
-    E --> F[Vector Database Storage]
-    F --> G[RAG Retrieval System]
-    G --> H[LLM Processing]
-    H --> I[Response Generation]
-    I --> J[Chatbot Interface]
+flowchart LR
+  A[Web Scraping] --> B[Raw Data Storage]
+  B --> C[Data Cleaning & Preprocessing]
+  C --> D[Response Generation]
+  D --> E[Chatbot Interface]
+```
+
+### Módulo 2: Pipeline con chunking, embedding, vector db, tag
+```mermaid
+flowchart LR
+  A[Web Scraping] --> B[Raw Data Storage]
+  B --> C[Data Cleaning & Preprocessing]
+  C --> D[Text Chunking]
+  D --> E[Embedding Generation]
+  E --> F[Vector Database Storage]
+  F --> G[Tagging]
+  G --> H[RAG Retrieval System]
+  H --> I[LLM Processing]
+  I --> J[Response Generation]
+  J --> K[Chatbot Interface]
 ```
 
 ## 🔒 Consideraciones de Arquitectura

@@ -146,18 +146,6 @@ cython_debug/
 # Project specific
 # ================================
 
-# Data directories
-data/raw/*
-data/processed/*
-data/embeddings/*
-data/models/*
-data/cache/*
-!data/raw/.gitkeep
-!data/processed/.gitkeep
-!data/embeddings/.gitkeep
-!data/models/.gitkeep
-!data/cache/.gitkeep
-
 # Logs
 logs/*.log
 *.log

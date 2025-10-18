@@ -173,7 +173,7 @@ with tab2:
     import pandas as pd
     if st.session_state.history and len(st.session_state.history) > 0:
         df = pd.DataFrame(st.session_state.history)
-        st.dataframe(df, use_container_width=True)
+        st.dataframe(df, width='stretch')
     else:
         st.info("Aún no hay historial de peticiones.")
 
@@ -234,4 +234,4 @@ with tab3:
         st.success("Pruebas automáticas completadas.")
         st.markdown("---")
         qa_results_df = pd.DataFrame(qa_results)
-        st.dataframe(qa_results_df, use_container_width=True, hide_index=True)
+        st.dataframe(qa_results_df, width='stretch', hide_index=True)

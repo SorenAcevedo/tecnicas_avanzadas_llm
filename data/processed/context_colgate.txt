@@ -1,0 +1,744 @@
+Nombre: Pluma Blanqueadora Colgate Luminous White
+Descripción: Remueve 15 años de manchas en los dientes en solo 1 semana* con la Pluma Blanqueadora Luminous White Colgate, que actúa como un blanqueador dental rápido y eficaz mientras duermes. *Después de una semana de uso diario. Manchas causadas por algunos alimentos y bebidas como vino tinto, café, té y frutos rojos. Consulte las advertencias del producto.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/MkrDrM_5edmVeI0_nfxeU.jpg
+URL Detalle: https://www.colgate.com/es-co/products/specialty/colgate-luminous-white-wand?product_overview
+SKU: 7509546696522
+Categoría: Hilos dentales
+Marca: Colgate Luminous White
+Beneficios: ['Blanqueamiento dental', 'Proteger esmalte']
+Descripción larga: Consigue dientes visiblemente más blancos* con la Pluma Blanqueadora Colgate Luminous White. Su fórmula remueve 15 años de manchas en los dientes en solo 1 semana*, actuando como un blanqueador dental superior mientras duermes. Su fórmula con peróxido de hidrógeno, un ingrediente blanqueador usado por dentistas, actúa durante la noche para un blanqueamiento dental rápido y eficaz. La Pluma Blanqueadora Colgate Luminous White tiene un  aplicador de precisión con dosificación automática, para blanquear dientes, no deja grumos y es fácil de usar. Además de actuar como un blanqueador de dientes, la Pluma Blanqueadora Colgate Luminous White, protege el esmalte dental y no causa sensibilidad. *Después de una semana de uso diario. Manchas causadas por algunos alimentos y bebidas como vino tinto, café, té y frutos rojos. Consulte las advertencias del producto.
+FAQs: [{'pregunta': '¿Por qué debería usar la Pluma Blanqueadora Colgate Luminous White para blanquear mis dientes?', 'respuesta': 'Nuestros dientes se manchan por una variedad de circunstancias y, con el tiempo, las manchas harán que se vean más opacos o de color amarillento. Las cremas dentales blanqueadoras regulares normalmente solo eliminan las manchas superficiales, pero la Pluma Blanqueadora Luminous White es un dispositivo especial con una fórmula de suero blanqueador segura para el esmalte que blanquea los dientes por dentro y por fuera, y puede eliminar 15 años de manchas en tan solo 1 semana, si se usa como se indica. Actúa mientras duermes para revelar una sonrisa más blanca y brillante'}, {'pregunta': '¿Qué es el Peróxido de Hidrógeno?', 'respuesta': 'Es un agente blanqueador que remueve suavemente las manchas comunes del esmalte y puede hacer una gran diferencia en la blancura de tu sonrisa. El peróxido de hidrógeno funciona al eliminar manchas difíciles, tanto las extrínsecas como las intrínsecas, a diferencia de otras pastas de dientes comunes que solo quitan las manchas superficiales en la capa externa de los dientes. El peróxido de hidrógeno es muy bueno para blanquear los dientes y, además, es seguro para el esmalte.'}, {'pregunta': '¿Es seguro usar Peróxido de hidrógeno en mis dientes y boca?', 'respuesta': 'Sí, el peróxido de hidrógeno es seguro y efectivo. Sigue siempre las instrucciones de uso y lee la etiqueta para estar al tanto de cualquier riesgo. Llama a tu dentista si experimentas algún efecto secundario.'}, {'pregunta': '¿La Pluma Blanqueadora Colgate Luminous White causa sensibilidad?', 'respuesta': 'Colgate Luminous White Wand está diseñado para no causar sensibilidad dental. Sin embargo, algunas personas pueden experimentar sensibilidad en los dientes o molestias en las encías al usar productos blanqueadores. Esta molestia es temporal y no es dañina. Si experimentas una sensibilidad dental mayor a la leve, suspende su uso y consulta a tu dentista.'}, {'pregunta': '¿Con qué frecuencia puedo usar mi Pluma Blanqueadora?', 'respuesta': 'El producto es seguro para usarlo todas las noches (una vez al día). El ciclo recomendado es de una semana, pero puedes usarlo hasta que se termine. No excedas las 7 semanas de uso continuo.'}]
+Tiendas: []
+---
+Nombre: Seda Dental Colgate Total Encerado 25 metros
+Descripción: Complementa tu rutina de higiene personal con el Hilo Dental Encerado Colgate Total, presentación Cinta Dental.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/buR3r2Zx_8xjoAgOI4kGk.jpg
+URL Detalle: https://www.colgate.com/es-co/products/specialty/hilo-dental-colgate?product_overview
+SKU: 7891024183182
+Categoría: Hilos dentales
+Marca: Colgate Total
+Beneficios: ['Prevenir caries', 'Prevenir sarro', 'Combatir placa']
+Descripción larga: Mejora tu rutina diaria de higiene bucal con el Hilo Dental Encerado Colgate Total. Esta innovadora cinta dental está diseñada específicamente para llegar a esos espacios reducidos que los cepillos de dientes convencionales suelen pasar por alto, garantizando una limpieza interdental completa. Incorporar el hilo dental a tu rutina es un primer paso crucial para mantener una salud bucal completa, ya que elimina eficazmente restos de comida, gérmenes y bacterias. Elaborado con una fibra especial de PTFE de un solo filamento, el hilo dental Colgate se desliza suavemente entre los dientes para una limpieza sin esfuerzo y está diseñado para no romperse. Para obtener resultados óptimos, complementa su uso con un cepillo de dientes, crema de dientes y enjuague bucal adaptados a tus necesidades.
+FAQs: [{'pregunta': 'Ingredientes activos', 'respuesta': 'No aplica'}, {'pregunta': 'Ingredientes inactivos', 'respuesta': 'PTFE, cera microcristalina.'}]
+Tiendas: [{'tienda': 'FarmatodoCO', 'disponibilidad': 'Agotado', 'precio': 'N/A'}, {'tienda': 'LaRebajaVirtualCO', 'disponibilidad': 'Disponible', 'precio': '14.600,00'}]
+---
+Nombre: Seda Dental Colgate Carbon 25 metros
+Descripción: El hilo dental Colgate Natural Extracts Carbón ayuda a prevenir enfermedades de las encías, elimina bacterias y está enriquecido con aceites esenciales.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/iWlGGof44kEDhszGr0o8D.jpg
+URL Detalle: https://www.colgate.com/es-co/products/specialty/hilo-dental-colgate-natural-extracts?product_overview
+SKU: 7509546671536
+Categoría: Hilos dentales
+Marca: Colgate Natural Extracts
+Beneficios: ['Prevenir caries', 'Prevenir sarro', 'Combatir placa']
+Descripción larga: Mejora tu higiene bucal con el Hilo Dental Colgate Natural Extracts con Carbón. Este innovador hilo dental está enriquecido con aceites esenciales para una limpieza interdental eficaz, ayudando a prevenir problemas de encías al eliminar completamente las bacterias alojadas entre los dientes. Elaborado con tecnología de cera negra, este hilo ofrece una comodidad superior durante su uso, asegurando la correcta eliminación de los restos de comida entre los dientes y debajo de la línea de las encías, zonas a las que el cepillo de dientes no llega. Al prevenir la formación de placa, el Hilo Dental Colgate Natural Extracts con Carbón contribuye a una mejor higiene bucal, según lo recomendado por los dentistas. Para obtener resultados óptimos, recuerda usar hilo dental antes del cepillado, preferiblemente con un cepillo de dientes Colgate.
+FAQs: [{'pregunta': 'Cómo usar el hilo dental?', 'respuesta': 'Usar el hilo dental antes de cepillarse los dientes: (1) Cortar aproximadamente 50 cm de Hilo Dental Colgate® y enrollar en sus dedos del medio (2) Pasar el hilo por la parte superior del diente deslizándolo suavemente hacia abajo (3) Limpiar los dos lados del diente y bajo la línea de la encía usando una nueva parte del hilo en cada diente.'}]
+Tiendas: [{'tienda': 'ExitoCO', 'disponibilidad': 'Disponible', 'precio': '9.900.00'}, {'tienda': 'JumboCO', 'disponibilidad': 'Disponible', 'precio': '10.080,00'}, {'tienda': 'OlimpicaCO', 'disponibilidad': 'Disponible', 'precio': '11.990,00'}, {'tienda': 'FarmatodoCO', 'disponibilidad': 'Disponible', 'precio': '13.950,00'}, {'tienda': 'LaRebajaVirtualCO', 'disponibilidad': 'Agotado', 'precio': 'N/A'}]
+---
+Nombre: Crema Dental Sensibilidad Colgate Sensitive Pro-Alivio Original Inmediato 110g
+Descripción: Crema dental con alivio instantáneo original y barrera duradera contra la sensibilidad dental** para una boca sana. **Con uso regular.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/Y2vIjIgznNdn9LDEZgwO0.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothpaste/colgate-sensitive-pro-alivio-original?product_overview
+SKU: 7891024132647
+Categoría: Cremas dentales
+Marca: Colgate Sensitive Pro-Relief
+Beneficios: ['Reducir Sensibilidad', 'Prevenir caries', 'Combatir placa']
+Descripción larga: Redescubre la alegría de una sonrisa segura con la crema dental Colgate Sensitive Pro-Relief Sensitivity, ahora disponible en un práctico formato de 110 ml. Diseñada específicamente para personas con dientes sensibles, esta innovadora crema dental te permite disfrutar de cada comida, sin importar la temperatura. Su avanzada tecnología pro-argin, con arginina, recubre activamente los túbulos dentinarios que conducen al centro del diente, proporcionando un alivio instantáneo de la sensibilidad dental. Disfruta de una limpieza profunda dondequiera que estés: en casa, la escuela o el trabajo, simplemente incorporando esta crema dental a tu rutina de higiene bucal tres veces al día. Da el primer paso hacia una salud bucal completa y cómprala ahora.
+FAQs: []
+Tiendas: [{'tienda': 'FarmatodoCO', 'disponibilidad': 'Disponible', 'precio': '31.150,00'}, {'tienda': 'LaRebajaVirtualCO', 'disponibilidad': 'Disponible', 'precio': '34.200,00'}, {'tienda': 'ExitoCO', 'disponibilidad': 'Disponible', 'precio': '34.450.00'}, {'tienda': 'OlimpicaCO', 'disponibilidad': 'Disponible', 'precio': '35.500,00'}]
+---
+Nombre: Crema Dental Niños Colgate Agnes & Fluffy 60g
+Descripción: Crema de dientes Agnes and Fluffy combate las caries con flúor, un suave sabor a sandía y actividades interactivas para un cepillado divertido.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/tdLXRBHLNNF0-CIEJtBXf.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothpaste/colgate-agnes-and-fluffy?product_overview
+SKU: 7509546660561
+Categoría: Cremas dentales
+Marca: Colgate Kids
+Beneficios: ['Salud dental infantil', 'Prevenir caries', 'Combatir placa']
+Descripción larga: Presentamos la nueva crema dental Agnes and Fluffy de Colgate, especialmente desarrollada para niños y que ayuda a combatir las caries con flúor. Su suave sabor a sandía hace que el cepillado sea una experiencia agradable para los niños, dejando un sabor agradable y fomentando un hábito de buena higiene bucal para toda la vida. Su atractivo empaque incluye actividades interactivas y personajes que convierten el cepillado en una experiencia divertida. Regale a su hijo una salud bucal completa hoy mismo.
+FAQs: []
+Tiendas: [{'tienda': 'JumboCO', 'disponibilidad': 'Disponible', 'precio': '6.160,00'}, {'tienda': 'OlimpicaCO', 'disponibilidad': 'Disponible', 'precio': '8.090,00'}, {'tienda': 'FarmatodoCO', 'disponibilidad': 'Disponible', 'precio': '8.100,00'}, {'tienda': 'ExitoCO', 'disponibilidad': 'Disponible', 'precio': '8.900.00'}, {'tienda': 'LaRebajaVirtualCO', 'disponibilidad': 'Disponible', 'precio': '9.100,00'}]
+---
+Nombre: Crema Dental Niños Colgate Tandy Fresantástico 50 g
+Descripción: Crema dental Colgate Kids Tandy con máxima protección contra las caries, flúor activo, esmalte fortalecido y un delicioso sabor.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/UcRyyY9T-fnWaw5XpRaZW.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothpaste/colgate-kids-fresantastica?product_overview
+SKU: 7891024034095
+Categoría: nan
+Marca: nan
+Beneficios: []
+Descripción larga: nan
+FAQs: []
+Tiendas: []
+---
+Nombre: Crema Dental Colgate Max Fresh Cool Mint 75mL
+Descripción: Frescura intensa y duradera, gracias a miles de cristales refrescantes que eliminan bacterias y sarro causantes del mal aliento.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/j-Y2w2ghCMXa4vJRTcEBF.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothpaste/colgate-fresh-mint?product_overview
+SKU: 7509546013558
+Categoría: Cremas dentales
+Marca: Colgate Max Fresh
+Beneficios: ['Prevenir caries', 'Aliento fresco', 'Combatir placa', 'Prevenir sarro']
+Descripción larga: Acércate a esa persona especial con la confianza de la crema dental Colgate Max Fresh. Sorpréndela con un aliento fresco y delicado que adorará, brindándote la seguridad que siempre has deseado. Nuestra crema dental contiene miles de cristales refrescantes que brindan una frescura intensa y duradera, eliminando las bacterias que causan mal olor y el sarro de tus dientes, lengua, mejillas y paladar. También te encantará su delicioso sabor a Menta Fresca. Con los tres cepillados diarios recomendados, puedes ayudar a prevenir afecciones como gingivitis, sarro y abscesos, asegurando una salud bucal óptima. Recuerda visitar a tu dentista al menos dos veces al año para una limpieza profesional.
+FAQs: [{'pregunta': 'Ingredientes activos', 'respuesta': 'ES/'}, {'pregunta': 'Ingredientes inactivos', 'respuesta': 'Sorbitol, Aqua, Hydrated Silica, Sodium Lauryl Sulfate, Aroma, PEG-12, Cellulose Gum, Cocamidopropyl Betaine, Sodium Fluoride, Sodium Saccharin, Hydroxypropyl Methylcellulose, CI 74160, CI 47005. Contiene Fluoruro de Sodio (1450 ppm de Flúor)/Contains Sodium Fluoride (1450 ppm of Fluoride).'}]
+Tiendas: []
+---
+Nombre: Crema Dental Blanqueadora Colgate Luminous White Cafe 70gr
+Descripción: Crema dental blanqueadora con una fórmula que protege el esmalte dental y elimina las manchas difíciles causadas por el café, el vino, el té y la cola.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/faFuWzQQVtBsHwJII2SAK.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothpaste/colgate-luminous-white-lovers-cafe?product_overview
+SKU: 7509546667577
+Categoría: Cremas dentales
+Marca: Colgate Luminous White
+Beneficios: ['Blanqueamiento dental', 'Blanqueamiento dental', 'Manchas dentales']
+Descripción larga: Consigue una sonrisa más brillante sin renunciar a tus placeres favoritos. La crema dental blanqueadora Colgate Luminous White Café está diseñada específicamente para combatir las manchas difíciles, incluyendo las del café, a la vez que mantiene tu higiene bucal diaria. Su fórmula avanzada no solo protege el esmalte dental y previene la placa, sino que también elimina eficazmente las manchas de café, revelando unos dientes naturalmente más blancos. Recupera el brillo de tus dientes y disfruta de una salud bucal completa con la crema dental blanqueadora Colgate Luminous White Café. Dile adiós a las manchas y dale la bienvenida a una sonrisa radiante y segura.
+FAQs: []
+Tiendas: []
+---
+Nombre: Crema Dental Colgate Triple Accion Extra Frescura 125mL
+Descripción: Crema dental con sensación refrescante, protección avanzada para los dientes y frescura diaria.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/BDXpKI3JpuufbFzzCl8CN.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothpaste/colgate-triple-accion-extra-frescura?product_overview
+SKU: 7509546074016
+Categoría: Cremas dentales
+Marca: Colgate Triple Acción
+Beneficios: ['Prevenir caries', 'Aliento fresco', 'Combatir placa', 'Prevenir sarro']
+Descripción larga: Experimenta una sensación refrescante con la Crema Dental Triple Acción Extra Fresca de 125 ml. Esta crema dental proporciona una limpieza profunda con una protección única, mejorando tu bienestar general. Disfruta de una frescura duradera que aumenta tu confianza y mejora tu calidad de vida. Transforma cada cepillado en un momento de renovación y cuidado para tu sonrisa.
+FAQs: []
+Tiendas: []
+---
+Nombre: Crema Dental sensibilidad Colgate Sensitive Pro-Alivio Inmediato Encías 110g
+Descripción: La Crema dental Colgate Sensitive Pro Instant Gum Relief con doble acción protege las encías y alivia la sensibilidad dental para una higiene bucal completa.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/ypL4BfN3Rl6qLTbyZ5Jfz.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothpaste/colgate-sensitive-pro-alivio-inmediato-encias?product_overview
+SKU: 7509546690384
+Categoría: Cremas dentales
+Marca: Colgate Sensitive Pro-Relief
+Beneficios: ['Reducir Sensibilidad', 'Prevenir caries', 'Combatir placa', 'Condiciones de encías', 'Blanqueamiento dental']
+Descripción larga: Esta crema dental proporciona alivio inmediato de la sensibilidad dental y crea una barrera protectora para las encías con el uso regular. Con tecnología de arginina y doble zinc, ayuda eficazmente a prevenir el sangrado de encías eliminando la placa con el cepillado diario y la retracción de encías con el uso continuo. Experimenta un alivio de la sensibilidad dos veces más rápido en comparación con las cremas dentales con nitrato de potasio y mantiene encías sanas para una salud bucal integral. Para un alivio inmediato de la sensibilidad, aplica directamente y masajea durante un minuto en cada diente sensible.
+FAQs: [{'pregunta': 'Ingredientes activos', 'respuesta': 'Arginine/ Arginina 8%, Sodium Monofluorophosphate/ Monofluorofosfato de Sodio 1,1% (1450 PPM de Flúor), Zinc Oxide/ Oxido de Cinc 1%, Zinc Citrate/ Citrato de Cinc 0,5%.'}, {'pregunta': 'Ingredientes inactivos', 'respuesta': 'Calcium Carbonate/ Carbonato de Calcio, Aqua/ Agua, Sorbitol, Arginine Bicarbonate/ Bicarbonato de Arginina, Poloxamer 407/ Poloxámero 407, Aroma/ Sabor, Sodium Monofluorophosphate/ Monofluorofostato de Sodio, Cocamidopropyl Betaine/ Cocamidopropyl Betaína, Zinc Oxide/ Oxido de Cinc, Benzyl Alcohol/ Alcohol Bencílico, Cellulose Gum/ Goma de Celulosa, Sodium Bicarbonate/ Bicarbonato de Sodio, Tetrasodium Pyrophosphate/ Pirofosfato Tetrasodio, Zinc Citrate/ Citrato de Cinc, Xanthan Gum/ Goma Xantán, Sodium Saccharin/ Sacarina Sódica, Sucralose/ Sucralosa, Cl 77891/ Dióxido de Titanio (Cl 77891), Limonene/Dipenteno. Contém Monofluorfosfato de Sódio/ Contiene Monofluorofosfato de Sodio (1450ppm de Flúor).'}]
+Tiendas: [{'tienda': 'LaRebajaVirtualCO', 'disponibilidad': 'Disponible', 'precio': '33.600,00'}]
+---
+Nombre: Crema Dental Colgate Total Encías Prevención Activa 75 ml
+Descripción: Crema dental con encías fortalecidas, protección antibacteriana por 24 horas y fórmula suave y espumosa.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/Wk4WQqhfiZtpwJwKTvu4k.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothpaste/total-gums-active-prevention?product_overview
+SKU: 7509546692470
+Categoría: Cremas dentales
+Marca: Colgate Total
+Beneficios: ['Salud de encías', 'Condiciones de encías', 'Prevenir caries']
+Descripción larga: Protege tu sonrisa y mantén una salud bucal óptima con la crema dental Colgate Total Encías Saludables. Tus encías desempeñan un papel crucial en la protección de tus dientes contra bacterias y sustancias extrañas, por lo que cuidarlas es esencial para una higiene bucal integral. Esta crema dental enriquecida con flúor está diseñada específicamente para ayudar a prevenir el crecimiento bacteriano en tus encías, promoviendo su salud las 24 horas del día. Ideal para uso diario, la crema dental Colgate Total Encías Saludables ofrece protección antibacteriana clínicamente probada de 24 horas*. Elimina activamente las bacterias que son la principal causa de problemas bucales comunes como la erosión del esmalte, la sensibilidad dental, la placa, la acumulación de sarro, las manchas antiestéticas, el mal aliento persistente y las caries. Experimenta el poder del cuidado bucal avanzado con la tecnología preventiva patentada** y la suave fórmula espumosa de esta crema dental, que limpia tu boca en profundidad. Para una salud dental integral, complementa tu rutina con enjuague bucal y uso regular de hilo dental, y sigue siempre las recomendaciones de tu dentista. *Con cepillado dos veces al día y uso continuo durante 4 semanas. **Patentado en Estados Unidos.
+FAQs: [{'pregunta': 'Ingredientes inactivos', 'respuesta': 'ES: Glycerin, Aqua, Hydrated Silica, Sorbitol, Aroma, Tetrasodium Pyrophosphate, Sodium Lauryl Sulfate, Cellulose Gum, CI 77891, Potassium Nitrate, Stannous Fluoride, Sodium Saccharin, Xanthan Gum, Cocamidopropyl Betaine, Sodium Fluoride, CI 73360.'}]
+Tiendas: []
+---
+Nombre: Crema Dental Colgate Max White Complete Clean 180g
+Descripción: Crema dental Colgate Max White Complete Clean para una limpieza más blanca y profunda, con capas blanqueadoras que se disuelven.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/d9d3O1C8ZqCIF2i72oRR6.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothpaste/colgate-maxwhite?product_overview
+SKU: 7891024123362
+Categoría: Cremas dentales
+Marca: Colgate Max White
+Beneficios: ['Prevenir caries', 'Blanqueamiento dental', 'Combatir placa', 'Aliento fresco']
+Descripción larga: Dale a tu sonrisa el cuidado excepcional que merece con la crema dental Colgate Max White Complete Clean. Su fórmula avanzada incluye innovadoras capas blanqueadoras que se disuelven completamente con el cepillado, brindando no solo una sonrisa más blanca, sino también una limpieza profunda. Experimenta la confianza de una sonrisa espectacular con cada aplicación, disfrutando de una limpieza completa que deja tu boca con una sensación de frescura. Comparte el secreto para una sonrisa más brillante y saludable con tus familiares e incorpora esta crema dental blanqueadora esencial a tu rutina diaria para lograr las tres sesiones de cepillado cruciales recomendadas para una salud bucal óptima. Para obtener mejores resultados, combínala con el cepillo de dientes, enjuague bucal e hilo dental Colgate que mejor se adapten a tus necesidades.
+FAQs: [{'pregunta': 'Ingredientes inactivos', 'respuesta': 'Sorbitol, aqua, hydrated silica, peg-12, sodium lauryl sulfate, aroma, cellulose gum, tetrasodium pyrophosphate, cocamidopropyl betaine, sodium fluoride, sodium saccharin, hydroxypropyl methylcellulose, CI 74160, CI 74260. Contiene fluoruro de sodio (1450 ppm de flúor) (1450 mg/g de flúor).'}]
+Tiendas: [{'tienda': 'JumboCO', 'disponibilidad': 'Disponible', 'precio': '11.752,00'}, {'tienda': 'OlimpicaCO', 'disponibilidad': 'Disponible', 'precio': '14.950,00'}, {'tienda': 'FarmatodoCO', 'disponibilidad': 'Disponible', 'precio': '15.000,00'}, {'tienda': 'ExitoCO', 'disponibilidad': 'Disponible', 'precio': '15.150.00'}, {'tienda': 'LaRebajaVirtualCO', 'disponibilidad': 'Disponible', 'precio': '15.300,00'}]
+---
+Nombre: Crema Dental Colgate Total Antisarro Prevención Activa 75ml
+Descripción: Crema dental Colgate Total Antisarro con sonrisa saludable, bacterias reducidas, espuma densa y micropartículas de alta limpieza.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/G1iMACIn3c2QV6UsmgAnT.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothpaste/colgate-total-tartar?product_overview
+SKU: 7509546653532
+Categoría: Cremas dentales
+Marca: Colgate Total
+Beneficios: ['Prevenir sarro', 'Prevenir caries', 'Aliento fresco', 'Reducir Sensibilidad']
+Descripción larga: Protege toda tu boca de las bacterias con la crema dental Colgate Total Anti-Tartar, enriquecida con flúor para un cuidado bucal integral. Su fórmula avanzada presenta una espuma densa y micropartículas de alta limpieza que previenen activamente la acumulación de sarro persistente en los dientes y la línea de las encías. Ideal para uso diario, la crema dental Colgate Total Anti-Tartar ofrece protección antibacteriana clínicamente probada de 24 horas*, atacando las causas de problemas bucales comunes como bacterias en las encías, erosión del esmalte, sensibilidad dental, acumulación de placa, sarro, manchas, mal aliento y caries. Esta crema dental incorpora una potente tecnología preventiva patentada** que brinda una limpieza profunda y segura, promoviendo la salud bucal en general. Para una higiene dental óptima, complementa tu rutina con enjuague bucal y uso de hilo dental, y sigue siempre las recomendaciones de tu dentista. *Con cepillado dos veces al día y uso continuo durante 4 semanas.
+FAQs: [{'pregunta': 'Ingredientes inactivos', 'respuesta': 'ES: Glycerin, Aqua, Hydrated Silica, Sorbitol, Sodium Lauryl Sulfate, Aroma, Tetrasodium Pyrophosphate, Cellulose Gum, CI 77891, Potassium Nitrate, Stannous Fluoride, Sodium Saccharin, Xanthan Gum, Cocamidopropyl Betaine, Sodium Fluoride, CI 73360, Benzyl Alcohol.'}]
+Tiendas: [{'tienda': 'MerqueoCO', 'disponibilidad': 'Disponible', 'precio': '12.000,00'}, {'tienda': 'ExitoCO', 'disponibilidad': 'Disponible', 'precio': '13.900.00'}, {'tienda': 'FarmatodoCO', 'disponibilidad': 'Disponible', 'precio': '13.950,00'}, {'tienda': 'LaRebajaVirtualCO', 'disponibilidad': 'Disponible', 'precio': '15.100,00'}]
+---
+Nombre: Crema Dental Niños Colgate My First sin Fluor 50g
+Descripción: Crema dental con cuidado bucal completo para bebés, diseñada para ayudar a cuidar los dientes desde pequeños para una sonrisa saludable.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/JB8SECkluktpUH5mZA19K.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothpaste/my-first-colgate-0-2?product_overview
+SKU: 7509546060781
+Categoría: Cremas dentales
+Marca: Colgate Kids
+Beneficios: ['Salud dental infantil', 'Prevenir caries', 'Combatir placa']
+Descripción larga: Dale a tu pequeño el mejor comienzo para una salud bucal de por vida con Colgate Mi Primera Crema Dental Sin Flúor. Especialmente formulada para bebés de 6 a 24 meses, esta suave crema dental te ayuda a proteger sus dientes desde una edad temprana, sentando las bases para una sonrisa saludable y duradera. La crema dental infantil de Colgate, cuidadosamente desarrollada, limpia eficazmente con una consistencia suave y no irritante que no pica ni arde, haciendo del cepillado una experiencia placentera para tu bebé. Puedes tener la tranquilidad de saber que estás usando un producto que prioriza su salud y fomenta excelentes hábitos de higiene a diario. Disponible en un práctico tubo de 40 ml, úsalo a diario para una limpieza completa. Da el primer paso hacia la salud bucal completa de tu bebé hoy mismo.
+FAQs: [{'pregunta': 'Ingredientes inactivos', 'respuesta': 'Propilenclicol, glicerina, sílica hidratada, sorbitol, agua, poloxámero 407, goma de celulosa, sacarina sódica, sabor, ácido cítrico.'}]
+Tiendas: [{'tienda': 'JumboCO', 'disponibilidad': 'Disponible', 'precio': '20.552,00'}, {'tienda': 'OlimpicaCO', 'disponibilidad': 'Disponible', 'precio': '25.400,00'}, {'tienda': 'LaRebajaVirtualCO', 'disponibilidad': 'Agotado', 'precio': 'N/A'}, {'tienda': 'ExitoCO', 'disponibilidad': 'Disponible', 'precio': '27.200.00'}]
+---
+Nombre: Crema Dental Blanqueadora Colgate Luminous White Brilliant 125ml
+Descripción: Crema de dientes: Revela el poder de una sonrisa irresistible y más blanca en 1 semana.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/HUk9XsWGeLKUoo1TAM7rI.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothpaste/colgate-luminous-white?product_overview
+SKU: 7509546053875
+Categoría: nan
+Marca: nan
+Beneficios: []
+Descripción larga: nan
+FAQs: []
+Tiendas: []
+---
+Nombre: Crema Dental Colgate Luminous White Color Correct
+Descripción: ¡Deslumbra con tu sonrisa! La crema dental Colgate Luminous White Color Correct Fresh Mint, con flúor y tecnología de color violeta, neutraliza las manchas amarillas* para unos dientes visiblemente más blancos al instante*. Este efecto es temporal y te permite lucir una sonrisa radiante. Además, protege el esmalte dental. *El efecto es temporal.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/Ez4NuhU8OUjo5M9900xoc.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothpaste/colgate-luminous-white-color-correct?product_overview
+SKU: 7509546700403
+Categoría: Cremas dentales
+Marca: Colgate Luminous White
+Beneficios: ['Blanqueamiento dental', 'Manchas dentales', 'Proteger esmalte']
+Descripción larga: Descubre una sonrisa más blanca al instante* con la crema dental Colgate Luminous White Color Correct Fresh Mint. Su fórmula con flúor y tecnología de color violeta neutraliza las manchas amarillas* en los dientes temporalmente. Colgate Luminous White Color Correct es ideal para tu rutina diaria. Protege el esmalte, te brinda una buena limpieza dental y te permite lucir unos dientes más blancos al instante* con un efecto temporal. ¡Sonríe con confianza! Para mantener una sonrisa sana y una óptima salud bucal, incorpora esta crema de dientes a tus productos de higiene oral y sigue siempre las recomendaciones de tu odontólogo. ¡Deslumbra con tu sonrisa con Luminous White Color Correct! *El efecto es temporal.
+FAQs: []
+Tiendas: []
+---
+Nombre: Crema Dental Colgate Total Carbón Prevención Activa150ml
+Descripción: Crema dental Colgate Total Prevention Carbón Activado para la limpieza y blanqueamiento de los dientes, con micropartículas de carbón para eliminar las manchas superficiales.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/_Dx6kn7VfHkeV7ed99hhw.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothpaste/colgate-total-12-carbon-activado?product_overview
+SKU: 7509546683829
+Categoría: Cremas dentales
+Marca: Colgate Total
+Beneficios: ['Prevenir sarro', 'Salud de encías', 'Aliento fresco', 'Prevenir sarro', 'Reducir Sensibilidad', 'Aliento fresco', 'Proteger esmalte', 'Blanqueamiento dental', 'Fortalece los dientes']
+Descripción larga: Consigue una sonrisa más brillante y saludable con la crema dental Colgate Total Active Prevention con Carbón Activado, ahora con flúor. Su fórmula avanzada contiene micropartículas de carbón que limpian tus dientes de forma suave pero eficaz y eliminan las manchas superficiales, garantizando que tu sonrisa luzca radiante en cualquier momento del día. Diseñada para uso diario, Colgate Total con Carbón Activado proporciona protección antibacteriana clínicamente probada de 24 horas*, atacando las causas de los problemas bucales comunes. Ayuda a combatir las bacterias en las encías, protege contra la erosión del esmalte, reduce la sensibilidad dental, combate la acumulación de placa y sarro, previene las manchas, refresca el mal aliento y previene la caries. Esta crema dental incorpora una potente tecnología preventiva patentada** que crea una espuma densa y cremosa que limpia profundamente y es segura para tu salud bucal en general. Para una rutina completa de cuidado dental, complementa tu cepillado con enjuague bucal y uso de hilo dental, y sigue siempre las recomendaciones de tu dentista. *Con cepillado dos veces al día y uso continuo durante 4 semanas.
+FAQs: [{'pregunta': 'Ingredientes inactivos', 'respuesta': 'ES: Glycerin, Aqua, Hydrated Silica, Sorbitol, Aroma, Sodium Lauryl Sulfate, Tetrasodium Pyrophosphate, Cellulose Gum, Potassium Nitrate, Stannous Fluoride, Sodium Saccharin, Xanthan Gum, Cocamidopropyl Betaine, Charcoal Powder, Sodium Fluoride.'}]
+Tiendas: [{'tienda': 'JumboCO', 'disponibilidad': 'Disponible', 'precio': '19.432,00'}, {'tienda': 'LaRebajaVirtualCO', 'disponibilidad': 'Disponible', 'precio': '24.200,00'}, {'tienda': 'FarmatodoCO', 'disponibilidad': 'Disponible', 'precio': '24.950,00'}, {'tienda': 'OlimpicaCO', 'disponibilidad': 'Disponible', 'precio': '25.950,00'}, {'tienda': 'ExitoCO', 'disponibilidad': 'Disponible', 'precio': '26.500.00'}]
+---
+Nombre: Crema Dental Colgate Triple Acción Xtra Blancura 150ml
+Descripción: Crema dental Colgate Triple Acción Extra Blanqueamiento* con multiprotección para una sonrisa extraordinaria, dientes más blancos y salud bucal.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/QqxdqBUS03FSoPMjhdg1c.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothpaste/colgate-triple-accion-xtra-blancura?product_overview
+SKU: 7509546690919
+Categoría: Cremas dentales
+Marca: Colgate Triple Action
+Beneficios: ['Prevenir caries', 'Blanqueamiento dental', 'Combatir placa', 'Aliento fresco']
+Descripción larga: La crema dental Colgate Triple Acción Extra Blanqueamiento ofrece protección múltiple para una sonrisa excepcional. Su fórmula avanzada incluye micropartículas pulidoras extra para dientes visiblemente más blancos, a la vez que protege la salud bucal de toda la familia. Experimenta el triple beneficio de protección, extra blancura y frescura con la crema dental Colgate Triple Acción Extra Blanqueamiento.
+FAQs: [{'pregunta': 'Ingredientes activos', 'respuesta': 'Fluoruro de Sodio 0,32%.'}, {'pregunta': 'Ingredientes inactivos', 'respuesta': 'Aqua/ Agua, Glycerin/ Glicerina, Hydrated Silica/ Sílica Hidratada, Sodium Lauryl Sulfate/ Laurilsulfato de Sodio, Aroma/ Sabor, Cellulose Gum/ Goma de Celulosa, Sodium Fluoride/ Fluoruro de Sodio, Xanthan Gum/ Goma Xantán, Sodium Saccharin/ Sacarina Sódica, Benzyl Alcohol/ Alcohol Bencílico, CI 77891/ Dióxido de Titanio (CI 77891), CI 74160/ Pigmento Azul 15 (CI 74160). Contiene Fluoruro de Sodio (1450 ppm de Flúor) (1450 µg/g de Flúor).'}]
+Tiendas: [{'tienda': 'OlimpicaCO', 'disponibilidad': 'Disponible', 'precio': '9.890,00'}, {'tienda': 'JumboCO', 'disponibilidad': 'Disponible', 'precio': '9.890,00'}, {'tienda': 'ExitoCO', 'disponibilidad': 'Disponible', 'precio': '11.700.00'}]
+---
+Nombre: Crema Dental Colgate Triple Acción 150 ml
+Descripción: Crema dental Colgate Triple Acción con la mejor protección contra las caries.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/8tz4d4kqxxTpMlqM4s-1p.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothpaste/colgate-triple-accion-menta-original?product_overview
+SKU: 7509546000350
+Categoría: Cremas dentales
+Marca: Colgate Triple Action
+Beneficios: ['Prevenir caries', 'Aliento fresco', 'Combatir placa', 'Prevenir sarro']
+Descripción larga: Protege la sonrisa de tu familia con la Crema Dental Colgate Triple Acción, ahora en un práctico formato de 150 ml, ideal para compartir. Esta crema dental ofrece un cuidado bucal integral, con flúor para fortalecer el esmalte y proteger contra las caries, previniendo la penetración de ácidos. Disfruta de su vigorizante sabor a Menta Original que deja tu aliento increíblemente fresco. Con cada cepillado, notarás una sonrisa notablemente más limpia y brillante, ya que elimina gradualmente las manchas amarillas y combate la acumulación de placa y sarro. Descubre todos los beneficios que Colgate ofrece para una sonrisa más sana y segura.
+FAQs: [{'pregunta': 'Ingredientes inactivos', 'respuesta': 'ES: Aqua, Sorbitol, Hydrated Silica, Glycerin, Sodium Lauryl Sulfate, Aroma, Cellulose Gum, Sodium Fluoride, Sodium Saccharin, Xanthan Gum, CI 77891, CI 74260, CI 74160, Eugenol.'}]
+Tiendas: [{'tienda': 'FarmatodoCO', 'disponibilidad': 'Disponible', 'precio': '14,40'}, {'tienda': 'ExitoCO', 'disponibilidad': 'Disponible', 'precio': '12.900.00'}, {'tienda': 'LaRebajaVirtualCO', 'disponibilidad': 'Disponible', 'precio': '13.000,00'}, {'tienda': 'JumboCO', 'disponibilidad': 'Disponible', 'precio': '13.200,00'}]
+---
+Nombre: Crema Dental Colgate Menta 150ml
+Descripción: Crema dental con Colgate Máxima Protección contra las Caries, tamaño familiar 150ml, con flúor y calcio para combatir las caries.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/M3B03ko995LC7XbIkGfS5.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothpaste/colgate-maxima-proteccion-anticaries?product_overview
+SKU: 7509546652153
+Categoría: Cremas dentales
+Marca: Colgate Maximum Cavity Protection
+Beneficios: ['Prevenir caries', 'Aliento fresco', 'Combatir placa', 'Prevenir sarro']
+Descripción larga: Protege la sonrisa de tu familia con la crema dental Colgate Máxima Protección contra las Caries, ahora en un práctico tamaño familiar de 150 ml. Esta fórmula avanzada, enriquecida con flúor y calcio, va más allá de la protección básica para combatir eficazmente las caries, incluso las que se forman entre los dientes y en las zonas más profundas de la boca. Combate activamente las bacterias, una de las principales causas de los problemas dentales. Los potentes ingredientes de esta crema dental penetran el esmalte dental, ayudando a preservar su calcio natural y creando una barrera contra las manchas amarillentas causadas por los alimentos y bebidas cotidianos. Prioriza la salud bucal de toda tu familia con la protección confiable que solo Colgate puede brindar.
+FAQs: [{'pregunta': 'Ingredientes inactivos', 'respuesta': 'ES: Calcium Carbonate, Aqua, Glycerin, Sodium Lauryl Sulfate, Sodium Monofluorophosphate, Aroma, Cellulose Gum, Sodium Bicarbonate, Tetrasodium Pyrophosphate, Benzyl Alcohol, Sodium Saccharin, Sodium Hydroxide. Contiene Monofluorofosfato de Sodio (1450 ppm de Flúor) (1450µg/g de Flúor).'}]
+Tiendas: [{'tienda': 'ExitoCO', 'disponibilidad': 'Disponible', 'precio': '12.350.00'}, {'tienda': 'LaRebajaVirtualCO', 'disponibilidad': 'Disponible', 'precio': '12.800,00'}, {'tienda': 'OlimpicaCO', 'disponibilidad': 'Disponible', 'precio': '13.300,00'}, {'tienda': 'FarmatodoCO', 'disponibilidad': 'Agotado', 'precio': 'N/A'}]
+---
+Nombre: Crema Dental Sensibilidad Colgate Pro Alivio Inmediato Xtreme 110g
+Descripción: Crema de dientes con alivio de la sensibilidad 2 veces más rápido incluso a temperaturas extremas creando un escudo protector.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/wjVzDgOeRwT5Fuqgh_auW.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothpaste/colgate-sensitive-pro-relief-xtreme?product_overview
+SKU: 7509546690285
+Categoría: Cremas dentales
+Marca: Colgate Sensitive Pro-Relief
+Beneficios: ['Reducir Sensibilidad', 'Prevenir caries', 'Combatir placa', 'Blanqueamiento dental', 'Malestar dental']
+Descripción larga: Experimente un alivio rápido de la sensibilidad dental con la crema dental Colgate Sensitive Pro Alivio Inmediato Temperaturas Extremas. Ya sea que disfrute de un café caliente o una bebida fría, esta fórmula avanzada proporciona un alivio de la sensibilidad dos veces más rápido que las cremas dentales con nitrato de potasio, según estudios clínicos publicados. Enriquecida con flúor y arginina, Colgate Sensitive Pro Alivio Inmediato Temperaturas Extremas crea una barrera protectora que ofrece un alivio duradero de las molestias, incluso a temperaturas extremas, con el uso regular. Dé el primer paso hacia una salud bucal completa y pruebe hoy mismo la crema dental Colgate Sensitive Temperaturas Extremas.
+FAQs: [{'pregunta': 'Ingredientes activos', 'respuesta': 'ARGININA 8%, MONOFLUORFOSFATO DE SODIO 1,1%.'}, {'pregunta': 'Ingredientes inactivos', 'respuesta': 'CARBONATO DE CALCIO, AGUA, SORBITOL, BICARBONATO DE ARGININA, AROMA/SABOR, LAURILSULFATO DE SODIO, MONOFLUORFOSFATO DE SODIO, GOMA DE CELULOSA, BICARBONATO DE SODIO, PIROFOSFATO TETRASODIO, DIÓXIDO DE TITANIO (CI 77891), SACARINA SÓDICA, ALCOHOL BENCÍLICO, SÍLICA HIDRATADA, GOMA XANTÁN, PIGMENTO AZUL 15 (CI 74160), ROJO 30 (CI 733360), EUGENOL. CONTIENE MONOFLUORFOSFATO DE SODIO (1450 ppm DE FLÚOR).'}]
+Tiendas: [{'tienda': 'LaRebajaVirtualCO', 'disponibilidad': 'Disponible', 'precio': '24.750,00'}, {'tienda': 'JumboCO', 'disponibilidad': 'Disponible', 'precio': '28.792,00'}, {'tienda': 'OlimpicaCO', 'disponibilidad': 'Disponible', 'precio': '30.850,00'}, {'tienda': 'FarmatodoCO', 'disponibilidad': 'Disponible', 'precio': '31.150,00'}, {'tienda': 'ExitoCO', 'disponibilidad': 'Disponible', 'precio': '34.950.00'}]
+---
+Nombre: Crema Dental Niños Colgate Liga Justicia 75ml
+Descripción: Crema dental Colgate Smiles con prevención de caries y sarro, con personajes de la Liga de la Justicia para la salud bucal de los niños.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/OcSXe622_6DlWKhg8iYTQ.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothpaste/colgate-smiles-justice-league-batman?product_overview
+SKU: 7509546079400
+Categoría: Cremas dentales
+Marca: Colgate Kids
+Beneficios: ['Salud dental infantil', 'Prevenir caries', 'Combatir placa']
+Descripción larga: Anima a tus hijos a adoptar hábitos bucales saludables con la crema dental Colgate Smiles, diseñada para que el cepillado sea divertido y efectivo. Con emocionantes diseños de personajes de la Liga de la Justicia como la Mujer Maravilla y Batman, esta crema dental ayuda a prevenir el sarro y las caries, a la vez que protege el esmalte dental con flúor. Su delicioso sabor a fruta de burbujas convierte el cepillado en una rutina favorita después de comer. Su práctico envase de 75 ml es perfecto para usar a diario en casa.
+FAQs: [{'pregunta': 'Ingredientes inactivos', 'respuesta': 'Sorbitol, aqua, hydrated silica, peg-12, cellulose gum, sodium lauryl sulfate, aroma, sodium saccharin, sodium fluoride, CI 42090, CI 47005, limonene, cinnamal, eugenol. Contém fluoreto de sódio/ contiene fluoruro de sodio (1100 ppm de flúor) (1100 mg/g de flúor).'}]
+Tiendas: [{'tienda': 'FarmatodoCO', 'disponibilidad': 'Disponible', 'precio': '13.950,00'}, {'tienda': 'LaRebajaVirtualCO', 'disponibilidad': 'Disponible', 'precio': '14.800,00'}, {'tienda': 'JumboCO', 'disponibilidad': 'Disponible', 'precio': '15.112,00'}, {'tienda': 'ExitoCO', 'disponibilidad': 'Disponible', 'precio': '15.500.00'}, {'tienda': 'OlimpicaCO', 'disponibilidad': 'Disponible', 'precio': '15.500,00'}]
+---
+Nombre: Crema Dental Colgate Doble Frescura 100mL
+Descripción: Crema dental Colgate Doble Frescura, dientes más fuertes y blancos, aliento fresco y protección contra las caries con Crema dental y gel.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/4gxppNo35_wAJvfRb-gVR.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothpaste/colgate-doble-frescura?product_overview
+SKU: 7509546696768
+Categoría: Cremas dentales
+Marca: Colgate Double Action
+Beneficios: ['Prevenir caries', 'Aliento fresco', 'Combatir placa', 'Prevenir sarro']
+Descripción larga: La crema dental Colgate Doble Frescura ofrece una protección dental superior, con la calidad y seguridad que esperas de Colgate. Disfruta de unos dientes más fuertes, blancos y limpios, además de un aliento fresco y duradero, gracias a su exclusiva combinación de crema dental y gel que protege activamente contra las caries.
+FAQs: [{'pregunta': 'Ingredientes inactivos', 'respuesta': 'ES: Aqua, Glycerin, Hydrated Silica, Sodium Lauryl Sulfate, Aroma, Cellulose Gum, Sodium Fluoride, Sodium Saccharin, Xanthan Gum, CI 77891, CI 74160, Eugenol.'}]
+Tiendas: [{'tienda': 'JumboCO', 'disponibilidad': 'Disponible', 'precio': '4.640,00'}, {'tienda': 'OlimpicaCO', 'disponibilidad': 'Disponible', 'precio': '5.600,00'}, {'tienda': 'ExitoCO', 'disponibilidad': 'Disponible', 'precio': '5.800.00'}]
+---
+Nombre: Crema Dental Colgate Total Aliento Saludable Prevención Activa 75ml
+Descripción: Crema dental anticaries con flúor Colgate Total Visible Health con limpieza dental, tecnología de cambio de color y dientes sanos.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/tBv8tAT0UtjWU5dXxMH15.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothpaste/colgate-total-12-professional-healthy-breath?product_overview
+SKU: 7509546060811
+Categoría: Cremas dentales
+Marca: Colgate Total
+Beneficios: ['Prevenir sarro', 'Prevenir caries', 'Aliento fresco', 'Combatir placa', 'Blanqueamiento dental']
+Descripción larga: La crema dental Colgate Total Aliento Saludable con flúor previene problemas bucales comunes antes de que aparezcan, brindándote dientes limpios en cualquier momento del día. Su fórmula única neutraliza las bacterias que causan el mal aliento, lo que la hace ideal para el uso diario. Clínicamente probada para brindar protección antibacteriana de 24 horas con cepillado dos veces al día y uso continuo durante 4 semanas, Colgate Total Aliento Saludable combate las causas principales de los problemas de encías, la erosión del esmalte, la sensibilidad dental, la placa, el sarro, las manchas dentales, el mal aliento y las caries. Esta potente crema dental cuenta con tecnología preventiva patentada y una espuma densa y cremosa que limpia profundamente para una sonrisa saludable. Complementa tu rutina con enjuague bucal e hilo dental, y sigue siempre las recomendaciones de tu dentista para una salud dental óptima.
+FAQs: [{'pregunta': 'Ingredientes activos', 'respuesta': 'Fluoruro de sodio 0.32% (1450 ppm de flúor), citrato de cinc, oxido de cinc.'}]
+Tiendas: [{'tienda': 'FarmatodoCO', 'disponibilidad': 'Agotado', 'precio': 'N/A'}]
+---
+Nombre: Crema Dental Blanqueadora Colgate Luminous White Carbon 75ml
+Descripción: Crema de dientes blanqueadora: carbón activado blanco luminoso, protege el esmalte y elimina las manchas difíciles.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/x8tjs3Ym3h1pmZteiiRB0.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothpaste/colgate-luminous-white-carbon-activado?product_overview
+SKU: 7509546651019
+Categoría: Cremas dentales
+Marca: Colgate Luminous White
+Beneficios: ['Blanqueamiento dental', 'Blanqueamiento dental', 'Manchas dentales', 'Manchas dentales']
+Descripción larga: Consigue una sonrisa visiblemente más blanca con la crema dental blanqueadora Colgate Luminous White con Carbón Activado. Esta potente crema dental utiliza tecnología antimanchas y flúor para combatir las caries y darte una sonrisa radiante. La tecnología de carbón activado ayuda a blanquear los dientes y a eliminar eficazmente las manchas del esmalte, revelando una apariencia más brillante. Disfruta de un agradable y delicioso sabor a menta que deja tu boca con una sensación de frescura. Con flúor añadido, esta crema dental ayuda a recubrir tus dientes y fortalecer profundamente el esmalte, contribuyendo a la salud bucal en general. Da el primer paso hacia una sonrisa completa y más saludable.
+FAQs: [{'pregunta': 'Ingredientes inactivos', 'respuesta': 'Aqua, Hydrated Silica, Sorbitol, Calcium Pyrophosphate, Glycerin, PEG-12, Pentasodium Triphosphate, Tetrapotassium Pyrophosphate, Aroma, Sodium Lauryl Sulfate, Sodium Monofluorophosphate, Cellulose Gum, Sodium Saccharin, Xanthan Gum, Cocamidopropyl Betaine, CI 77266 (Charcoal Powder), CI 16035, CI 42090, CI 19140, Limonene. Contiene Monofluorofosfato de Sodio (1000 ppm de Flúor) (1000 mg/g de Flúor).'}]
+Tiendas: []
+---
+Nombre: Crema Dental Colgate PerioGard Encías Saludables 90g
+Descripción: La Crema dental Colgate Periogard con cuidado especializado de las encías, ayuda a prevenir la placa y contiene fluoruro estannoso y fosfato de zinc.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/DdQAZNVvWvVHzCysuZKOD.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothpaste/toothpaste-colgate-periogard?product_overview
+SKU: 7793100130243
+Categoría: Cremas dentales
+Marca: Colgate Periogard
+Beneficios: ['Condiciones de encías', 'Salud de encías', 'Prevenir caries']
+Descripción larga: La crema dental Colgate Periogard, con fluoruro de estaño y fosfato de zinc, está clínicamente probada para el cuidado especializado de las encías. Su fórmula avanzada ayuda a prevenir la placa, proporcionando el cuidado experto que tus encías necesitan para una boca más sana.
+FAQs: [{'pregunta': 'Ingredientes inactivos', 'respuesta': 'Agua/aqua, hydratated silica/silica hidratada, sorbitol, glycerin/glicerina, peg-12, tetrapotassium pyrophosphate/ profosfato de tetrapotasio, sodium lauryl sulfate/ laurilsulfato de sodio, zinc citrate/ citrato de cinc, aroma/sabor, pmmma copolymer/ copolimero pmma, sodium monofluoaophosphate/ monofluoaofosfato de sodio, sodium hydaoxide/ hidraoxico de sodio, cellulose gum/ goma de celulosa, sodium saccharin/ sacarina de sódica, xanthan gum/ goma xantán. Ci77891/ dioxido de titanio (ci77891, mica limonene/ dipenteno contem monofluorfosfato de sódio/ contiene monofluorfosfato de sodio (1450ppm de flúor) (1450ppm de flúor)'}]
+Tiendas: [{'tienda': 'FarmatodoCO', 'disponibilidad': 'Disponible', 'precio': '31.300,00'}]
+---
+Nombre: Crema Dental Niños Colgate Smiles Mi Villano Favorito 75ml
+Descripción: Crema Dental Colgate Smiles Máxima protección para dientes delicados con diseño de Minions en presentación de 75 ml sabor a bubble fruit.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/Qi_pBjJhNllcc2Pbw0Zpt.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothpaste/colgate-minions?product_overview
+SKU: 7509546066776
+Categoría: Cremas dentales
+Marca: Colgate Kids
+Beneficios: ['Salud dental infantil', 'Prevenir caries', 'Combatir placa']
+Descripción larga: Dale a los delicados dientes de tu hijo la máxima protección que merecen con la crema dental Colgate Smiles. Con un divertido diseño de Minions de la película Mi Villano Favorito, esta crema dental en gel de 75 ml con sabor a frutas y burbujas hace que el cepillado sea una experiencia placentera para los niños. Su suave consistencia en gel se desliza fácilmente por todos los dientes y penetra eficazmente entre cada uno para eliminar los residuos de comida y las impurezas. Diseñada para niños de 6 años en adelante, Colgate Smiles incorpora flúor en su fórmula, un mineral vital que recubre el esmalte dental para reducir significativamente el riesgo de caries, asegurando que sus dientes en crecimiento reciban el mejor cuidado. Su rico sabor a frutas y burbujas la convierte en una de las favoritas, fomentando hábitos de cepillado constantes. Protege sus bocas y mantén sus sonrisas impecables con Colgate. Cómprala ahora y da el primer paso hacia una salud bucal completa para tu hijo.
+FAQs: [{'pregunta': 'Ingredientes activos', 'respuesta': 'Sodium fluoride/fluoruro de sodio 0.32% (1450 ppm de flúor).'}, {'pregunta': 'Ingredientes inactivos', 'respuesta': 'ES: Sorbitol, Aqua, Hydrated Silica, PEG-12, Cellulose Gum, Sodium Lauryl Sulfate, Aroma, Sodium Saccharin, Sodium Fluoride, CI 42090, CI 47005, Limonene, Cinnamal, Eugenol. Contém Fluoreto de Sódio/ Contiene Fluoruro de Sodio (1100 ppm de Flúor) (1100 µg/g de Flúor).'}]
+Tiendas: []
+---
+Nombre: Crema Dental Blanqueadora Colgate Luminous White Glow 70gr
+Descripción: La Crema dental Colgate Luminous White Glow Mint con 3% de peróxido de hidrógeno elimina más de 10 años de manchas para lograr dientes visiblemente más blancos.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/_LKutw-SF78cJARg58kpD.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothpaste/pasta-dental-colgate-luminous-white-glow?product_overview
+SKU: 7509546676258
+Categoría: Cremas dentales
+Marca: Colgate Luminous White
+Beneficios: ['Blanqueamiento dental', 'Blanqueamiento dental', 'Manchas dentales']
+Descripción larga: Consigue una sonrisa deslumbrante y visiblemente más blanca con la crema dental Colgate Luminous White Glow Mint. Esta fórmula avanzada elimina eficazmente más de 10 años de manchas dentales tras solo cuatro semanas de uso diario, gracias a su potente tecnología blanqueadora, que incluye peróxido de hidrógeno al 3 %, un ingrediente de confianza para dentistas. Disfruta de una higiene bucal completa con Colgate Luminous White Glow; es perfecta para uso diario, ayuda a prevenir el mal aliento y protege el esmalte dental, a la vez que luce una sonrisa más brillante. Incorpora esta crema dental blanqueadora a tu rutina diaria de cuidado bucal y consulta siempre con tu dentista para una salud dental óptima. Da el primer paso hacia una salud bucal completa y luce una sonrisa más blanca con Colgate Luminous White Glow Mint.
+FAQs: []
+Tiendas: [{'tienda': 'JumboCO', 'disponibilidad': 'Disponible', 'precio': '23.767,00'}, {'tienda': 'LaRebajaVirtualCO', 'disponibilidad': 'Disponible', 'precio': '29.900,00'}, {'tienda': 'OlimpicaCO', 'disponibilidad': 'Disponible', 'precio': '31.500,00'}, {'tienda': 'FarmatodoCO', 'disponibilidad': 'Disponible', 'precio': '31.950,00'}]
+---
+Nombre: Crema Dental Colgate Natural Extracts Purificante 140ml
+Descripción: Crema de dientes: purifica, blanquea y refresca con carbón activado y menta, protegiendo el esmalte para una sonrisa más blanca.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/66icPiEN-zLy_B96Ewxtr.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothpaste/colgate-natural-extracts-charcoal?product_overview
+SKU: 7509546660073
+Categoría: Cremas dentales
+Marca: Colgate Natural Extracts
+Beneficios: ['Prevenir caries', 'Aliento fresco', 'Combatir placa', 'Prevenir sarro', 'Blanqueamiento dental']
+Descripción larga: Descubre la crema dental blanqueadora purificante Colgate Natural Extracts, elaborada con carbón activado y menta refrescante para transformar tu rutina de cuidado bucal. Esta exclusiva fórmula de inspiración natural va más allá de la limpieza básica, eliminando activamente manchas e impurezas, dejando tu aliento increíblemente fresco. Experimenta la confianza de una sonrisa más blanca, ya que esta crema dental también ayuda a proteger tu esmalte, garantizando una salud dental a largo plazo. Transforma tu cepillado diario en una experiencia purificante y blanqueadora que deja tu boca limpia y revitalizada.
+FAQs: [{'pregunta': 'Ingredientes inactivos', 'respuesta': 'ES: Aqua/Água, Glycerin/Glicerol, Hydrated Silica/Dióxido de Silício, Sodium Lauryl Sulfate/Laurilsulfato de Sódio, Aroma [Contém / Contiene Mentha Piperita (Peppermint) Oil/Óleo de Menta Piperita (Menta)], Cellulose Gum/Carmelose Sódica, Xanthan Gum/Goma Xantana, Sodium Fluoride/Fluoreto de Sódio, Sodium Saccharin/Sacarina Sódica, Charcoal Powder/Carvão Vegetal Ativado, Benzyl Alcohol/Álcool Benzílico, Eugenol. INCI IL INGREDIENTES: Aqua, Glycerin, Hydrated Silica, Sodium Lauryl Sulfate, Aroma [Contém / Contiene Mentha Piperita (Peppermint) Oil], Cellulose Gum, Xanthan Gum, Sodium Fluoride, Sodium Saccharin, Charcoal Powder, Benzyl Alcohol, Eugenol.'}]
+Tiendas: [{'tienda': 'ExitoCO', 'disponibilidad': 'Disponible', 'precio': '17.400.00'}, {'tienda': 'OlimpicaCO', 'disponibilidad': 'Disponible', 'precio': '18.360,00'}]
+---
+Nombre: Crema Dental Sensibilidad Colgate Pro Alivio Inmediato Blanqueadora Fresh 110g
+Descripción: Crema dental con alivio de la sensibilidad 2 veces más rápido* y barrera de larga duración**; restaura la blancura para una sonrisa natural.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/Kc_iUsTwDuMdkDUvsHZow.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothpaste/colgate-sensitive-pro-relief-real-white?product_overview
+SKU: 7891024124628
+Categoría: Cremas dentales
+Marca: Colgate Sensitive Pro-Relief
+Beneficios: ['Reducir Sensibilidad', 'Prevenir caries', 'Combatir placa']
+Descripción larga: Experimenta una vida sin sensibilidad dental con la crema dental Colgate Sensitive Pro Instant Relief Whitening Fresh. Si sueles preocuparte por el dolor de muelas al disfrutar de comidas o bebidas frías, podría ser un signo de sensibilidad dental. Nuestra fórmula avanzada ofrece un alivio inmediato y duradero de las molestias al crear una barrera protectora contra la sensibilidad, que actúa dos veces más rápido que las cremas dentales con nitrato de potasio. Además de calmar la sensibilidad, esta crema dental también ayuda a restaurar la blancura natural de tus dientes, permitiéndote disfrutar de una sonrisa radiante y segura todos los días. Para un alivio inmediato, simplemente aplica directamente y masajea cada diente sensible durante un minuto.
+FAQs: []
+Tiendas: [{'tienda': 'LaRebajaVirtualCO', 'disponibilidad': 'Disponible', 'precio': '25.120,00'}, {'tienda': 'FarmatodoCO', 'disponibilidad': 'Disponible', 'precio': '31.950,00'}, {'tienda': 'ExitoCO', 'disponibilidad': 'Agotado', 'precio': 'N/A'}]
+---
+Nombre: Cepillo de Dientes Sensibilidad Colgate Ultra Suave
+Descripción: Cepillo de dientes Colgate Sensitive para dientes y encías sensibles con más de 6,300 cerdas ultra suaves y un cuello súper flexible.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/xS8oY8HQ0tXbTxQSygd1B.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothbrush/colgate-sensitive-ultra-soft?product_overview
+SKU: 7509546686929
+Categoría: Cepillos de dientes
+Marca: Colgate Sensitive
+Beneficios: ['Reducir Sensibilidad', 'Salud de encías', 'Prevenir caries']
+Descripción larga: ¿Sientes molestias al disfrutar de tus comidas y bebidas favoritas? La sensibilidad dental, provocada por alimentos fríos, calientes, dulces o ácidos, puede afectar tu vida diaria. Diseñado en colaboración con dentistas, el cepillo de dientes Colgate Sensitive es un complemento esencial para tu rutina de higiene bucal si sufres de hipersensibilidad dental. Este cepillo de cerdas suaves cuenta con más de 6300 cerdas de alta densidad que proporcionan una limpieza especializada, satisfaciendo las necesidades únicas de los dientes sensibles. Su mango ergonómico y cuello superflexible garantizan un cepillado cómodo, a la vez que ayudan a prevenir el desgaste del esmalte dental. Recupera el placer de comer y beber sin dolor con el cepillo de dientes Colgate Sensitive.
+FAQs: []
+Tiendas: [{'tienda': 'JumboCO', 'disponibilidad': 'Disponible', 'precio': '24.392,00'}, {'tienda': 'ExitoCO', 'disponibilidad': 'Disponible', 'precio': '28.650.00'}, {'tienda': 'OlimpicaCO', 'disponibilidad': 'Disponible', 'precio': '33.900,00'}]
+---
+Nombre: Cepillo de Dientes Medio Colgate 360°
+Descripción: Cepillo de dientes para una limpieza bucal completa. Limpieza más profunda, cerdas antibacterianas de grosor medio, limpiador lingual.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/CDiMNOvjTlbRovS5_946M.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothbrush/colgate-360-limpieza-completa?product_overview
+SKU: 7891024316160
+Categoría: Cepillos de dientes
+Marca: Colgate 360
+Beneficios: ['Prevenir caries', 'Prevenir caries', 'Combatir placa']
+Descripción larga: Consiga una limpieza profunda y mantenga una excelente salud bucal con el cepillo de dientes Colgate 360. Diseñado para una limpieza bucal completa, limpia eficazmente dientes, lengua, mejillas y encías. Su innovador cabezal cuenta con cerdas en las puntas para alcanzar fácilmente las zonas difíciles y cerdas interdentales que ayudan a eliminar la placa debajo de la línea de las encías. Las cerdas también cuentan con un tratamiento antibacteriano para inhibir el crecimiento bacteriano. Además, el limpiador de lengua y mejillas integrado en la parte posterior del cepillo elimina eficazmente las bacterias que causan mal olor en esas zonas, solucionando el problema de que el 80 % de las bacterias no se encuentran en los dientes.
+FAQs: [{'pregunta': '¿Después de cuánto tiempo debo de cambiar mi cepillo?', 'respuesta': 'Tres meses'}, {'pregunta': '¿Qué tipo de cerdas tiene el cepillo?', 'respuesta': 'Cerdas interdentales'}, {'pregunta': '¿Qué lo diferencía de otros cepillos?', 'respuesta': 'Su nueva tecnología cuenta con 4 tipos de cerdas diseñadas para lograr una limpieza completa'}]
+Tiendas: []
+---
+Nombre: Cepillo de Dientes Colgate Super Flexi Suave
+Descripción: Cepillo de Dientes Colgate Super Flexi, proporciona una limpieza superior con un cuello flexible para facilitar el cepillado, además de un limpiador de lengua.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/dEa0DOyWhE8RJAj_Nk_qz.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothbrush/colgate-super-flexi?product_overview
+SKU: 7509546075242
+Categoría: Cepillos de dientes
+Marca: Colgate Superflexi
+Beneficios: ['Prevenir caries', 'Prevenir caries', 'Combatir placa', 'Proteger esmalte']
+Descripción larga: Consigue una limpieza superior y mantén una sonrisa radiante con el cepillo de dientes Colgate Super Flexi. Su innovador cuello flexible llega fácilmente a todas las zonas de tus dientes y encías, garantizando un cepillado completo. Este cepillo también cuenta con un limpiador lingual integrado que elimina eficazmente los residuos de comida, dejando tu boca con una sensación de frescura. Diseñado para ser fácil y práctico, cuenta con un mango de plástico alargado y un cabezal compacto con cerdas suaves, lo que facilita un cepillado suave y efectivo. Incorpora este cepillo a tu rutina diaria después de cada comida y antes de dormir para lucir una sonrisa radiante. Comparte este práctico pack de dos cepillos con tu familia y mejora tu higiene bucal combinándolos con otros productos Colgate.
+FAQs: [{'pregunta': '¿Después de cuánto tiempo debo de cambiar mi cepillo?', 'respuesta': 'Tres meses'}, {'pregunta': '¿Qué tipo de cerdas tiene el cepillo?', 'respuesta': 'Cerdas suaves'}]
+Tiendas: []
+---
+Nombre: Cepillo de Dientes Medio Colgate 360° Luminous White
+Descripción: Cepillo de dientes para una limpieza bucal completa. Con cerdas medianas antibacterianas y mango de plástico reciclado.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/wYHgTYfXMue008sVH5nhZ.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothbrush/colgate-360-luminous-white?product_overview
+SKU: 7509546077048
+Categoría: Cepillos de dientes
+Marca: Colgate 360
+Beneficios: ['Prevenir caries', 'Prevenir caries', 'Combatir placa']
+Descripción larga: Consigue una sonrisa más blanca y brillante con el cepillo de dientes Colgate 360° White. Diseñado para eliminar eficazmente las manchas superficiales, este cepillo cuenta con exclusivos vasos de pulido y cerdas en espiral para una limpieza superior. Su innovador diseño no solo cubre tus dientes, sino que también proporciona una experiencia de limpieza bucal completa, llegando a tu lengua, mejillas y encías. Este cepillo también cuenta con un nuevo mango fabricado con un 40 % de plástico reciclado, lo que contribuye a una opción más sostenible para tu rutina de cuidado bucal. Para obtener mejores resultados de blanqueamiento, complementa tu cepillado con la crema dental y el enjuague bucal Colgate Luminous White. Descubre la diferencia de una sonrisa verdaderamente limpia y radiante.
+FAQs: [{'pregunta': '¿Después de cuánto tiempo debo de cambiar mi cepillo?', 'respuesta': 'Tres meses'}, {'pregunta': '¿Qué tipo de cerdas tiene el cepillo?', 'respuesta': 'Cerdas espirales pulidoras para remover las manchas.'}, {'pregunta': '¿Qué lo diferencía de otros cepillos?', 'respuesta': 'Sus copas blanqueadoras almacenan la crema dental para ayudar a remover efectivamente las manchas en los dientes'}]
+Tiendas: [{'tienda': 'ExitoCO', 'disponibilidad': 'Agotado', 'precio': 'N/A'}]
+---
+Nombre: Cepillo de Dientes Colgate Pro Cuidado Charcoal Extra Suave
+Descripción: Cepillo de dientes Colgate Pro Care Charcoal con cerdas con infusión de carbón para dientes sensibles y encías delicadas, para una limpieza suave pero efectiva.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/pwhB58ES6Fm0nTQhUPVWC.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothbrush/toothbrush-gentle-charcoal?product_overview
+SKU: 7509546694986
+Categoría: Cepillos de dientes
+Marca: Colgate Pro Cuidado
+Beneficios: ['Prevenir caries', 'Prevenir caries', 'Combatir placa']
+Descripción larga: Descubre el nuevo cepillo de dientes Colgate Pro Care Charcoal, diseñado por expertos para personas con dientes sensibles y encías delicadas que buscan una limpieza suave pero eficaz. Con más de 3500 cerdas extrasuaves con carbón y puntas finas, este cepillo proporciona una limpieza bucal suave y profunda. Elimina eficazmente las bacterias acumuladas en los espacios estrechos entre los dientes y por encima de la línea de las encías, garantizando una limpieza profunda sin irritación. Las cerdas de alta densidad permiten un cepillado cómodo en las zonas sensibles, mientras que el cabezal ancho limpia una mayor superficie en una sola pasada. Su tamaño compacto te ayuda a llegar a zonas difíciles como las muelas posteriores, sin dejar ninguna mancha sin limpiar. El mango delgado, disponible en tres colores aleatorios (negro, blanco perla y rosa perla), cuenta con goma antideslizante para un agarre cómodo y un mejor control durante el cepillado. Para una higiene bucal óptima, recuerda cepillarte los dientes al menos dos veces al día con un cepillo de dientes de alta calidad como el Colgate Pro Care Charcoal.
+FAQs: []
+Tiendas: []
+---
+Nombre: Cepillo de Dientes Colgate Slim Soft Carbón Suave
+Descripción: Cepillo de dientes Colgate Slim Soft para una limpieza dental profunda, previniendo caries y mal aliento, con cerdas antibacterianas con infusión de carbón.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/gRlCIiA9Nva7YnjG-72Id.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothbrush/colgate-slim-soft-regular-black?product_overview
+SKU: 7509546061689
+Categoría: Cepillos de dientes
+Marca: Colgate Slim Soft
+Beneficios: ['Prevenir caries', 'Combatir placa', 'Combatir placa']
+Descripción larga: Descubra nuestro exclusivo y sofisticado cepillo de dientes Slimsoft Total 12 Carbon, diseñado para revolucionar su rutina de cuidado bucal. Con cerdas cónicas 17 veces más finas que las convencionales, este innovador cepillo elimina eficazmente el 88 % de la placa en un solo cepillado. Su cabezal pequeño y delgado y su cuello flexible permiten que las cerdas penetren fácilmente y eliminen los restos de comida incluso en los espacios más estrechos entre los dientes, garantizando una limpieza profunda. Experimente la combinación perfecta de suavidad y limpieza al incorporar este excepcional cepillo a su rutina diaria de cepillado con su crema de dientes y enjuague bucal favoritos.
+FAQs: [{'pregunta': '¿Después de cuánto tiempo debo de cambiar mi cepillo?', 'respuesta': 'Tres meses'}]
+Tiendas: [{'tienda': 'JumboCO', 'disponibilidad': 'Disponible', 'precio': '22.392,00'}, {'tienda': 'ExitoCO', 'disponibilidad': 'Disponible', 'precio': '28.650.00'}, {'tienda': 'LaRebajaVirtualCO', 'disponibilidad': 'Disponible', 'precio': '29.500,00'}, {'tienda': 'FarmatodoCO', 'disponibilidad': 'Agotado', 'precio': 'N/A'}, {'tienda': 'OlimpicaCO', 'disponibilidad': 'Disponible', 'precio': '34.900,00'}]
+---
+Nombre: Cepillo de Dientes Colgate Luminous White Lovers
+Descripción: Cepillo de dientes Colgate ® Luminous White Loves para una sonrisa más blanca y brillante.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/mCbhLYFXxyJpjP6iPI_oy.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothbrush/colgate-luminous-white-lovers?product_overview
+SKU: 7509546671710
+Categoría: Cepillos de dientes
+Marca: Colgate 360
+Beneficios: ['Prevenir caries', 'Blanqueamiento dental', 'Prevenir sarro', 'Combatir placa']
+Descripción larga: Consigue una sonrisa radiante y segura fácilmente. Esta potente fórmula está diseñada para eliminar las manchas difíciles de los placeres cotidianos como el café y el vino, revelando unos dientes notablemente más blancos. Combínalo con el cepillo de dientes Colgate® Luminous White Loves para mantener una sonrisa más blanca y radiante, y asegurar una higiene bucal óptima.
+FAQs: [{'pregunta': '¿Después de cuánto tiempo debo de cambiar mi cepillo?', 'respuesta': 'Tres meses'}, {'pregunta': '¿Qué tipo de cerdas tiene el cepillo?', 'respuesta': 'Cerdas en espiral removedoras de manchas superficiales'}, {'pregunta': '¿Qué lo diferencía de otros cepillos?', 'respuesta': 'Sus copas blanqueadoras almacenan la crema dental para ayudar a remover efectivamente las manchas en los dientes'}]
+Tiendas: []
+---
+Nombre: Cepillo de Dientes Colgate Extra Clean
+Descripción: El cepillo de dientes con cerdas multinivel ayuda a mantener la boca limpia y saludable con el uso diario.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/1eCv-z7PhIHaUkX2pbOvb.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothbrush/colgate-extra-clean?product_overview
+SKU: 99176316732
+Categoría: Cepillos de dientes
+Marca: Colgate 360
+Beneficios: ['Prevenir caries', 'Prevenir sarro', 'Combatir placa']
+Descripción larga: Consiga una boca más sana y limpia a diario con el cepillo de dientes Colgate Extra Clean Hard Multi-Level Bristle. Esta herramienta esencial para la higiene bucal está diseñada para brindar una limpieza superior, ayudándole a eliminar gérmenes, bacterias y restos de comida eficazmente. Su cabezal grande, con punta de limpieza, alcanza y cepilla fácilmente las muelas posteriores, garantizando que no quede ninguna zona sin limpiar. Además de limpiar los dientes, el limpiador lingual integrado en la parte posterior del cabezal elimina eficazmente los microorganismos que contribuyen al mal aliento, dejando una sensación de frescor. Las cerdas multinivel están diseñadas específicamente para recorrer y limpiar los espacios interdentales, promoviendo la salud bucal en general. Para obtener mejores resultados, integre este cepillo de dientes en su rutina de cepillado completa junto con otros productos de cuidado bucal Colgate.
+FAQs: [{'pregunta': '¿Después de cuánto tiempo debo de cambiar mi cepillo?', 'respuesta': 'Tres meses'}, {'pregunta': '¿Qué tipo de cerdas tiene el cepillo?', 'respuesta': 'Cepillo de cerdas suaves infusionadas en carbón.'}]
+Tiendas: []
+---
+Nombre: Cepillo de Dientes Colgate Kids 5+ años Extra Suave
+Descripción: Cepillo de dientes Colgate Kids, cabezal pequeño y cerdas extra suaves para zonas de difícil acceso.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/BBjTJTHEtjPmPS2fhYXuZ.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothbrush/colgate-kids?product_overview
+SKU: 7509546073453
+Categoría: Cepillos de dientes
+Marca: Colgate Kids
+Beneficios: ['Salud dental infantil', 'Prevenir caries', 'Prevenir sarro', 'Combatir placa']
+Descripción larga: Inculca buenos hábitos de higiene bucal en tus hijos con el cepillo de dientes Colgate Kids, diseñado para niños a partir de 5 años. Su pequeño cabezal, con cerdas extrasuaves a diferentes alturas, llega eficazmente a todas las zonas de la boca, incluso a las más difíciles. El mango ergonómico proporciona apoyo para el pulgar, lo que permite a los niños realizar los movimientos característicos para un cepillado óptimo. Su divertido diseño, disponible en sus colores favoritos rosa y azul, luce la simpática imagen del conejito sonriente Tandy.
+FAQs: [{'pregunta': '¿Después de cuánto tiempo debo de cambiar mi cepillo?', 'respuesta': 'Tres meses'}]
+Tiendas: [{'tienda': 'JumboCO', 'disponibilidad': 'Disponible', 'precio': '6.552,00'}, {'tienda': 'ExitoCO', 'disponibilidad': 'Agotado', 'precio': 'N/A'}, {'tienda': 'OlimpicaCO', 'disponibilidad': 'Disponible', 'precio': '8.600,00'}, {'tienda': 'LaRebajaVirtualCO', 'disponibilidad': 'Disponible', 'precio': '10.400,00'}]
+---
+Nombre: Cepillo de Dientes Colgate Premier Clean Medio
+Descripción: Cepillo de dientes Colgate Premier Clean para una sonrisa segura, elimina manchas y limpia áreas difíciles de alcanzar con cerdas texturizadas.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/TSw72VVWDWU8SFsFPnAqO.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothbrush/premier-clean?product_overview
+SKU: 36910021007207
+Categoría: Cepillos de dientes
+Marca: Colgate Premier Clean
+Beneficios: ['Prevenir caries', 'Prevenir sarro', 'Combatir placa']
+Descripción larga: Consigue una sonrisa más brillante y sana con el nuevo cepillo de dientes Colgate Premier Clean. Sus innovadoras cerdas con puntas elevadas están diseñadas para eliminar eficazmente las manchas de comida y bebida, llegando a las zonas que suelen pasarse por alto para una limpieza profunda después de cada comida. Disfruta de una higiene bucal completa con el práctico limpiador lingual integrado, que te garantiza una sensación de frescura y limpieza en cada zona de tu boca. Para mantener una salud bucal óptima y prevenir enfermedades, recuerda cambiar tu cepillo de dientes después de una enfermedad o cada tres meses y aprovecha todos los beneficios que Colgate te ofrece para una sonrisa radiante y sin manchas.
+FAQs: [{'pregunta': '¿Después de cuánto tiempo debo de cambiar mi cepillo?', 'respuesta': 'Tres meses'}]
+Tiendas: []
+---
+Nombre: Cepillo de Diente Colgate Twister Medio
+Descripción: Cepillo de dientes Colgate Twister para una boca limpia diaria, libre de microorganismos causantes de enfermedades.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/KpSbC4BaYhQlVXSEp_mgo.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothbrush/toothbrush-twister?product_overview
+SKU: 7702010130632
+Categoría: Cepillos de dientes
+Marca: Colgate Twister
+Beneficios: ['Prevenir caries', 'Prevenir sarro', 'Combatir placa']
+Descripción larga: Mantén una boca limpia y protégete de los microorganismos que causan enfermedades con el cepillo de dientes Colgate Twister. Este cepillo cuenta con cerdas Twister multidimensionales de diseño único que se adaptan a los contornos de tus dientes y encías, eliminando eficazmente gérmenes y bacterias. Su limpiador lingual integrado garantiza que tu lengua y mejillas queden impecables. Este práctico paquete de dos cepillos de dientes Colgate te permite compartirlo con un familiar e incluye dos portacepillos gratuitos para facilitar su transporte y almacenamiento.
+FAQs: [{'pregunta': '¿Después de cuánto tiempo debo de cambiar mi cepillo?', 'respuesta': 'Tres meses'}]
+Tiendas: [{'tienda': 'OlimpicaCO', 'disponibilidad': 'Disponible', 'precio': '10.990,00'}, {'tienda': 'MerqueoCO', 'disponibilidad': 'Agotado', 'precio': 'N/A'}, {'tienda': 'ExitoCO', 'disponibilidad': 'Disponible', 'precio': '14.000.00'}, {'tienda': 'FarmatodoCO', 'disponibilidad': 'Disponible', 'precio': '14.950,00'}, {'tienda': 'LaRebajaVirtualCO', 'disponibilidad': 'Disponible', 'precio': '15.700,00'}]
+---
+Nombre: Cepillo de Dientes Colgate Slim Soft Suave
+Descripción: Cepillo de dientes Colgate Slim Soft con limpieza profunda, cerdas con carbón y puntas ultrafinas para eliminar la placa y prevenir las caries.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/w60k4aJOYqPnXDa31owLV.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothbrush/colgate-slim-soft-regular?product_overview
+SKU: 7591083017793
+Categoría: Cepillos de dientes
+Marca: Colgate Slim Soft
+Beneficios: ['Prevenir caries', 'Combatir placa', 'Combatir placa']
+Descripción larga: Consigue una limpieza superior con el cepillo de dientes Colgate Slim Soft, diseñado para una limpieza bucal profunda y eficaz. Sus cerdas suaves cuentan con puntas ultrafinas que llegan fácilmente entre los dientes y a lo largo de la línea de las encías, ofreciendo una limpieza precisa que elimina la placa interdental tres veces mejor que un cepillo de dientes de cerdas regulares (medido durante seis semanas). Disfruta de mayor comodidad y control con su mango delgado actualizado, fabricado con un 50 % de plástico reciclado. Este mango está disponible en cuatro colores aleatorios e incluye goma antideslizante para un agarre seguro y cómodo durante el cepillado. El cuello flexible mejora aún más tu experiencia de cepillado, permitiendo un mejor acceso a las zonas de difícil acceso de la boca. Para una higiene bucal óptima, incorpora el cepillo de dientes Colgate Slim Soft a tu rutina diaria, cepillándote al menos dos veces al día. Para una salud bucal completa, recomendamos combinarlo con la crema dental, el enjuague bucal y el hilo dental Colgate Total.
+FAQs: []
+Tiendas: [{'tienda': 'ExitoCO', 'disponibilidad': 'Disponible', 'precio': '16.315.00'}, {'tienda': 'JumboCO', 'disponibilidad': 'Disponible', 'precio': '21.032,00'}, {'tienda': 'FarmatodoCO', 'disponibilidad': 'Disponible', 'precio': '25.950,00'}, {'tienda': 'OlimpicaCO', 'disponibilidad': 'Disponible', 'precio': '26.200,00'}, {'tienda': 'LaRebajaVirtualCO', 'disponibilidad': 'Disponible', 'precio': '27.500,00'}]
+---
+Nombre: Cepillo de Dientes Medio Colgate Extrablancura
+Descripción: Cepillo de dientes blanqueador Colgate Triple Acción para la salud bucal, eliminando bacterias de mejillas, dientes, encías y lengua para una sonrisa limpia.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/hHYBDyubgNud22WbHJdzn.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothbrush/toothbrush-triple-accion-whitening?product_overview
+SKU: 7702010130663
+Categoría: Cepillos de dientes
+Marca: Colgate Triple Acción
+Beneficios: ['Prevenir caries', 'Prevenir caries', 'Combatir placa']
+Descripción larga: Luce una sonrisa más brillante y saludable con el Cepillo de Dientes Blanqueador Colgate Triple Acción, diseñado para tu rutina diaria de cuidado bucal. Este innovador cepillo elimina eficazmente las bacterias de tus mejillas, dientes, encías y lengua con cada cepillado, dejando tu boca con una sensación de frescura y visiblemente más limpia. Cada paquete incluye tres cepillos en vibrantes colores verde, azul y rosa, para que todos los miembros de la familia disfruten fácilmente de sus numerosos beneficios, incluyendo la eliminación de manchas superficiales para unos dientes más blancos. Diseñado para una limpieza óptima, el Cepillo de Dientes Blanqueador Colgate Triple Acción cuenta con una punta de limpieza angular giratoria que se adapta a los contornos únicos de tus dientes, cerdas en espiral pulidoras para una mejor eliminación de manchas y un limpiador lingual integrado en la parte posterior del cabezal para garantizar un aliento fresco y constante.
+FAQs: [{'pregunta': '¿Después de cuánto tiempo debo de cambiar mi cepillo?', 'respuesta': 'Tres meses'}]
+Tiendas: [{'tienda': 'FarmatodoCO', 'disponibilidad': 'Agotado', 'precio': 'N/A'}, {'tienda': 'ExitoCO', 'disponibilidad': 'Agotado', 'precio': 'N/A'}, {'tienda': 'LaRebajaVirtualCO', 'disponibilidad': 'Disponible', 'precio': '19.500,00'}]
+---
+Nombre: Cepillo de Dientes Colgate Max White Suave
+Descripción: Cepillo de dientes Colgate Max White, diseñado con un patrón de cerdas para eliminar suavemente las manchas.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/yBvXM4mhafVtMqouz3lE-.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothbrush/colgate-max-white-charcoal?product_overview
+SKU: 7509546690315
+Categoría: Cepillos de dientes
+Marca: Colgate Max White
+Beneficios: ['Prevenir caries', 'Prevenir sarro', 'Combatir placa']
+Descripción larga: Consigue una sonrisa visiblemente más blanca con cada cepillado usando el cepillo de dientes Colgate Max White. Diseñado con un patrón de cerdas especializado, este cepillo elimina las manchas superficiales de forma suave y eficaz, revelando el brillo natural de tus dientes. Su innovadora estrella pulidora actúa activamente para eliminar las manchas, mientras que sus suaves cerdas eliminan meticulosamente las bacterias y los restos de comida entre los dientes, promoviendo una higiene bucal óptima. Para una limpieza completa, complementa tu rutina de cepillado con el enjuague bucal y la crema dental Colgate. Recuerda cambiar tu cepillo de dientes cada tres meses o después de una enfermedad para mantener la higiene y prevenir la acumulación de gérmenes y bacterias.
+FAQs: []
+Tiendas: []
+---
+Nombre: Cepillo de Dientes Suave Colgate 360° Carbon
+Descripción: Cepillo de dientes Colgate 360 ​​Carbon, Combate los problemas bucales eliminando bacterias incluso en lugares difíciles de limpiar.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/ywNg8vGFF6ZggFUQ5KQLF.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothbrush/colgate-gengiva-therapy-carvao?product_overview
+SKU: 7509546065465
+Categoría: Cepillos de dientes
+Marca: Colgate 360
+Beneficios: ['Prevenir caries', 'Blanqueamiento dental', 'Prevenir sarro', 'Combatir placa']
+Descripción larga: ¿Sabías que las bacterias son la principal causa de muchos problemas de salud bucal? El cepillo de dientes Colgate 360 ​​Carbon está diseñado para eliminar las bacterias que se acumulan incluso en zonas de difícil acceso, lo que ayuda a prevenir caries, placa, sarro, problemas de encías y más. Si prefieres los cepillos de dientes de carbón, este Colgate 360 ​​es una excelente opción, ya que sus cerdas negras están impregnadas con carbón vegetal auténtico. Experimenta una limpieza profunda con este cepillo de cerdas suaves, con puntas finas que llegan al doble de profundidad que un cepillo de dientes de punta plana normal. Para una higiene bucal completa, el cepillo también incluye un reconocido limpiador de lengua y mejillas en la parte posterior para eliminar eficazmente las bacterias que causan mal olor de esas superficies. También hemos reforzado nuestro compromiso con la sostenibilidad al aumentar el contenido de plástico reciclado en el mango del 25 % al 40 %. El Colgate 360 ​​Carbon es una solución completa de limpieza bucal, perfecta para tus dientes, lengua, mejillas y encías, con cerdas impregnadas de carbón vegetal con puntas finas para una limpieza excepcionalmente profunda y un mango ergonómico hecho con un 40 % de plástico reciclado. Para una salud bucal óptima y la prevención, es fundamental cepillarse los dientes al menos dos veces al día. Para una limpieza profunda de cada rincón de la boca, recomendamos usar este cepillo de dientes Colgate junto con la crema dental y el enjuague bucal Colgate Total.
+FAQs: [{'pregunta': '¿Después de cuánto tiempo debo de cambiar mi cepillo?', 'respuesta': 'Tres meses'}, {'pregunta': '¿Qué tipo de cerdas tiene el cepillo?', 'respuesta': 'Cepillo de cerdas suaves infusionadas en carbón.'}]
+Tiendas: []
+---
+Nombre: Cepillo de Dientes Colgate Triple Accion Medio
+Descripción: Cepillo de dientes Colgate Triple Action Extra Whitening con eliminación suave de manchas, blanqueamiento natural, eliminación de placa y aliento fresco.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/lKBv0B2O8QG45eMtPUDIq.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothbrush/colgate-triple-accion-xtra-blancura?product_overview
+SKU: 7509546069982
+Categoría: Cepillos de dientes
+Marca: Colgate Triple Action
+Beneficios: ['Prevenir caries', 'Prevenir caries', 'Combatir placa', 'Combatir placa']
+Descripción larga: Descubre el cepillo de dientes Colgate Triple Acción Extra Blanqueador, diseñado para eliminar suavemente las manchas y revelar el brillo natural de tus dientes. Luce una sonrisa segura gracias a que este cepillo elimina eficazmente la placa y deja un aliento fresco.
+FAQs: [{'pregunta': '¿Después de cuánto tiempo debo de cambiar mi cepillo?', 'respuesta': 'Tres meses'}, {'pregunta': '¿Qué tipo de cerdas tiene el cepillo?', 'respuesta': 'Cerdas medias las cuales son espirales pulidoras para remover las manchas.'}]
+Tiendas: [{'tienda': 'JumboCO', 'disponibilidad': 'Disponible', 'precio': '12.312,00'}, {'tienda': 'FarmatodoCO', 'disponibilidad': 'Agotado', 'precio': 'N/A'}, {'tienda': 'ExitoCO', 'disponibilidad': 'Disponible', 'precio': '15.100.00'}, {'tienda': 'LaRebajaVirtualCO', 'disponibilidad': 'Disponible', 'precio': '15.300,00'}, {'tienda': 'OlimpicaCO', 'disponibilidad': 'Disponible', 'precio': '15.900,00'}]
+---
+Nombre: Cepillo de Dientes Colgate Total Prevención Activa Suave
+Descripción: Cepillo de dientes Colgate Total para una limpieza profunda que previene caries, placa y problemas de encías. Cuenta con más de 5500 cerdas y limpiador lingual.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/0ezw3i_nnQiMZcSuIaEfi.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothbrush/colgate-total-foaming-clean?product_overview
+SKU: 7509546693729
+Categoría: Cepillos de dientes
+Marca: Colgate Total
+Beneficios: ['Reducir Sensibilidad', 'Salud de encías', 'Prevenir caries']
+Descripción larga: ¿Sabías que las bacterias son la principal causa de muchos problemas de salud bucal? El cepillo de dientes Colgate Total está diseñado por expertos para ayudarte a combatir estos problemas eliminando las bacterias que se acumulan incluso en las zonas de difícil acceso. Esto ayuda a prevenir problemas comunes como caries, placa, sarro y problemas de encías, brindándote una boca más sana. Este innovador cepillo de dientes combina características avanzadas para una limpieza superior: * Tecnología de alta densidad con más de 5500 cerdas suaves para una cobertura completa. * Dos tipos de cerdas: puntas finas para una limpieza profunda entre los dientes y puntas redondas para una limpieza suave de las superficies dentales. * Un corte multinivel que se adapta perfectamente a los contornos de tus dientes para una experiencia de limpieza óptima. ¿Cómo funciona para mejorar tu higiene bucal? Su configuración única de cerdas genera rápidamente una espuma abundante, distribuyendo eficazmente la crema dental a las zonas ocultas donde proliferan las bacterias, como los espacios estrechos entre los dientes y por encima de la línea de las encías. Además, el limpiador de lengua y mejillas integrado ayuda a eliminar las bacterias que causan el mal aliento, dejando tu boca con una sensación de frescura. Para una buena higiene bucal y una prevención proactiva, es fundamental cepillarse los dientes al menos dos veces al día. Para una limpieza profunda de cada rincón de la boca, recomendamos usar este cepillo de dientes Colgate junto con la crema dental y el enjuague bucal Colgate Total para lograr una salud bucal óptima y una sonrisa radiante.
+FAQs: [{'pregunta': '¿POR QUÉ EL CEPILLO DE DIENTES COLGATE TOTAL ES TAN ESPECIAL?', 'respuesta': 'Su tecnología avanzada combina más de 5,000 cerdas suaves con dos tipos de punta (fina y redonda), que cumplen diferentes funciones de limpieza, y corte multinivel. Su diseño especial genera espuma rápidamente y ayuda a remover las bacterias que se acumulan en los lugares de difícil acceso (donde se originan los problemas bucales más comunes).'}, {'pregunta': '¿ESTE CEPILLO DENTAL AYUDA A COMBATIR EL MAL ALIENTO?', 'respuesta': 'Sí. Posee un limpiador de lengua en la parte posterior de la cabeza para remover las bacterias causantes del mal aliento, alojadas en los tejidos blandos (lengua y cara interna de la mejilla). Los odontólogos e higienistas recomiendan el cepillado de lengua como parte importante de la higiene oral diaria.'}, {'pregunta': '¿QUÉ TIPO DE CERDAS POSEE ELCEPILLO DE DIENTES COLGATE TOTAL?', 'respuesta': 'Cerdas suaves de alta densidad que no lastiman las encías. Posee dos tipos de cerdas: 1) Periféricas con punta fina para una limpieza dental profunda entre los dientes y a lo largo de la línea de las encías. 2) Centrales con punta redonda para limpiar delicadamente la superficie del diente sin dañar el esmalte dental.'}, {'pregunta': '¿ES UN CEPILLO DENTAL CÓMODO DE USAR?', 'respuesta': 'La sensación al cepillarse es suave y confortable. Posee un mango ergonómico con acabado mate y detalles delicados que permiten un agarre seguro para un mayor control durante el cepillado.'}, {'pregunta': '¿CADA CUÁNTO DEBO CAMBIAR EL CEPILLO DENTAL?', 'respuesta': 'Se recomienda hacerlo cada 3 meses ya que luego de este tiempo el cepillo pierde el 95% de su efectividad (comparado con un cepillo dental nuevo). También se sugiere cambiarlo después de una gripe.'}]
+Tiendas: [{'tienda': 'ExitoCO', 'disponibilidad': 'Disponible', 'precio': '18.622.00'}, {'tienda': 'OlimpicaCO', 'disponibilidad': 'Disponible', 'precio': '32.800,00'}, {'tienda': 'FarmatodoCO', 'disponibilidad': 'Disponible', 'precio': '37.250,00'}, {'tienda': 'LaRebajaVirtualCO', 'disponibilidad': 'Disponible', 'precio': '37.300,00'}]
+---
+Nombre: Cepillo de Dientes Colgate para Ortodoncia Orthogard
+Descripción: El cepillo de dientes Orthogard con cerdas de múltiples niveles elimina la placa en la línea de las encías y limpia alrededor de los brackets y alambres.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/9lihSZq_gTbWLGetQx1Ry.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothbrush/colgate-orthogard-toothbrush?product_overview
+SKU: 7891024068007
+Categoría: Cepillos de dientes
+Marca: Colgate Orthogard
+Beneficios: ['Prevenir caries', 'Combatir placa', 'Combatir placa']
+Descripción larga: Consiga una sonrisa hermosa y saludable con el cepillo de dientes Colgate OrthoGard, diseñado específicamente para quienes usan aparatos de ortodoncia, como brackets. Este innovador cepillo cuenta con cerdas multinivel en forma de U que se deslizan con destreza alrededor de los brackets para eliminar los restos de comida y adaptarse perfectamente a la superficie de la ortodoncia. Las cerdas externas cuidan suavemente las encías, mientras que las internas limpian meticulosamente los brackets y alambres. Su mango ergonómico y cabezal de goma garantizan un agarre firme y evitan que se resbalen, lo que permite un cepillado cómodo y controlado. Al usarlo con crema dental y una técnica de cepillado adecuada, el cepillo de dientes Colgate OrthoGard proporciona una limpieza profunda y eficaz, ayudándole a mantener una higiene bucal óptima durante todo su tratamiento de ortodoncia.
+FAQs: [{'pregunta': '¿Después de cuánto tiempo debo de cambiar mi cepillo?', 'respuesta': 'Tres meses'}]
+Tiendas: [{'tienda': 'FarmatodoCO', 'disponibilidad': 'Agotado', 'precio': 'N/A'}, {'tienda': 'LaRebajaVirtualCO', 'disponibilidad': 'Disponible', 'precio': '27.400,00'}]
+---
+Nombre: Cepillo de Dientes Colgate PerioGard Gum Expert
+Descripción: Cepillo de dientes con limpieza suave y profunda: más de 6.000 cerdas PerioSoft, extra suaves con puntas microfinas.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/qJehPXjVRBuqRn7D5uLfg.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothbrush/toothbrush-colgate-periogard?product_overview
+SKU: 7891024019610
+Categoría: Cepillos de dientes
+Marca: Colgate Periogard
+Beneficios: ['Salud de encías', 'Condiciones de encías', 'Combatir placa']
+Descripción larga: Experimente una limpieza suave y profunda con el cepillo de dientes Colgate PerioGard GUM EXPERT, con más de 6000 cerdas PerioSoft. Estas cerdas extrasuaves con puntas microfinas están diseñadas para una limpieza profunda y delicada con sus encías.
+FAQs: [{'pregunta': '¿Después de cuánto tiempo debo de cambiar mi cepillo?', 'respuesta': 'Tres meses'}]
+Tiendas: [{'tienda': 'FarmatodoCO', 'disponibilidad': 'Disponible', 'precio': '27.300,00'}]
+---
+Nombre: Cepillo de Dientes Colgate Zig Zag Carbon Suave
+Descripción: El cepillo de dientes Colgate Zig Zag Carbon elimina eficazmente las bacterias de los dientes y la lengua gracias a sus cerdas en zigzag y su diseño con infusión de carbono.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/2hMclqgDDYSj-qmTUz6-7.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothbrush/toothbrush-zigzag-charcoal?product_overview
+SKU: 7509546687735
+Categoría: Cepillos de dientes
+Marca: Colgate ZigZag
+Beneficios: ['Prevenir caries', 'Prevenir caries', 'Combatir placa']
+Descripción larga: Experimente una limpieza completa y refrescante en toda su boca con el cepillo de dientes Colgate Zig Zag Carbon. Sus suaves cerdas con carbón vegetal permiten un cepillado interdental eficaz, limpiando suavemente entre los dientes sin irritar encías, mejillas ni dientes. Este innovador cepillo de dientes cuenta con un limpiador de lengua y mejillas integrado en la parte posterior del cabezal, que elimina eficazmente las bacterias e incluso los microorganismos que se acumulan en el paladar, garantizando una higiene bucal inigualable. Gracias a su cuello flexible, este cepillo llega fácilmente a las zonas más difíciles de la boca, a la vez que masajea suavemente las encías para reducir la presión y proporcionar una experiencia de cepillado cómoda.
+FAQs: [{'pregunta': '¿Después de cuánto tiempo debo de cambiar mi cepillo?', 'respuesta': 'Tres meses'}]
+Tiendas: []
+---
+Nombre: Cepillo de Dientes Colgate Recyclean
+Descripción: Cepillo de dientes Colgate Recyclean, cuida tu sonrisa y el planeta con mango de plástico 100% reciclado y cerdas 100% vegetales.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/FFC8BBUgYvNjRv1KmPJ7X.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothbrush/colgate-recyclean?product_overview
+SKU: 7509546674841
+Categoría: Cepillos de dientes
+Marca: Colgate Recyclean
+Beneficios: ['Prevenir caries', 'Prevenir sarro', 'Combatir placa']
+Descripción larga: Descubre el cepillo de dientes Colgate RecyClean, una opción revolucionaria que cuida tu salud y la del planeta. Este innovador cepillo cuenta con un mango fabricado con más del 95 % de plástico reciclado, proveniente de botellas PET. A diferencia de muchos cepillos de dientes convencionales, sus suaves cerdas están hechas de nailon 100 % vegetal y viene en un empaque de cartón reciclable, lo que minimiza tu impacto ambiental. Diseñado para una higiene bucal excepcional, el cabezal compacto del Colgate RecyClean llega fácilmente a las zonas más difíciles de limpiar, garantizando una limpieza dental profunda y completa en cada cepillado. Elige una opción consciente para una sonrisa más limpia y un planeta más sano.
+FAQs: []
+Tiendas: [{'tienda': 'ExitoCO', 'disponibilidad': 'Agotado', 'precio': 'N/A'}]
+---
+Nombre: Cepillo de Dientes Suave Colgate Encias Therapy
+Descripción: Cepillo de dientes Colgate Gum Therapy: limpieza superior y encías revitalizadas, *en comparación con un cepillo de dientes de cerdas normal.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/4OHhuGd3ZaFHNgOMsbQuA.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothbrush/colgate-gums-therapy?product_overview
+SKU: 7509546667744
+Categoría: Cepillos de dientes
+Marca: Colgate Renewal
+Beneficios: ['Reducir Sensibilidad', 'Condiciones de encías', 'Prevenir caries', 'Combatir placa']
+Descripción larga: Mejora tu higiene bucal y aumenta tu confianza con el cepillo de dientes Colgate Soft de la línea Gum Therapy, disponible en un práctico paquete de 2. Además de una simple limpieza, este cepillo proporciona una limpieza profunda y suave, enfocada en encías, mejillas y lengua para eliminar bacterias dañinas y prevenir el mal aliento. Disfruta de la libertad de hablar y sonreír con confianza, sabiendo que tu aliento es fresco y tu boca se siente completamente limpia. Consigue una sonrisa más brillante y saludable y experimenta la máxima protección que Colgate te brinda con cada cepillado.
+FAQs: [{'pregunta': '¿En qué te ayuda?', 'respuesta': 'Previene la descalsificación y caries.'}]
+Tiendas: [{'tienda': 'JumboCO', 'disponibilidad': 'Disponible', 'precio': '32.952,00'}, {'tienda': 'ExitoCO', 'disponibilidad': 'Disponible', 'precio': '36.250.00'}, {'tienda': 'LaRebajaVirtualCO', 'disponibilidad': 'Disponible', 'precio': '37.200,00'}, {'tienda': 'FarmatodoCO', 'disponibilidad': 'Disponible', 'precio': '37.700,00'}, {'tienda': 'OlimpicaCO', 'disponibilidad': 'Disponible', 'precio': '37.990,00'}]
+---
+Nombre: Cepillo de Dientes Niños Colgate Smiles Extra Suave 6+ años
+Descripción: Cepillo de dientes infantil Colgate Minions para una limpieza profunda con limpiador de lengua para eliminar gérmenes para la salud bucal.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/TsLpShYVTCpkv5bhQre27.jpg
+URL Detalle: https://www.colgate.com/es-co/products/toothbrush/colgate-minions?product_overview
+SKU: 17509546068555
+Categoría: Cepillos de dientes
+Marca: Colgate Kids
+Beneficios: ['Salud dental infantil', 'Prevenir caries', 'Prevenir sarro', 'Combatir placa']
+Descripción larga: Cuida la salud bucal de tus hijos con el cepillo de dientes infantil Colgate Minions, diseñado por expertos para brindar una limpieza dental completa y eficaz con cada cepillado. Este innovador cepillo va más allá de la limpieza básica, ya que incluye un limpiador lingual que elimina activamente los gérmenes restantes, contribuyendo a una boca más sana. Sus suaves cerdas proporcionan una limpieza profunda sin causar molestias, llegando incluso a las zonas más difíciles. Incorporar el cepillo de dientes Colgate Minions a su rutina de higiene diaria ayudará a tus hijos a lograr y mantener una sonrisa brillante y saludable. El mango cómodo y antideslizante está diseñado específicamente para las manos de los pequeños, y la práctica base Pega-POP le permite mantenerse en posición vertical, promoviendo una mejor higiene y organización. Este cepillo de dientes se recomienda para niños a partir de 6 años.
+FAQs: [{'pregunta': '¿Después de cuánto tiempo debo de cambiar mi cepillo?', 'respuesta': 'Tres meses'}]
+Tiendas: []
+---
+Nombre: Enjuague Bucal Colgate Plax Soft Mint 1L
+Descripción: Enjuague bucal con suave frescura: Colgate Plax Menta Suave protege contra el mal aliento y proporciona una sensación de limpieza. Sin alcohol.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/MKWGpcQ6nZNT1UmcVC76W.jpg
+URL Detalle: https://www.colgate.com/es-co/products/mouthwash/colgate-plax-soft-mint?product_overview
+SKU: 17891024130817
+Categoría: Enjuagues bucales
+Marca: Colgate Plax
+Beneficios: ['Aliento fresco', 'Combatir placa', 'Prevenir caries']
+Descripción larga: Experimente una suave frescura y una boca más sana con el enjuague bucal Colgate Plax Soft Mint. Con CPC, esta fórmula avanzada elimina hasta el 99.9% de las bacterias, contribuyendo a un aliento fresco y una mejor salud bucal. Este enjuague bucal sin alcohol proporciona mayor frescura y una sensación de limpieza en comparación con el cepillado solo. Incorpore el enjuague bucal Colgate Plax Soft Mint a su rutina diaria para mantener una excelente higiene bucal y disfrutar de una sensación de frescura continua con eficacia comprobada contra las bacterias.
+FAQs: [{'pregunta': 'Ingredientes inactivos', 'respuesta': 'Aqua/Água, Glycerin/Glicerol, Propylene Glycol/Propilenoglicol, Sorbitol, Poloxamer 407/Poloxaleno, Aroma, Cetylpyridinium Chloride/Cloreto de Cetilpiridínio, Potassium Sorbate/Sorbato de Potássio, Sodium Fluoride/Fluoreto de Sódio, Sodium Saccharin/Sacarina Sódica, Citric Acid/Ácido Cítrico, CI 42051/Azul Merantina 131, CI 16035/Vermelho Allura 129. Contém Fluoreto de Sódio/ Contiene Fluoruro de Sodio (225 ppm de Flúor).'}]
+Tiendas: []
+---
+Nombre: Enjuague Bucal Colgate Orthogard 250ml
+Descripción: Crema dental que protege los dientes de caries y manchas, y es adecuada para el cuidado de ortodoncia.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/GVMHyjVVpUjBI-zrn2r3T.jpg
+URL Detalle: https://www.colgate.com/es-co/products/mouthwash/colgate-orthogard-mouthwash?product_overview
+SKU: 7891024036570
+Categoría: Enjuagues bucales
+Marca: Colgate Orthogard
+Beneficios: ['Aliento fresco', 'Fortalece los dientes', 'Combatir placa']
+Descripción larga: Luce una sonrisa sana y radiante con el enjuague bucal Colgate OrthoGard, especialmente formulado para un cuidado dental óptimo y recomendado por dentistas. Su práctico envase de 250 ml es perfecto para una frescura inmediata. Su avanzada fórmula líquida, enriquecida con fluoruro de sodio, previene activamente las caries y ayuda a proteger contra la descalcificación dental. Además de la protección esencial contra las caries, el enjuague bucal Colgate OrthoGard elimina eficazmente las manchas y limpia las zonas de difícil acceso que el cepillo de dientes y el hilo dental podrían pasar por alto. Es especialmente ideal para personas con aparatos de ortodoncia, como brackets, garantizando una limpieza completa y resultados estéticos.
+FAQs: [{'pregunta': 'Ingredientes activos', 'respuesta': 'Sodium fluoride 0,04%.'}, {'pregunta': 'Ingredientes inactivos', 'respuesta': 'Aqua, Sorbitol, Sodium Phosphate, Poloxamer 338, Propylene Glycol, Polysorbate 20, Aroma, Potassium Sorbate, Phosphoric Acid, Sodium Fluoride, CI 42051. Contains: Sodium Fluoride Total Fluoride content: 181 ppm'}]
+Tiendas: [{'tienda': 'FarmatodoCO', 'disponibilidad': 'Disponible', 'precio': '20.950,00'}, {'tienda': 'LaRebajaVirtualCO', 'disponibilidad': 'Disponible', 'precio': '22.100,00'}]
+---
+Nombre: Enjuague Bucal Colgate Total Clean Mint 500ml
+Descripción: Enjuague bucal con 12 horas de defensa activa contra bacterias, combatiendo las caries, la placa y el mal aliento.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/aUkaGAcuAVobB2rnGYpfy.jpg
+URL Detalle: https://www.colgate.com/es-co/products/mouthwash/colgate-total-clean-mint?product_overview
+SKU: 7891024028018
+Categoría: Enjuagues bucales
+Marca: Colgate Total
+Beneficios: ['Aliento fresco', 'Combatir placa', 'Prevenir caries']
+Descripción larga: Consigue una salud bucal completa con el enjuague bucal Colgate Total Clean Mint, enriquecido con zinc, que reduce significativamente las bacterias y llega a zonas inaccesibles para tu cepillo de dientes. Este avanzado enjuague bucal antibacteriano ofrece una protección superior contra la caries, la acumulación de placa y el mal aliento, defendiendo activamente contra las bacterias incluso después de comer y beber. Mejora tu higiene bucal diaria con el enjuague bucal sin alcohol Colgate Total Clean Mint para una limpieza más eficaz y completa.
+FAQs: [{'pregunta': 'Ingredientes inactivos', 'respuesta': 'ES: Aqua/Água, Glycerin/Glicerol, Propylene Glycol/Propilenoglicol, Sorbitol, Poloxamer 407/Poloxaleno, Zinc Lactate/Lactato de Zinco, Aroma, Cetylpyridinium Chloride/Cloreto de Cetilpiridínio, Potassium Sorbate/Sorbato de Potássio, Sodium Fluoride/Fluoreto de Sódio, Lactic Acid/Ácido Láctico, Sodium Saccharin/Sacarina Sódica, Sucralose, CI 42051/Azul Merantina 131, CI 17200/Vermelho 33.'}]
+Tiendas: [{'tienda': 'JumboCO', 'disponibilidad': 'Disponible', 'precio': '19.042,00'}, {'tienda': 'ExitoCO', 'disponibilidad': 'Disponible', 'precio': '19.775.00'}, {'tienda': 'OlimpicaCO', 'disponibilidad': 'Disponible', 'precio': '26.800,00'}, {'tienda': 'FarmatodoCO', 'disponibilidad': 'Disponible', 'precio': '28.550,00'}]
+---
+Nombre: Enjuague Bucal Clorhexidina Colgate PerioGard 250ml
+Descripción: Fórmula para afecciones de las encías con prevención especializada para la salud de las encías.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/gVEgqKxb_WjInAeRJ8I5o.jpg
+URL Detalle: https://www.colgate.com/es-co/products/mouthwash/periogard-sem-alcool?product_overview
+SKU: 7891024179925
+Categoría: Enjuagues bucales
+Marca: Colgate Periogard
+Beneficios: ['Salud de encías', 'Condiciones de encías', 'Combatir placa']
+Descripción larga: Proteger tu salud bucal es fundamental, y Colgate lo entiende. Por eso, Colgate ofrece el enjuague bucal PerioGard de 250 ml, diseñado para dejarte un aliento fresco desde el primer uso. Con Colgate PerioGard, puedes estar seguro de que tu boca experimentará hasta un 54 % menos de placa. Este enjuague bucal sin alcohol garantiza una experiencia cómoda sin ardor, molestias ni irritación. Formulado con clorhexidina al 0,12 %, reduce eficazmente el sangrado de encías hasta en un 48 %. Además, te beneficiarás de la máxima protección con hasta un 99 % menos de bacterias. Para obtener resultados óptimos, usa el enjuague bucal PerioGard después del cepillado o según las indicaciones de tu dentista. Mejora tu rutina de cuidado bucal complementándola con la línea completa de productos Colgate PerioGard, que incluye el cepillo y la crema de dientes.
+FAQs: [{'pregunta': 'Ingredientes activos', 'respuesta': 'Gluconato de clorhexidina al 0.12%'}, {'pregunta': '¿Para cuátno tiempo de tratamiento alcanza?', 'respuesta': 'Alcanza para un tratamiento de hasta dos semanas.'}]
+Tiendas: [{'tienda': 'FarmatodoCO', 'disponibilidad': 'Disponible', 'precio': '40.950,00'}]
+---
+Nombre: Enjuague Bucal Colgate Plax Odor Control 500ml
+Descripción: Enjuague bucal Colgate Plax Control de Olores para una boca limpia y un aliento fresco. Neutraliza los olores fuertes y elimina el 99.9% de las bacterias.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/ZnISpPyNPis4bU-rIfa9E.jpg
+URL Detalle: https://www.colgate.com/es-co/products/mouthwash/colgate-plax-odor-control?product_overview
+SKU: 7509546679532
+Categoría: Enjuagues bucales
+Marca: Colgate Plax
+Beneficios: ['Aliento fresco', 'Combatir placa', 'Prevenir caries']
+Descripción larga: Presentamos el NUEVO enjuague bucal Colgate Plax Control de Olor, la solución para un aliento fresco y duradero y un cuidado bucal superior. Su fórmula única sin alcohol elimina hasta el 99.9% de las bacterias, neutralizando eficazmente los fuertes olores de alimentos, como el ajo y la cebolla, para una boca limpia que dura más que cepillarse solo. Disfruta de un sabor intenso sin ardor gracias a su fórmula suave y sin etanol. Perfecto para usar después del cepillado, Colgate Plax Control de Olor aumenta tu confianza al garantizar una sensación de frescura y limpieza durante todo el día. Ayuda a reducir hasta el 99.9% del total de bacterias anaeróbicas cultivables, ofreciendo un producto cosmético sin acción terapéutica. Disfruta de un aliento fresco y una sonrisa segura con Colgate Plax Control de Olor.
+FAQs: [{'pregunta': 'Ingredientes inactivos', 'respuesta': 'ES: Aqua/Água, Glycerin/Glicerol, Propylene Glycol/Propilenoglicol, Sorbitol, Poloxamer 407/Poloxaleno, Poloxamer 338/Poloxaleno, Aroma, PEG-40 Hydrogenated Castor Oil/Óleo de Rícino Hidrogenado Etoxilado, Cetylpyridinium Chloride/Cloreto de Cetilpiridínio, Potassium Sorbate/Sorbato de Potássio, Sodium Fluoride/Fluoreto de Sódio, Sodium Saccharin/Sacarina Sódica, Citric Acid/Ácido Cítrico, Sucralose, CI 42051/Azul Merantina 131, CI 17200/Vermelho 33. IL for primary packaging (for products with secondary packaging): INGREDIENTES: Aqua, Glycerin, Propylene Glycol, Sorbitol, Poloxamer 407, Poloxamer 338, Aroma, PEG-40 Hydrogenated Castor Oil, Cetylpyridinium Chloride, Potassium Sorbate, Sodium Fluoride, Sodium Saccharin, Citric Acid, Sucralose, CI 42051, CI 17200.'}, {'pregunta': '¿Es llibre de alcohol?', 'respuesta': 'Fórmula sin alcohol con agentes antibacterianos'}]
+Tiendas: [{'tienda': 'ExitoCO', 'disponibilidad': 'Disponible', 'precio': '13.370.00'}, {'tienda': 'OlimpicaCO', 'disponibilidad': 'Disponible', 'precio': '15.990,00'}, {'tienda': 'LaRebajaVirtualCO', 'disponibilidad': 'Disponible', 'precio': '20.200,00'}, {'tienda': 'FarmatodoCO', 'disponibilidad': 'Disponible', 'precio': '21.150,00'}]
+---
+Nombre: Enjuague Bucal Colgate Luminous White
+Descripción: Colgate Luminous White asegura una sonrisa brillante y una boca fresca, preservando los dientes naturalmente blancos para obtener mejores resultados con la línea completa.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/SwcOc1Jq-BN5LcbgOhtvh.jpg
+URL Detalle: https://www.colgate.com/es-co/products/mouthwash/colgate-luminous-white?product_overview
+SKU: 17891024179427
+Categoría: Enjuagues bucales
+Marca: Colgate Luminous White
+Beneficios: ['Aliento fresco', 'Blanqueamiento dental', 'Combatir placa']
+Descripción larga: Luce una sonrisa radiante y segura, y una boca fresca a diario. Este producto ayuda a mantener el brillo natural de tus dientes, asegurándote de que se mantengan blancos. Para obtener resultados óptimos, intégralo en tu rutina de cuidado bucal con la línea completa Colgate Luminous White.
+FAQs: [{'pregunta': 'Ingredientes activos', 'respuesta': 'Fluoruro de sodio 0,05%.'}, {'pregunta': 'Ingredientes inactivos', 'respuesta': 'ES: Aqua/Água, Glycerin/Glicerol, Propylene Glycol/Propilenoglicol, Sorbitol, Tetrapotassium Pyrophosphate/Pirofosfato Tetrapotássico, Polysorbate 20/Polissorbato 20, Tetrasodium Pyrophosphate/Pirofosfato Tetrassódico, Zinc Citrate/Citrato de Zinco, PVM/MA Copolymer/Copolímero de Polivinilmetil Éter/Anidrido Maleico, Aroma, Benzyl Alcohol/Álcool Benzílico, Sodium Fluoride/Fluoreto de Sódio, Sodium Saccharin/Sacarina Sódica, CI 42051/Azul Merantina 131, Limonene/Limoneno.'}, {'pregunta': '¿En qué te ayuda?', 'respuesta': 'Previene la descalsificación y caries.'}]
+Tiendas: []
+---
+Nombre: Enjuague Bucal Colgate Total Encías Prevención Activa 250ml
+Descripción: Enjuague bucal con limpieza completa y 24 horas de protección antibacteriana, sin alcohol. Colgate Total Prevention Active Encías Sanas.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/L7cD0sHJhDx8PQyc76Jfj.jpg
+URL Detalle: https://www.colgate.com/es-co/products/mouthwash/colgate-total-reinforced-gums?product_overview
+SKU: 7509546666969
+Categoría: Enjuagues bucales
+Marca: Colgate Total
+Beneficios: ['Aliento fresco', 'Prevenir sarro', 'Combatir placa']
+Descripción larga: Libera el poder de tu sonrisa y logra una boca verdaderamente limpia con el enjuague bucal Colgate Total Active Prevention Encías Saludables. Esta fórmula sin alcohol brinda protección antibacteriana por 24 horas, previniendo la aparición de bacterias en tus encías y manteniendo dientes saludables las 24 horas. Experimenta una limpieza superior con este enjuague bucal Colgate, diseñado para abordar problemas bucales antes de que surjan, incluyendo mal aliento, caries, placa, sarro y erosión del esmalte. Mejora tu rutina de cuidado bucal usando este enjuague bucal antibacteriano dos veces al día después del cepillado; limpia eficazmente las áreas difíciles de alcanzar que el cepillado solo podría pasar por alto. Clínicamente probado para combatir bacterias, el enjuague bucal Colgate Total Encías Saludables es una opción segura y efectiva para una boca sana. Intégralo con tus productos de cuidado dental preferidos e irradia confianza con una sonrisa deslumbrante.
+FAQs: [{'pregunta': 'Ingredientes activos', 'respuesta': 'Fluoruro de sodio 0,05%, Cloruro de cetilpiridinio 0,075%'}, {'pregunta': 'Ingredientes inactivos', 'respuesta': 'ES: Aqua/Água, Glycerin/Glicerol, Propylene Glycol/Propilenoglicol, Sorbitol, Poloxamer 407/Poloxaleno, Aroma, Zinc Lactate/Lactato de Zinco, Cetylpyridinium Chloride/Cloreto de Cetilpiridínio, Potassium Sorbate/Sorbato de Potássio, Sodium Fluoride/Fluoreto de Sódio, Lactic Acid/Ácido Láctico, Sodium Saccharin/Sacarina Sódica, Sucralose, CI 17200/Vermelho 33.'}]
+Tiendas: [{'tienda': 'LaRebajaVirtualCO', 'disponibilidad': 'Disponible', 'precio': '15.800,00'}, {'tienda': 'FarmatodoCO', 'disponibilidad': 'Disponible', 'precio': '15.900,00'}]
+---
+Nombre: Enjuague Bucal Colgate Total 12 Encías Reforzadas sin alcohol
+Descripción: El cepillo dental Colgate Triple Accion asegura una limpieza profunda al llegar de manera efectiva a la parte posterior de la boca
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/L7cD0sHJhDx8PQyc76Jfj.jpg
+URL Detalle: https://www.colgate.com/es-co/products/mouthwash/colgate-total-12-reinforced-gums?product_overview
+SKU: 7509546666969
+Categoría: Enjuagues bucales
+Marca: Colgate Total
+Beneficios: ['Salud de encías']
+Descripción larga: El cepillo Colgate Triple Accion cuenta con cerdas en punta poderosa de doble ángulo y un exclusivo limpiador de lengua que elimina las bacterias en esa área causantes del mal aliento, y cerdas de diseño circular que ayudan a remover suavemente las manchas superficiales de los dientes.
+FAQs: [{'pregunta': 'Ingredientes activos', 'respuesta': 'Fluoruro de sodio 0,05%, Cloruro de cetilpiridinio 0,075%'}, {'pregunta': 'Ingredientes inactivos', 'respuesta': 'ES: Aqua/Água, Glycerin/Glicerol, Propylene Glycol/Propilenoglicol, Sorbitol, Poloxamer 407/Poloxaleno, Aroma, Zinc Lactate/Lactato de Zinco, Cetylpyridinium Chloride/Cloreto de Cetilpiridínio, Potassium Sorbate/Sorbato de Potássio, Sodium Fluoride/Fluoreto de Sódio, Lactic Acid/Ácido Láctico, Sodium Saccharin/Sacarina Sódica, Sucralose, CI 17200/Vermelho 33.'}]
+Tiendas: [{'tienda': 'LaRebajaVirtualCO', 'disponibilidad': 'Disponible', 'precio': '15.800,00'}, {'tienda': 'FarmatodoCO', 'disponibilidad': 'Disponible', 'precio': '15.900,00'}]
+---
+Nombre: Enjuague Bucal Niños Colgate Plax Kids Minions 250ml
+Descripción: El enjuague bucal Colgate Minions para niños mayores de 6 años ofrece protección duradera contra la caries para una higiene bucal completa y sonrisas protegidas.
+Imagen: https://pxmshare.colgatepalmolive.com/JPEG_1500/xiUpmqDeSwlhTv85cKQpI.jpg
+URL Detalle: https://www.colgate.com/es-co/products/mouthwash/colgate-minions?product_overview
+SKU: 7891024030806
+Categoría: Enjuagues bucales
+Marca: Colgate Kids
+Beneficios: ['Salud dental infantil', 'Aliento fresco', 'Prevenir sarro', 'Combatir placa']
+Descripción larga: Haga que la higiene bucal sea una parte divertida del día de sus hijos con el enjuague bucal Colgate Minions sin alcohol, especialmente diseñado para niños a partir de 6 años. Su fórmula con flúor ofrece protección duradera contra la caries, promoviendo una boca sana. Este enjuague bucal infantil deja la boca de sus hijos con una sensación de frescura y un sabor a Tutti Frutti. Es el complemento perfecto para una rutina completa de higiene bucal. Mejore el cuidado dental de sus hijos con el enjuague bucal Colgate Minions, el aliado ideal para su salud bucal.
+FAQs: [{'pregunta': 'Ingredientes activos', 'respuesta': 'Contiene fluoruro de sodio (225 ppm de flúor) Cloruro de cetilpiridinio 0,075%'}, {'pregunta': 'Ingredientes inactivos', 'respuesta': 'Aqua, glycerin, propylene glycol, sorbitol, poloxamer 407, poloxamer 338, aroma, PEG-40 hydrogenated castor oil, cetylpyconium chloride, potassium sorbate, sodium saccharin, citric, acid, Cl 42051, limonene, contem fluoreto de sodio / contiene fluoruro de sodio (225 ppm de flour).'}, {'pregunta': '¿Contiene alcohol?', 'respuesta': 'No contiene alcohol'}]
+Tiendas: [{'tienda': 'ExitoCO', 'disponibilidad': 'Disponible', 'precio': '10.780.00'}, {'tienda': 'JumboCO', 'disponibilidad': 'Disponible', 'precio': '11.842,00'}, {'tienda': 'OlimpicaCO', 'disponibilidad': 'Disponible', 'precio': '13.150,00'}, {'tienda': 'MerqueoCO', 'disponibilidad': 'Agotado', 'precio': 'N/A'}, {'tienda': 'LaRebajaVirtualCO', 'disponibilidad': 'Disponible', 'precio': '15.900,00'}, {'tienda': 'FarmatodoCO', 'disponibilidad': 'Disponible', 'precio': '15.950,00'}]
+---

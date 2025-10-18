@@ -27,7 +27,7 @@ class OpenAIAssistant(AssistantInterface):
             model=model_name, api_key=api_key, temperature=temperature, top_k=top_k
         )
 
-    def generate_response(self, prompt: str, context: dict = None) -> str:
+    def generate_response(self, prompt: str, context: dict = None):
         """
         Llama a la API de OpenAI usando langchain_openai.ChatOpenAI y retorna la respuesta.
         Args:
@@ -41,7 +41,7 @@ class OpenAIAssistant(AssistantInterface):
             messages.append(("system", context))
         messages.append(("human", str(prompt)))
         response = self.llm.invoke(messages)
-        return response.content
+        return response
 
     def set_context(self, context: dict):
         """

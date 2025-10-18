@@ -17,7 +17,6 @@ class OllamaAssistant(AssistantInterface):
     """
 
     def __init__(self, model_name: str = "gemma3:1b", temperature: float = 0.7, top_k: int = 40):
-        print(f"Instanciando OllamaAssistant con model={model_name}, temp={temperature}, top_k={top_k}")
         if model_name not in ("qwen3:1.7b", "gemma3:1b"):
             raise ValueError(
                 "Solo se permiten los modelos 'qwen3:1.7b' o 'gemma3:1b' para OllamaAssistant."
@@ -27,7 +26,7 @@ class OllamaAssistant(AssistantInterface):
         self.llm = ChatOllama(model=model_name, temperature=temperature, top_k=top_k)
         self.logger = get_logger(__name__)
 
-    def generate_response(self, prompt, context) -> str:
+    def generate_response(self, prompt, context):
         """
         Genera una respuesta real usando langchain_ollama.ChatOllama.
         Args:
@@ -42,7 +41,7 @@ class OllamaAssistant(AssistantInterface):
         self.logger.debug(f"Mensajes enviados a Ollama ({self.model_name}): {messages}")
         response = self.llm.invoke(messages)
         self.logger.info(f"Respuesta generada por Ollama ({self.model_name}): {response}")
-        return response.content
+        return response
 
     def set_context(self, context: dict):
         """

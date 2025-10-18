@@ -4,7 +4,7 @@ Implementa la interfaz AssistantInterface para interactuar con Gemini.
 """
 
 from src.core.prompts import PROMPTS
-from src.core.config.env_settings import settings
+from src.core.config.settings import settings
 from src.core.logging.logger import get_logger
 from langchain_google_genai import ChatGoogleGenerativeAI
 from .base import AssistantInterface
@@ -21,21 +21,17 @@ class GeminiAssistant(AssistantInterface):
         temperature: float = 0.7,
         top_k: int = 40,
     ):
-        self.api_key = settings.gemini_api_key
+        self.api_key = settings.GEMINI_API_KEY
         self.logger = get_logger(__name__)
-        self.logger.info(
-            f"Instanciando GeminiAssistant con model={model_name}, temp={temperature}, top_k={top_k}"
-        )
         self.model_name = model_name
-        self.api_key = api_key
         self.temperature = temperature
         self.top_k = top_k
         self.context = PROMPTS["colgate_palmolive_system"]
         self.llm = ChatGoogleGenerativeAI(
-            model=model_name, api_key=api_key, temperature=temperature, top_k=top_k
+            model=model_name, api_key=self.api_key, temperature=temperature, top_k=top_k
         )
 
-    def generate_response(self, prompt: str, context: dict = None) -> str:
+    def generate_response(self, prompt: str, context: dict = None):
         """
         Llama a la API de Gemini usando langchain_google_genai.ChatGoogleGenerativeAI y retorna la respuesta.
         Args:
@@ -53,7 +49,7 @@ class GeminiAssistant(AssistantInterface):
         self.logger.info(
             f"Respuesta generada por Gemini ({self.model_name}): {response}"
         )
-        return response.content
+        return response
 
     def set_context(self, context: dict):
         """

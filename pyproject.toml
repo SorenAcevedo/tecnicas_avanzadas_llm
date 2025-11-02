@@ -6,12 +6,13 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "beautifulsoup4>=4.14.2",
+    "dotenv>=0.9.9",
+    "langchain>=1.0.3",
     "langchain-google-genai>=3.0.0",
-    "langchain-ollama>=1.0.0",
-    "langchain-openai>=1.0.0",
-    "pandas>=2.3.3",
+    "langgraph-checkpoint-postgres>=3.0.0",
+    "psycopg[binary]>=3.2.12",
     "pydantic-settings>=2.11.0",
-    "selenium>=4.37.0",
-    "spacy>=3.8.7",
-    "streamlit>=1.50.0",
+    "python-dotenv>=1.2.1",
+    "selenium>=4.38.0",
+    "streamlit>=1.51.0",
 ]

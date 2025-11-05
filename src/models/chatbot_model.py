@@ -48,17 +48,21 @@ class ChatbotModel:
         self.temperature = temperature
         self.max_tokens = max_tokens
         self.timeout = timeout
+        print("DEBUG: Initializing chat model...")
         self.model = init_chat_model(
             model_name,
             temperature=temperature,
             max_tokens=max_tokens,
             timeout=timeout,
         )
+        print("DEBUG: Chat model initialized.")
         self.tools = []
         self.system_prompt = system_prompt
+        print("DEBUG: Creating checkpointer context...")
         self._checkpointer_cm = create_checkpointer_context()
         self.checkpointer = self._checkpointer_cm.__enter__()
         self.checkpointer.setup()
+        print("DEBUG: Checkpointer context created and setup complete.")
         self.agent = self._create_agent()
 
     @staticmethod

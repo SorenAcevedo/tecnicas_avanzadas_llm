@@ -37,11 +37,11 @@ def initialize_chat_history():
         st.session_state.messages = []
 
 
-def display_chat_history():
+def display_chat_history(messages: list):
     """
     Muestra el historial de mensajes en la interfaz.
     """
-    for message in st.session_state.messages:
+    for message in messages:
         role = message["role"]
         content = message["content"]
         
@@ -49,7 +49,7 @@ def display_chat_history():
             st.markdown(content)
 
 
-def handle_user_input(controller: ChatbotController):
+def handle_user_input(controller: ChatbotController, messages: list):
     """
     Maneja la entrada del usuario y genera la respuesta del asistente.
     
@@ -59,20 +59,19 @@ def handle_user_input(controller: ChatbotController):
     if prompt := st.chat_input("Escribe tu mensaje..."):
         # Agregar mensaje del usuario al historial
         user_message = {"role": "user", "content": prompt}
-        st.session_state.messages.append(user_message)
+        messages.append(user_message)
         
         # Mostrar mensaje del usuario
         with st.chat_message("user"):
             st.markdown(prompt)
         
         # Generar respuesta del asistente
-        with st.chat_message("assistant"):
-            with st.spinner("Pensando..."):
+        with st.spinner("Pensando..."):
                 try:
                     # Convertir mensajes al formato de LangChain
                     langchain_messages = [
                         {"role": msg["role"], "content": msg["content"]}
-                        for msg in st.session_state.messages
+                        for msg in messages
                     ]
                     
                     # Invocar el controlador
@@ -85,7 +84,7 @@ def handle_user_input(controller: ChatbotController):
                     st.markdown(assistant_content)
                     
                     # Agregar respuesta al historial
-                    st.session_state.messages.append({
+                    messages.append({
                         "role": "assistant",
                         "content": assistant_content
                     })
@@ -93,13 +92,13 @@ def handle_user_input(controller: ChatbotController):
                 except Exception as e:
                     error_msg = f"⚠️ Error: {str(e)}"
                     st.error(error_msg)
-                    st.session_state.messages.append({
+                    messages.append({
                         "role": "assistant",
                         "content": error_msg
                     })
 
 
-def render_sidebar(controller: ChatbotController):
+def render_model_config_sidebar(controller: ChatbotController):
     """
     Renderiza la barra lateral con información y controles.
     
@@ -216,6 +215,52 @@ def render_thread_sidebar():
             st.sidebar.warning("No se puede eliminar el hilo 'General'.")
 
 
+def initialize_threading_state():
+    """
+    Inicializa el estado de la sesión para la gestión de hilos.
+    """
+    if "threads" not in st.session_state:
+        # Usamos un diccionario para almacenar los hilos y sus mensajes
+        st.session_state.threads = {"General": []}
+    if "active_thread" not in st.session_state:
+        # El hilo activo por defecto será "General"
+        st.session_state.active_thread = "General"
+
+
+def render_thread_sidebar():
+    """
+    Renderiza la interfaz de gestión de hilos en la barra lateral.
+    """
+    st.sidebar.title("Conversaciones")
+
+    # Selector de hilos
+    thread_names = list(st.session_state.threads.keys())
+    st.session_state.active_thread = st.sidebar.selectbox(
+        "Selecciona un hilo",
+        options=thread_names,
+        index=thread_names.index(st.session_state.active_thread)
+    )
+
+    # Crear nuevo hilo
+    new_thread_name = st.sidebar.text_input("Nombre del nuevo hilo")
+    if st.sidebar.button("Crear Hilo"):
+        if new_thread_name and new_thread_name not in st.session_state.threads:
+            st.session_state.threads[new_thread_name] = []
+            st.session_state.active_thread = new_thread_name
+            st.rerun()
+        else:
+            st.sidebar.warning("El nombre del hilo no puede estar vacío o ya existe.")
+
+    # Eliminar hilo actual
+    if st.sidebar.button("Eliminar Hilo Actual"):
+        if st.session_state.active_thread != "General":
+            del st.session_state.threads[st.session_state.active_thread]
+            st.session_state.active_thread = "General"
+            st.rerun()
+        else:
+            st.sidebar.warning("No se puede eliminar el hilo 'General'.")
+
+
 def main():
     """
     Función principal de la aplicación Streamlit.
@@ -234,17 +279,21 @@ def main():
     st.markdown("---")
     
     # Inicializar componentes
-    initialize_chat_history()
-    controller = initialize_controller()
+    initialize_threading_state() # Nueva función para hilos
+    active_thread_messages = st.session_state.threads[st.session_state.active_thread]
+    
+    controller = initialize_controller() # El controlador se inicializa una vez por sesión
     
     # Renderizar barra lateral
-    render_sidebar(controller)
+    with st.sidebar:
+        render_thread_sidebar() # Nueva función para la gestión de hilos
+        render_model_config_sidebar(controller) # Función renombrada
     
-    # Mostrar historial de chat
-    display_chat_history()
+    # Mostrar historial de chat del hilo activo
+    display_chat_history(active_thread_messages)
     
-    # Manejar entrada del usuario
-    handle_user_input(controller)
+    # Manejar entrada del usuario para el hilo activo
+    handle_user_input(controller, active_thread_messages)
 
 
 if __name__ == "__main__":

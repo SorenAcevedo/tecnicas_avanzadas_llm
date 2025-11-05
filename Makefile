@@ -23,8 +23,8 @@ txt-preprocess: txt-products-preprocess txt-youtube-preprocess txt-company-prepr
 chunk:
 	uv run python src/processing/chunking.py
 
-start:
-	db-restart uv run main.py
+start: db-restart
+	uv run main.py
 
 # ====================================
 # Database Commands (PostgreSQL)

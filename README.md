@@ -550,24 +550,24 @@ flowchart LR
 
 ```mermaid
 flowchart TD
-  A[Ingesta desde data/processed] --> B[Chunking adaptativo con metadatos]
-  B --> C[Embeddings Gemini (text-embedding-004)]
-  C --> D[Almacenamiento en Chroma (Vector DB)]
+    A[Ingesta desde data/processed] --> B[Chunking adaptativo con metadatos]
+    B --> C[Embeddings Gemini: text-embedding-004]
+    C --> D[Almacenamiento en Chroma (Vector DB)]
 
-  subgraph RAG Pipeline
-    D --> E[Retriever con filtrado por tipo]
-    E --> F[Tool: search_knowledge_base]
-  end
+    subgraph RAG Pipeline
+        D --> E[Retriever con filtrado por tipo]
+        E --> F[Tool: search_knowledge_base]
+    end
 
-  subgraph LangChain Orquestador
-    F --> G[Agente LangChain]
-    G --> H[Decisión: ¿usar herramienta o generar directamente?]
-    H --> I[Generación de respuesta con grounding factual]
-    I --> J[Persistencia en Postgres (memoria por thread_id)]
-    J --> K[Trimming de historial conversacional]
-  end
+    subgraph LangChain Orquestador
+        F --> G[Agente Langchain]
+        G --> H[Decisión: ¿usar herramienta o generar directamente?]
+        H --> I[Generación de respuestas con grounding factual]
+        I --> J[Persistencia en Postgres (memoria por thread_id)]
+        J --> K[Trimming de historial conversacional]
+    end
 
-  K --> L[Interfaz de usuario en Streamlit]
+    K --> L[Interfaz de usuario en Streamlit]
 ```
 
 ### 1. Extract (Scraping)

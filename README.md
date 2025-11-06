@@ -552,7 +552,7 @@ flowchart LR
 flowchart TD
     A[Ingesta desde data/processed] --> B[Chunking adaptativo con metadatos]
     B --> C[Embeddings Gemini: text-embedding-004]
-    C --> D[Almacenamiento en Chroma (Vector DB)]
+    C --> D[Almacenamiento en Chroma: Vector DB]
 
     subgraph RAG Pipeline
         D --> E[Retriever con filtrado por tipo]
@@ -563,7 +563,7 @@ flowchart TD
         F --> G[Agente Langchain]
         G --> H[Decisión: ¿usar herramienta o generar directamente?]
         H --> I[Generación de respuestas con grounding factual]
-        I --> J[Persistencia en Postgres (memoria por thread_id)]
+        I --> J[Persistencia en Postgres: memoria por thread_id]
         J --> K[Trimming de historial conversacional]
     end
 

@@ -546,6 +546,29 @@ flowchart LR
   H --> I[Response Generation]
   I --> J[Streamlit Interface]
 ```
+### Pipeline Futuro (con RAG + Agent)
+
+```mermaid
+flowchart TD
+  A[Ingesta desde data/processed] --> B[Chunking adaptativo con metadatos]
+  B --> C[Embeddings Gemini (text-embedding-004)]
+  C --> D[Almacenamiento en Chroma (Vector DB)]
+
+  subgraph RAG Pipeline
+    D --> E[Retriever con filtrado por tipo]
+    E --> F[Tool: search_knowledge_base]
+  end
+
+  subgraph LangChain Orquestador
+    F --> G[Agente LangChain]
+    G --> H[Decisión: ¿usar herramienta o generar directamente?]
+    H --> I[Generación de respuesta con grounding factual]
+    I --> J[Persistencia en Postgres (memoria por thread_id)]
+    J --> K[Trimming de historial conversacional]
+  end
+
+  K --> L[Interfaz de usuario en Streamlit]
+```
 
 ### 1. Extract (Scraping)
 

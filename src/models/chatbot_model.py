@@ -151,7 +151,6 @@ class ChatbotModel:
         Returns:
             dict: Respuesta generada por el agente.
         """
-        print(thread_id, 11111111)
         if thread_id is None:
             thread_id = generate_thread_id()
 

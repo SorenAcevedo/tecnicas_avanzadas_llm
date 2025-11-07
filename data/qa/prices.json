@@ -1,0 +1,1921 @@
+{
+  "metadata": {
+    "total_productos": 51,
+    "productos_colgate": 40,
+    "productos_palmolive": 11,
+    "generado": "2025-11-07"
+  },
+  "productos": [
+    {
+      "nombre": "Seda Dental Colgate Total Encerado 25 metros",
+      "sku": "7891024183182",
+      "marca": "Colgate",
+      "categoria": "Hilos dentales",
+      "precios_por_tienda": [
+        {
+          "tienda": "FarmatodoCO",
+          "disponibilidad": "Agotado",
+          "precio": null,
+          "precio_formateado": "N/A"
+        },
+        {
+          "tienda": "LaRebajaVirtualCO",
+          "disponibilidad": "Disponible",
+          "precio": 14600.0,
+          "precio_formateado": "$14.600"
+        }
+      ],
+      "precio_minimo": 14600.0,
+      "precio_maximo": 14600.0,
+      "precio_promedio": 14600.0,
+      "precio_minimo_formateado": "$14.600",
+      "precio_maximo_formateado": "$14.600",
+      "precio_promedio_formateado": "$14.600",
+      "tiendas_disponibles": 1,
+      "tiendas_agotadas": 1,
+      "total_tiendas": 2
+    },
+    {
+      "nombre": "Seda Dental Colgate Carbon 25 metros",
+      "sku": "7509546671536",
+      "marca": "Colgate",
+      "categoria": "Hilos dentales",
+      "precios_por_tienda": [
+        {
+          "tienda": "ExitoCO",
+          "disponibilidad": "Disponible",
+          "precio": 990000.0,
+          "precio_formateado": "$990.000"
+        },
+        {
+          "tienda": "JumboCO",
+          "disponibilidad": "Disponible",
+          "precio": 10080.0,
+          "precio_formateado": "$10.080"
+        },
+        {
+          "tienda": "OlimpicaCO",
+          "disponibilidad": "Disponible",
+          "precio": 11990.0,
+          "precio_formateado": "$11.990"
+        },
+        {
+          "tienda": "FarmatodoCO",
+          "disponibilidad": "Disponible",
+          "precio": 13950.0,
+          "precio_formateado": "$13.950"
+        },
+        {
+          "tienda": "LaRebajaVirtualCO",
+          "disponibilidad": "Agotado",
+          "precio": null,
+          "precio_formateado": "N/A"
+        }
+      ],
+      "precio_minimo": 10080.0,
+      "precio_maximo": 990000.0,
+      "precio_promedio": 256505.0,
+      "precio_minimo_formateado": "$10.080",
+      "precio_maximo_formateado": "$990.000",
+      "precio_promedio_formateado": "$256.505",
+      "tiendas_disponibles": 4,
+      "tiendas_agotadas": 1,
+      "total_tiendas": 5
+    },
+    {
+      "nombre": "Crema Dental Sensibilidad Colgate Sensitive Pro-Alivio Original Inmediato 110g",
+      "sku": "7891024132647",
+      "marca": "Colgate",
+      "categoria": "Cremas dentales",
+      "precios_por_tienda": [
+        {
+          "tienda": "FarmatodoCO",
+          "disponibilidad": "Disponible",
+          "precio": 31150.0,
+          "precio_formateado": "$31.150"
+        },
+        {
+          "tienda": "LaRebajaVirtualCO",
+          "disponibilidad": "Disponible",
+          "precio": 34200.0,
+          "precio_formateado": "$34.200"
+        },
+        {
+          "tienda": "ExitoCO",
+          "disponibilidad": "Disponible",
+          "precio": 3445000.0,
+          "precio_formateado": "$3.445.000"
+        },
+        {
+          "tienda": "OlimpicaCO",
+          "disponibilidad": "Disponible",
+          "precio": 35500.0,
+          "precio_formateado": "$35.500"
+        }
+      ],
+      "precio_minimo": 31150.0,
+      "precio_maximo": 3445000.0,
+      "precio_promedio": 886462.5,
+      "precio_minimo_formateado": "$31.150",
+      "precio_maximo_formateado": "$3.445.000",
+      "precio_promedio_formateado": "$886.462",
+      "tiendas_disponibles": 4,
+      "tiendas_agotadas": 0,
+      "total_tiendas": 4
+    },
+    {
+      "nombre": "Crema Dental Niños Colgate Agnes & Fluffy 60g",
+      "sku": "7509546660561",
+      "marca": "Colgate",
+      "categoria": "Cremas dentales",
+      "precios_por_tienda": [
+        {
+          "tienda": "JumboCO",
+          "disponibilidad": "Disponible",
+          "precio": 6160.0,
+          "precio_formateado": "$6.160"
+        },
+        {
+          "tienda": "OlimpicaCO",
+          "disponibilidad": "Disponible",
+          "precio": 8090.0,
+          "precio_formateado": "$8.090"
+        },
+        {
+          "tienda": "FarmatodoCO",
+          "disponibilidad": "Disponible",
+          "precio": 8100.0,
+          "precio_formateado": "$8.100"
+        },
+        {
+          "tienda": "ExitoCO",
+          "disponibilidad": "Disponible",
+          "precio": 890000.0,
+          "precio_formateado": "$890.000"
+        },
+        {
+          "tienda": "LaRebajaVirtualCO",
+          "disponibilidad": "Disponible",
+          "precio": 9100.0,
+          "precio_formateado": "$9.100"
+        }
+      ],
+      "precio_minimo": 6160.0,
+      "precio_maximo": 890000.0,
+      "precio_promedio": 184290.0,
+      "precio_minimo_formateado": "$6.160",
+      "precio_maximo_formateado": "$890.000",
+      "precio_promedio_formateado": "$184.290",
+      "tiendas_disponibles": 5,
+      "tiendas_agotadas": 0,
+      "total_tiendas": 5
+    },
+    {
+      "nombre": "Crema Dental sensibilidad Colgate Sensitive Pro-Alivio Inmediato Encías 110g",
+      "sku": "7509546690384",
+      "marca": "Colgate",
+      "categoria": "Cremas dentales",
+      "precios_por_tienda": [
+        {
+          "tienda": "LaRebajaVirtualCO",
+          "disponibilidad": "Disponible",
+          "precio": 33600.0,
+          "precio_formateado": "$33.600"
+        }
+      ],
+      "precio_minimo": 33600.0,
+      "precio_maximo": 33600.0,
+      "precio_promedio": 33600.0,
+      "precio_minimo_formateado": "$33.600",
+      "precio_maximo_formateado": "$33.600",
+      "precio_promedio_formateado": "$33.600",
+      "tiendas_disponibles": 1,
+      "tiendas_agotadas": 0,
+      "total_tiendas": 1
+    },
+    {
+      "nombre": "Crema Dental Colgate Max White Complete Clean 180g",
+      "sku": "7891024123362",
+      "marca": "Colgate",
+      "categoria": "Cremas dentales",
+      "precios_por_tienda": [
+        {
+          "tienda": "JumboCO",
+          "disponibilidad": "Disponible",
+          "precio": 11752.0,
+          "precio_formateado": "$11.752"
+        },
+        {
+          "tienda": "OlimpicaCO",
+          "disponibilidad": "Disponible",
+          "precio": 14950.0,
+          "precio_formateado": "$14.950"
+        },
+        {
+          "tienda": "FarmatodoCO",
+          "disponibilidad": "Disponible",
+          "precio": 15000.0,
+          "precio_formateado": "$15.000"
+        },
+        {
+          "tienda": "ExitoCO",
+          "disponibilidad": "Disponible",
+          "precio": 1515000.0,
+          "precio_formateado": "$1.515.000"
+        },
+        {
+          "tienda": "LaRebajaVirtualCO",
+          "disponibilidad": "Disponible",
+          "precio": 15300.0,
+          "precio_formateado": "$15.300"
+        }
+      ],
+      "precio_minimo": 11752.0,
+      "precio_maximo": 1515000.0,
+      "precio_promedio": 314400.4,
+      "precio_minimo_formateado": "$11.752",
+      "precio_maximo_formateado": "$1.515.000",
+      "precio_promedio_formateado": "$314.400",
+      "tiendas_disponibles": 5,
+      "tiendas_agotadas": 0,
+      "total_tiendas": 5
+    },
+    {
+      "nombre": "Crema Dental Colgate Total Antisarro Prevención Activa 75ml",
+      "sku": "7509546653532",
+      "marca": "Colgate",
+      "categoria": "Cremas dentales",
+      "precios_por_tienda": [
+        {
+          "tienda": "MerqueoCO",
+          "disponibilidad": "Disponible",
+          "precio": 12000.0,
+          "precio_formateado": "$12.000"
+        },
+        {
+          "tienda": "ExitoCO",
+          "disponibilidad": "Disponible",
+          "precio": 1390000.0,
+          "precio_formateado": "$1.390.000"
+        },
+        {
+          "tienda": "FarmatodoCO",
+          "disponibilidad": "Disponible",
+          "precio": 13950.0,
+          "precio_formateado": "$13.950"
+        },
+        {
+          "tienda": "LaRebajaVirtualCO",
+          "disponibilidad": "Disponible",
+          "precio": 15100.0,
+          "precio_formateado": "$15.100"
+        }
+      ],
+      "precio_minimo": 12000.0,
+      "precio_maximo": 1390000.0,
+      "precio_promedio": 357762.5,
+      "precio_minimo_formateado": "$12.000",
+      "precio_maximo_formateado": "$1.390.000",
+      "precio_promedio_formateado": "$357.762",
+      "tiendas_disponibles": 4,
+      "tiendas_agotadas": 0,
+      "total_tiendas": 4
+    },
+    {
+      "nombre": "Crema Dental Niños Colgate My First sin Fluor 50g",
+      "sku": "7509546060781",
+      "marca": "Colgate",
+      "categoria": "Cremas dentales",
+      "precios_por_tienda": [
+        {
+          "tienda": "JumboCO",
+          "disponibilidad": "Disponible",
+          "precio": 20552.0,
+          "precio_formateado": "$20.552"
+        },
+        {
+          "tienda": "OlimpicaCO",
+          "disponibilidad": "Disponible",
+          "precio": 25400.0,
+          "precio_formateado": "$25.400"
+        },
+        {
+          "tienda": "LaRebajaVirtualCO",
+          "disponibilidad": "Agotado",
+          "precio": null,
+          "precio_formateado": "N/A"
+        },
+        {
+          "tienda": "ExitoCO",
+          "disponibilidad": "Disponible",
+          "precio": 2720000.0,
+          "precio_formateado": "$2.720.000"
+        }
+      ],
+      "precio_minimo": 20552.0,
+      "precio_maximo": 2720000.0,
+      "precio_promedio": 921984.0,
+      "precio_minimo_formateado": "$20.552",
+      "precio_maximo_formateado": "$2.720.000",
+      "precio_promedio_formateado": "$921.984",
+      "tiendas_disponibles": 3,
+      "tiendas_agotadas": 1,
+      "total_tiendas": 4
+    },
+    {
+      "nombre": "Crema Dental Colgate Total Carbón Prevención Activa150ml",
+      "sku": "7509546683829",
+      "marca": "Colgate",
+      "categoria": "Cremas dentales",
+      "precios_por_tienda": [
+        {
+          "tienda": "JumboCO",
+          "disponibilidad": "Disponible",
+          "precio": 19432.0,
+          "precio_formateado": "$19.432"
+        },
+        {
+          "tienda": "LaRebajaVirtualCO",
+          "disponibilidad": "Disponible",
+          "precio": 24200.0,
+          "precio_formateado": "$24.200"
+        },
+        {
+          "tienda": "FarmatodoCO",
+          "disponibilidad": "Disponible",
+          "precio": 24950.0,
+          "precio_formateado": "$24.950"
+        },
+        {
+          "tienda": "OlimpicaCO",
+          "disponibilidad": "Disponible",
+          "precio": 25950.0,
+          "precio_formateado": "$25.950"
+        },
+        {
+          "tienda": "ExitoCO",
+          "disponibilidad": "Disponible",
+          "precio": 2650000.0,
+          "precio_formateado": "$2.650.000"
+        }
+      ],
+      "precio_minimo": 19432.0,
+      "precio_maximo": 2650000.0,
+      "precio_promedio": 548906.4,
+      "precio_minimo_formateado": "$19.432",
+      "precio_maximo_formateado": "$2.650.000",
+      "precio_promedio_formateado": "$548.906",
+      "tiendas_disponibles": 5,
+      "tiendas_agotadas": 0,
+      "total_tiendas": 5
+    },
+    {
+      "nombre": "Crema Dental Colgate Triple Acción Xtra Blancura 150ml",
+      "sku": "7509546690919",
+      "marca": "Colgate",
+      "categoria": "Cremas dentales",
+      "precios_por_tienda": [
+        {
+          "tienda": "OlimpicaCO",
+          "disponibilidad": "Disponible",
+          "precio": 9890.0,
+          "precio_formateado": "$9.890"
+        },
+        {
+          "tienda": "JumboCO",
+          "disponibilidad": "Disponible",
+          "precio": 9890.0,
+          "precio_formateado": "$9.890"
+        },
+        {
+          "tienda": "ExitoCO",
+          "disponibilidad": "Disponible",
+          "precio": 1170000.0,
+          "precio_formateado": "$1.170.000"
+        }
+      ],
+      "precio_minimo": 9890.0,
+      "precio_maximo": 1170000.0,
+      "precio_promedio": 396593.3333333333,
+      "precio_minimo_formateado": "$9.890",
+      "precio_maximo_formateado": "$1.170.000",
+      "precio_promedio_formateado": "$396.593",
+      "tiendas_disponibles": 3,
+      "tiendas_agotadas": 0,
+      "total_tiendas": 3
+    },
+    {
+      "nombre": "Crema Dental Colgate Triple Acción 150 ml",
+      "sku": "7509546000350",
+      "marca": "Colgate",
+      "categoria": "Cremas dentales",
+      "precios_por_tienda": [
+        {
+          "tienda": "FarmatodoCO",
+          "disponibilidad": "Disponible",
+          "precio": 14.4,
+          "precio_formateado": "$14"
+        },
+        {
+          "tienda": "ExitoCO",
+          "disponibilidad": "Disponible",
+          "precio": 1290000.0,
+          "precio_formateado": "$1.290.000"
+        },
+        {
+          "tienda": "LaRebajaVirtualCO",
+          "disponibilidad": "Disponible",
+          "precio": 13000.0,
+          "precio_formateado": "$13.000"
+        },
+        {
+          "tienda": "JumboCO",
+          "disponibilidad": "Disponible",
+          "precio": 13200.0,
+          "precio_formateado": "$13.200"
+        }
+      ],
+      "precio_minimo": 14.4,
+      "precio_maximo": 1290000.0,
+      "precio_promedio": 329053.6,
+      "precio_minimo_formateado": "$14",
+      "precio_maximo_formateado": "$1.290.000",
+      "precio_promedio_formateado": "$329.054",
+      "tiendas_disponibles": 4,
+      "tiendas_agotadas": 0,
+      "total_tiendas": 4
+    },
+    {
+      "nombre": "Crema Dental Colgate Menta 150ml",
+      "sku": "7509546652153",
+      "marca": "Colgate",
+      "categoria": "Cremas dentales",
+      "precios_por_tienda": [
+        {
+          "tienda": "ExitoCO",
+          "disponibilidad": "Disponible",
+          "precio": 1235000.0,
+          "precio_formateado": "$1.235.000"
+        },
+        {
+          "tienda": "LaRebajaVirtualCO",
+          "disponibilidad": "Disponible",
+          "precio": 12800.0,
+          "precio_formateado": "$12.800"
+        },
+        {
+          "tienda": "OlimpicaCO",
+          "disponibilidad": "Disponible",
+          "precio": 13300.0,
+          "precio_formateado": "$13.300"
+        },
+        {
+          "tienda": "FarmatodoCO",
+          "disponibilidad": "Agotado",
+          "precio": null,
+          "precio_formateado": "N/A"
+        }
+      ],
+      "precio_minimo": 12800.0,
+      "precio_maximo": 1235000.0,
+      "precio_promedio": 420366.6666666667,
+      "precio_minimo_formateado": "$12.800",
+      "precio_maximo_formateado": "$1.235.000",
+      "precio_promedio_formateado": "$420.367",
+      "tiendas_disponibles": 3,
+      "tiendas_agotadas": 1,
+      "total_tiendas": 4
+    },
+    {
+      "nombre": "Crema Dental Sensibilidad Colgate Pro Alivio Inmediato Xtreme 110g",
+      "sku": "7509546690285",
+      "marca": "Colgate",
+      "categoria": "Cremas dentales",
+      "precios_por_tienda": [
+        {
+          "tienda": "LaRebajaVirtualCO",
+          "disponibilidad": "Disponible",
+          "precio": 24750.0,
+          "precio_formateado": "$24.750"
+        },
+        {
+          "tienda": "JumboCO",
+          "disponibilidad": "Disponible",
+          "precio": 28792.0,
+          "precio_formateado": "$28.792"
+        },
+        {
+          "tienda": "OlimpicaCO",
+          "disponibilidad": "Disponible",
+          "precio": 30850.0,
+          "precio_formateado": "$30.850"
+        },
+        {
+          "tienda": "FarmatodoCO",
+          "disponibilidad": "Disponible",
+          "precio": 31150.0,
+          "precio_formateado": "$31.150"
+        },
+        {
+          "tienda": "ExitoCO",
+          "disponibilidad": "Disponible",
+          "precio": 3495000.0,
+          "precio_formateado": "$3.495.000"
+        }
+      ],
+      "precio_minimo": 24750.0,
+      "precio_maximo": 3495000.0,
+      "precio_promedio": 722108.4,
+      "precio_minimo_formateado": "$24.750",
+      "precio_maximo_formateado": "$3.495.000",
+      "precio_promedio_formateado": "$722.108",
+      "tiendas_disponibles": 5,
+      "tiendas_agotadas": 0,
+      "total_tiendas": 5
+    },
+    {
+      "nombre": "Crema Dental Niños Colgate Liga Justicia 75ml",
+      "sku": "7509546079400",
+      "marca": "Colgate",
+      "categoria": "Cremas dentales",
+      "precios_por_tienda": [
+        {
+          "tienda": "FarmatodoCO",
+          "disponibilidad": "Disponible",
+          "precio": 13950.0,
+          "precio_formateado": "$13.950"
+        },
+        {
+          "tienda": "LaRebajaVirtualCO",
+          "disponibilidad": "Disponible",
+          "precio": 14800.0,
+          "precio_formateado": "$14.800"
+        },
+        {
+          "tienda": "JumboCO",
+          "disponibilidad": "Disponible",
+          "precio": 15112.0,
+          "precio_formateado": "$15.112"
+        },
+        {
+          "tienda": "ExitoCO",
+          "disponibilidad": "Disponible",
+          "precio": 1550000.0,
+          "precio_formateado": "$1.550.000"
+        },
+        {
+          "tienda": "OlimpicaCO",
+          "disponibilidad": "Disponible",
+          "precio": 15500.0,
+          "precio_formateado": "$15.500"
+        }
+      ],
+      "precio_minimo": 13950.0,
+      "precio_maximo": 1550000.0,
+      "precio_promedio": 321872.4,
+      "precio_minimo_formateado": "$13.950",
+      "precio_maximo_formateado": "$1.550.000",
+      "precio_promedio_formateado": "$321.872",
+      "tiendas_disponibles": 5,
+      "tiendas_agotadas": 0,
+      "total_tiendas": 5
+    },
+    {
+      "nombre": "Crema Dental Colgate Doble Frescura 100mL",
+      "sku": "7509546696768",
+      "marca": "Colgate",
+      "categoria": "Cremas dentales",
+      "precios_por_tienda": [
+        {
+          "tienda": "JumboCO",
+          "disponibilidad": "Disponible",
+          "precio": 4640.0,
+          "precio_formateado": "$4.640"
+        },
+        {
+          "tienda": "OlimpicaCO",
+          "disponibilidad": "Disponible",
+          "precio": 5600.0,
+          "precio_formateado": "$5.600"
+        },
+        {
+          "tienda": "ExitoCO",
+          "disponibilidad": "Disponible",
+          "precio": 580000.0,
+          "precio_formateado": "$580.000"
+        }
+      ],
+      "precio_minimo": 4640.0,
+      "precio_maximo": 580000.0,
+      "precio_promedio": 196746.66666666666,
+      "precio_minimo_formateado": "$4.640",
+      "precio_maximo_formateado": "$580.000",
+      "precio_promedio_formateado": "$196.747",
+      "tiendas_disponibles": 3,
+      "tiendas_agotadas": 0,
+      "total_tiendas": 3
+    },
+    {
+      "nombre": "Crema Dental Colgate Total Aliento Saludable Prevención Activa 75ml",
+      "sku": "7509546060811",
+      "marca": "Colgate",
+      "categoria": "Cremas dentales",
+      "precios_por_tienda": [
+        {
+          "tienda": "FarmatodoCO",
+          "disponibilidad": "Agotado",
+          "precio": null,
+          "precio_formateado": "N/A"
+        }
+      ],
+      "precio_minimo": null,
+      "precio_maximo": null,
+      "precio_promedio": null,
+      "precio_minimo_formateado": "N/A",
+      "precio_maximo_formateado": "N/A",
+      "precio_promedio_formateado": "N/A",
+      "tiendas_disponibles": 0,
+      "tiendas_agotadas": 1,
+      "total_tiendas": 1
+    },
+    {
+      "nombre": "Crema Dental Colgate PerioGard Encías Saludables 90g",
+      "sku": "7793100130243",
+      "marca": "Colgate",
+      "categoria": "Cremas dentales",
+      "precios_por_tienda": [
+        {
+          "tienda": "FarmatodoCO",
+          "disponibilidad": "Disponible",
+          "precio": 31300.0,
+          "precio_formateado": "$31.300"
+        }
+      ],
+      "precio_minimo": 31300.0,
+      "precio_maximo": 31300.0,
+      "precio_promedio": 31300.0,
+      "precio_minimo_formateado": "$31.300",
+      "precio_maximo_formateado": "$31.300",
+      "precio_promedio_formateado": "$31.300",
+      "tiendas_disponibles": 1,
+      "tiendas_agotadas": 0,
+      "total_tiendas": 1
+    },
+    {
+      "nombre": "Crema Dental Blanqueadora Colgate Luminous White Glow 70gr",
+      "sku": "7509546676258",
+      "marca": "Colgate",
+      "categoria": "Cremas dentales",
+      "precios_por_tienda": [
+        {
+          "tienda": "JumboCO",
+          "disponibilidad": "Disponible",
+          "precio": 23767.0,
+          "precio_formateado": "$23.767"
+        },
+        {
+          "tienda": "LaRebajaVirtualCO",
+          "disponibilidad": "Disponible",
+          "precio": 29900.0,
+          "precio_formateado": "$29.900"
+        },
+        {
+          "tienda": "OlimpicaCO",
+          "disponibilidad": "Disponible",
+          "precio": 31500.0,
+          "precio_formateado": "$31.500"
+        },
+        {
+          "tienda": "FarmatodoCO",
+          "disponibilidad": "Disponible",
+          "precio": 31950.0,
+          "precio_formateado": "$31.950"
+        }
+      ],
+      "precio_minimo": 23767.0,
+      "precio_maximo": 31950.0,
+      "precio_promedio": 29279.25,
+      "precio_minimo_formateado": "$23.767",
+      "precio_maximo_formateado": "$31.950",
+      "precio_promedio_formateado": "$29.279",
+      "tiendas_disponibles": 4,
+      "tiendas_agotadas": 0,
+      "total_tiendas": 4
+    },
+    {
+      "nombre": "Crema Dental Colgate Natural Extracts Purificante 140ml",
+      "sku": "7509546660073",
+      "marca": "Colgate",
+      "categoria": "Cremas dentales",
+      "precios_por_tienda": [
+        {
+          "tienda": "ExitoCO",
+          "disponibilidad": "Disponible",
+          "precio": 1740000.0,
+          "precio_formateado": "$1.740.000"
+        },
+        {
+          "tienda": "OlimpicaCO",
+          "disponibilidad": "Disponible",
+          "precio": 18360.0,
+          "precio_formateado": "$18.360"
+        }
+      ],
+      "precio_minimo": 18360.0,
+      "precio_maximo": 1740000.0,
+      "precio_promedio": 879180.0,
+      "precio_minimo_formateado": "$18.360",
+      "precio_maximo_formateado": "$1.740.000",
+      "precio_promedio_formateado": "$879.180",
+      "tiendas_disponibles": 2,
+      "tiendas_agotadas": 0,
+      "total_tiendas": 2
+    },
+    {
+      "nombre": "Crema Dental Sensibilidad Colgate Pro Alivio Inmediato Blanqueadora Fresh 110g",
+      "sku": "7891024124628",
+      "marca": "Colgate",
+      "categoria": "Cremas dentales",
+      "precios_por_tienda": [
+        {
+          "tienda": "LaRebajaVirtualCO",
+          "disponibilidad": "Disponible",
+          "precio": 25120.0,
+          "precio_formateado": "$25.120"
+        },
+        {
+          "tienda": "FarmatodoCO",
+          "disponibilidad": "Disponible",
+          "precio": 31950.0,
+          "precio_formateado": "$31.950"
+        },
+        {
+          "tienda": "ExitoCO",
+          "disponibilidad": "Agotado",
+          "precio": null,
+          "precio_formateado": "N/A"
+        }
+      ],
+      "precio_minimo": 25120.0,
+      "precio_maximo": 31950.0,
+      "precio_promedio": 28535.0,
+      "precio_minimo_formateado": "$25.120",
+      "precio_maximo_formateado": "$31.950",
+      "precio_promedio_formateado": "$28.535",
+      "tiendas_disponibles": 2,
+      "tiendas_agotadas": 1,
+      "total_tiendas": 3
+    },
+    {
+      "nombre": "Cepillo de Dientes Sensibilidad Colgate Ultra Suave",
+      "sku": "7509546686929",
+      "marca": "Colgate",
+      "categoria": "Cepillos de dientes",
+      "precios_por_tienda": [
+        {
+          "tienda": "JumboCO",
+          "disponibilidad": "Disponible",
+          "precio": 24392.0,
+          "precio_formateado": "$24.392"
+        },
+        {
+          "tienda": "ExitoCO",
+          "disponibilidad": "Disponible",
+          "precio": 2865000.0,
+          "precio_formateado": "$2.865.000"
+        },
+        {
+          "tienda": "OlimpicaCO",
+          "disponibilidad": "Disponible",
+          "precio": 33900.0,
+          "precio_formateado": "$33.900"
+        }
+      ],
+      "precio_minimo": 24392.0,
+      "precio_maximo": 2865000.0,
+      "precio_promedio": 974430.6666666666,
+      "precio_minimo_formateado": "$24.392",
+      "precio_maximo_formateado": "$2.865.000",
+      "precio_promedio_formateado": "$974.431",
+      "tiendas_disponibles": 3,
+      "tiendas_agotadas": 0,
+      "total_tiendas": 3
+    },
+    {
+      "nombre": "Cepillo de Dientes Medio Colgate 360° Luminous White",
+      "sku": "7509546077048",
+      "marca": "Colgate",
+      "categoria": "Cepillos de dientes",
+      "precios_por_tienda": [
+        {
+          "tienda": "ExitoCO",
+          "disponibilidad": "Agotado",
+          "precio": null,
+          "precio_formateado": "N/A"
+        }
+      ],
+      "precio_minimo": null,
+      "precio_maximo": null,
+      "precio_promedio": null,
+      "precio_minimo_formateado": "N/A",
+      "precio_maximo_formateado": "N/A",
+      "precio_promedio_formateado": "N/A",
+      "tiendas_disponibles": 0,
+      "tiendas_agotadas": 1,
+      "total_tiendas": 1
+    },
+    {
+      "nombre": "Cepillo de Dientes Colgate Slim Soft Carbón Suave",
+      "sku": "7509546061689",
+      "marca": "Colgate",
+      "categoria": "Cepillos de dientes",
+      "precios_por_tienda": [
+        {
+          "tienda": "JumboCO",
+          "disponibilidad": "Disponible",
+          "precio": 22392.0,
+          "precio_formateado": "$22.392"
+        },
+        {
+          "tienda": "ExitoCO",
+          "disponibilidad": "Disponible",
+          "precio": 2865000.0,
+          "precio_formateado": "$2.865.000"
+        },
+        {
+          "tienda": "LaRebajaVirtualCO",
+          "disponibilidad": "Disponible",
+          "precio": 29500.0,
+          "precio_formateado": "$29.500"
+        },
+        {
+          "tienda": "FarmatodoCO",
+          "disponibilidad": "Agotado",
+          "precio": null,
+          "precio_formateado": "N/A"
+        },
+        {
+          "tienda": "OlimpicaCO",
+          "disponibilidad": "Disponible",
+          "precio": 34900.0,
+          "precio_formateado": "$34.900"
+        }
+      ],
+      "precio_minimo": 22392.0,
+      "precio_maximo": 2865000.0,
+      "precio_promedio": 737948.0,
+      "precio_minimo_formateado": "$22.392",
+      "precio_maximo_formateado": "$2.865.000",
+      "precio_promedio_formateado": "$737.948",
+      "tiendas_disponibles": 4,
+      "tiendas_agotadas": 1,
+      "total_tiendas": 5
+    },
+    {
+      "nombre": "Cepillo de Dientes Colgate Kids 5+ años Extra Suave",
+      "sku": "7509546073453",
+      "marca": "Colgate",
+      "categoria": "Cepillos de dientes",
+      "precios_por_tienda": [
+        {
+          "tienda": "JumboCO",
+          "disponibilidad": "Disponible",
+          "precio": 6552.0,
+          "precio_formateado": "$6.552"
+        },
+        {
+          "tienda": "ExitoCO",
+          "disponibilidad": "Agotado",
+          "precio": null,
+          "precio_formateado": "N/A"
+        },
+        {
+          "tienda": "OlimpicaCO",
+          "disponibilidad": "Disponible",
+          "precio": 8600.0,
+          "precio_formateado": "$8.600"
+        },
+        {
+          "tienda": "LaRebajaVirtualCO",
+          "disponibilidad": "Disponible",
+          "precio": 10400.0,
+          "precio_formateado": "$10.400"
+        }
+      ],
+      "precio_minimo": 6552.0,
+      "precio_maximo": 10400.0,
+      "precio_promedio": 8517.333333333334,
+      "precio_minimo_formateado": "$6.552",
+      "precio_maximo_formateado": "$10.400",
+      "precio_promedio_formateado": "$8.517",
+      "tiendas_disponibles": 3,
+      "tiendas_agotadas": 1,
+      "total_tiendas": 4
+    },
+    {
+      "nombre": "Cepillo de Diente Colgate Twister Medio",
+      "sku": "7702010130632",
+      "marca": "Colgate",
+      "categoria": "Cepillos de dientes",
+      "precios_por_tienda": [
+        {
+          "tienda": "OlimpicaCO",
+          "disponibilidad": "Disponible",
+          "precio": 10990.0,
+          "precio_formateado": "$10.990"
+        },
+        {
+          "tienda": "MerqueoCO",
+          "disponibilidad": "Agotado",
+          "precio": null,
+          "precio_formateado": "N/A"
+        },
+        {
+          "tienda": "ExitoCO",
+          "disponibilidad": "Disponible",
+          "precio": 1400000.0,
+          "precio_formateado": "$1.400.000"
+        },
+        {
+          "tienda": "FarmatodoCO",
+          "disponibilidad": "Disponible",
+          "precio": 14950.0,
+          "precio_formateado": "$14.950"
+        },
+        {
+          "tienda": "LaRebajaVirtualCO",
+          "disponibilidad": "Disponible",
+          "precio": 15700.0,
+          "precio_formateado": "$15.700"
+        }
+      ],
+      "precio_minimo": 10990.0,
+      "precio_maximo": 1400000.0,
+      "precio_promedio": 360410.0,
+      "precio_minimo_formateado": "$10.990",
+      "precio_maximo_formateado": "$1.400.000",
+      "precio_promedio_formateado": "$360.410",
+      "tiendas_disponibles": 4,
+      "tiendas_agotadas": 1,
+      "total_tiendas": 5
+    },
+    {
+      "nombre": "Cepillo de Dientes Colgate Slim Soft Suave",
+      "sku": "7591083017793",
+      "marca": "Colgate",
+      "categoria": "Cepillos de dientes",
+      "precios_por_tienda": [
+        {
+          "tienda": "ExitoCO",
+          "disponibilidad": "Disponible",
+          "precio": 1631500.0,
+          "precio_formateado": "$1.631.500"
+        },
+        {
+          "tienda": "JumboCO",
+          "disponibilidad": "Disponible",
+          "precio": 21032.0,
+          "precio_formateado": "$21.032"
+        },
+        {
+          "tienda": "FarmatodoCO",
+          "disponibilidad": "Disponible",
+          "precio": 25950.0,
+          "precio_formateado": "$25.950"
+        },
+        {
+          "tienda": "OlimpicaCO",
+          "disponibilidad": "Disponible",
+          "precio": 26200.0,
+          "precio_formateado": "$26.200"
+        },
+        {
+          "tienda": "LaRebajaVirtualCO",
+          "disponibilidad": "Disponible",
+          "precio": 27500.0,
+          "precio_formateado": "$27.500"
+        }
+      ],
+      "precio_minimo": 21032.0,
+      "precio_maximo": 1631500.0,
+      "precio_promedio": 346436.4,
+      "precio_minimo_formateado": "$21.032",
+      "precio_maximo_formateado": "$1.631.500",
+      "precio_promedio_formateado": "$346.436",
+      "tiendas_disponibles": 5,
+      "tiendas_agotadas": 0,
+      "total_tiendas": 5
+    },
+    {
+      "nombre": "Cepillo de Dientes Medio Colgate Extrablancura",
+      "sku": "7702010130663",
+      "marca": "Colgate",
+      "categoria": "Cepillos de dientes",
+      "precios_por_tienda": [
+        {
+          "tienda": "FarmatodoCO",
+          "disponibilidad": "Agotado",
+          "precio": null,
+          "precio_formateado": "N/A"
+        },
+        {
+          "tienda": "ExitoCO",
+          "disponibilidad": "Agotado",
+          "precio": null,
+          "precio_formateado": "N/A"
+        },
+        {
+          "tienda": "LaRebajaVirtualCO",
+          "disponibilidad": "Disponible",
+          "precio": 19500.0,
+          "precio_formateado": "$19.500"
+        }
+      ],
+      "precio_minimo": 19500.0,
+      "precio_maximo": 19500.0,
+      "precio_promedio": 19500.0,
+      "precio_minimo_formateado": "$19.500",
+      "precio_maximo_formateado": "$19.500",
+      "precio_promedio_formateado": "$19.500",
+      "tiendas_disponibles": 1,
+      "tiendas_agotadas": 2,
+      "total_tiendas": 3
+    },
+    {
+      "nombre": "Cepillo de Dientes Colgate Triple Accion Medio",
+      "sku": "7509546069982",
+      "marca": "Colgate",
+      "categoria": "Cepillos de dientes",
+      "precios_por_tienda": [
+        {
+          "tienda": "JumboCO",
+          "disponibilidad": "Disponible",
+          "precio": 12312.0,
+          "precio_formateado": "$12.312"
+        },
+        {
+          "tienda": "FarmatodoCO",
+          "disponibilidad": "Agotado",
+          "precio": null,
+          "precio_formateado": "N/A"
+        },
+        {
+          "tienda": "ExitoCO",
+          "disponibilidad": "Disponible",
+          "precio": 1510000.0,
+          "precio_formateado": "$1.510.000"
+        },
+        {
+          "tienda": "LaRebajaVirtualCO",
+          "disponibilidad": "Disponible",
+          "precio": 15300.0,
+          "precio_formateado": "$15.300"
+        },
+        {
+          "tienda": "OlimpicaCO",
+          "disponibilidad": "Disponible",
+          "precio": 15900.0,
+          "precio_formateado": "$15.900"
+        }
+      ],
+      "precio_minimo": 12312.0,
+      "precio_maximo": 1510000.0,
+      "precio_promedio": 388378.0,
+      "precio_minimo_formateado": "$12.312",
+      "precio_maximo_formateado": "$1.510.000",
+      "precio_promedio_formateado": "$388.378",
+      "tiendas_disponibles": 4,
+      "tiendas_agotadas": 1,
+      "total_tiendas": 5
+    },
+    {
+      "nombre": "Cepillo de Dientes Colgate Total Prevención Activa Suave",
+      "sku": "7509546693729",
+      "marca": "Colgate",
+      "categoria": "Cepillos de dientes",
+      "precios_por_tienda": [
+        {
+          "tienda": "ExitoCO",
+          "disponibilidad": "Disponible",
+          "precio": 1862200.0,
+          "precio_formateado": "$1.862.200"
+        },
+        {
+          "tienda": "OlimpicaCO",
+          "disponibilidad": "Disponible",
+          "precio": 32800.0,
+          "precio_formateado": "$32.800"
+        },
+        {
+          "tienda": "FarmatodoCO",
+          "disponibilidad": "Disponible",
+          "precio": 37250.0,
+          "precio_formateado": "$37.250"
+        },
+        {
+          "tienda": "LaRebajaVirtualCO",
+          "disponibilidad": "Disponible",
+          "precio": 37300.0,
+          "precio_formateado": "$37.300"
+        }
+      ],
+      "precio_minimo": 32800.0,
+      "precio_maximo": 1862200.0,
+      "precio_promedio": 492387.5,
+      "precio_minimo_formateado": "$32.800",
+      "precio_maximo_formateado": "$1.862.200",
+      "precio_promedio_formateado": "$492.388",
+      "tiendas_disponibles": 4,
+      "tiendas_agotadas": 0,
+      "total_tiendas": 4
+    },
+    {
+      "nombre": "Cepillo de Dientes Colgate para Ortodoncia Orthogard",
+      "sku": "7891024068007",
+      "marca": "Colgate",
+      "categoria": "Cepillos de dientes",
+      "precios_por_tienda": [
+        {
+          "tienda": "FarmatodoCO",
+          "disponibilidad": "Agotado",
+          "precio": null,
+          "precio_formateado": "N/A"
+        },
+        {
+          "tienda": "LaRebajaVirtualCO",
+          "disponibilidad": "Disponible",
+          "precio": 27400.0,
+          "precio_formateado": "$27.400"
+        }
+      ],
+      "precio_minimo": 27400.0,
+      "precio_maximo": 27400.0,
+      "precio_promedio": 27400.0,
+      "precio_minimo_formateado": "$27.400",
+      "precio_maximo_formateado": "$27.400",
+      "precio_promedio_formateado": "$27.400",
+      "tiendas_disponibles": 1,
+      "tiendas_agotadas": 1,
+      "total_tiendas": 2
+    },
+    {
+      "nombre": "Cepillo de Dientes Colgate PerioGard Gum Expert",
+      "sku": "7891024019610",
+      "marca": "Colgate",
+      "categoria": "Cepillos de dientes",
+      "precios_por_tienda": [
+        {
+          "tienda": "FarmatodoCO",
+          "disponibilidad": "Disponible",
+          "precio": 27300.0,
+          "precio_formateado": "$27.300"
+        }
+      ],
+      "precio_minimo": 27300.0,
+      "precio_maximo": 27300.0,
+      "precio_promedio": 27300.0,
+      "precio_minimo_formateado": "$27.300",
+      "precio_maximo_formateado": "$27.300",
+      "precio_promedio_formateado": "$27.300",
+      "tiendas_disponibles": 1,
+      "tiendas_agotadas": 0,
+      "total_tiendas": 1
+    },
+    {
+      "nombre": "Cepillo de Dientes Colgate Recyclean",
+      "sku": "7509546674841",
+      "marca": "Colgate",
+      "categoria": "Cepillos de dientes",
+      "precios_por_tienda": [
+        {
+          "tienda": "ExitoCO",
+          "disponibilidad": "Agotado",
+          "precio": null,
+          "precio_formateado": "N/A"
+        }
+      ],
+      "precio_minimo": null,
+      "precio_maximo": null,
+      "precio_promedio": null,
+      "precio_minimo_formateado": "N/A",
+      "precio_maximo_formateado": "N/A",
+      "precio_promedio_formateado": "N/A",
+      "tiendas_disponibles": 0,
+      "tiendas_agotadas": 1,
+      "total_tiendas": 1
+    },
+    {
+      "nombre": "Cepillo de Dientes Suave Colgate Encias Therapy",
+      "sku": "7509546667744",
+      "marca": "Colgate",
+      "categoria": "Cepillos de dientes",
+      "precios_por_tienda": [
+        {
+          "tienda": "JumboCO",
+          "disponibilidad": "Disponible",
+          "precio": 32952.0,
+          "precio_formateado": "$32.952"
+        },
+        {
+          "tienda": "ExitoCO",
+          "disponibilidad": "Disponible",
+          "precio": 3625000.0,
+          "precio_formateado": "$3.625.000"
+        },
+        {
+          "tienda": "LaRebajaVirtualCO",
+          "disponibilidad": "Disponible",
+          "precio": 37200.0,
+          "precio_formateado": "$37.200"
+        },
+        {
+          "tienda": "FarmatodoCO",
+          "disponibilidad": "Disponible",
+          "precio": 37700.0,
+          "precio_formateado": "$37.700"
+        },
+        {
+          "tienda": "OlimpicaCO",
+          "disponibilidad": "Disponible",
+          "precio": 37990.0,
+          "precio_formateado": "$37.990"
+        }
+      ],
+      "precio_minimo": 32952.0,
+      "precio_maximo": 3625000.0,
+      "precio_promedio": 754168.4,
+      "precio_minimo_formateado": "$32.952",
+      "precio_maximo_formateado": "$3.625.000",
+      "precio_promedio_formateado": "$754.168",
+      "tiendas_disponibles": 5,
+      "tiendas_agotadas": 0,
+      "total_tiendas": 5
+    },
+    {
+      "nombre": "Enjuague Bucal Colgate Orthogard 250ml",
+      "sku": "7891024036570",
+      "marca": "Colgate",
+      "categoria": "Enjuagues bucales",
+      "precios_por_tienda": [
+        {
+          "tienda": "FarmatodoCO",
+          "disponibilidad": "Disponible",
+          "precio": 20950.0,
+          "precio_formateado": "$20.950"
+        },
+        {
+          "tienda": "LaRebajaVirtualCO",
+          "disponibilidad": "Disponible",
+          "precio": 22100.0,
+          "precio_formateado": "$22.100"
+        }
+      ],
+      "precio_minimo": 20950.0,
+      "precio_maximo": 22100.0,
+      "precio_promedio": 21525.0,
+      "precio_minimo_formateado": "$20.950",
+      "precio_maximo_formateado": "$22.100",
+      "precio_promedio_formateado": "$21.525",
+      "tiendas_disponibles": 2,
+      "tiendas_agotadas": 0,
+      "total_tiendas": 2
+    },
+    {
+      "nombre": "Enjuague Bucal Colgate Total Clean Mint 500ml",
+      "sku": "7891024028018",
+      "marca": "Colgate",
+      "categoria": "Enjuagues bucales",
+      "precios_por_tienda": [
+        {
+          "tienda": "JumboCO",
+          "disponibilidad": "Disponible",
+          "precio": 19042.0,
+          "precio_formateado": "$19.042"
+        },
+        {
+          "tienda": "ExitoCO",
+          "disponibilidad": "Disponible",
+          "precio": 1977500.0,
+          "precio_formateado": "$1.977.500"
+        },
+        {
+          "tienda": "OlimpicaCO",
+          "disponibilidad": "Disponible",
+          "precio": 26800.0,
+          "precio_formateado": "$26.800"
+        },
+        {
+          "tienda": "FarmatodoCO",
+          "disponibilidad": "Disponible",
+          "precio": 28550.0,
+          "precio_formateado": "$28.550"
+        }
+      ],
+      "precio_minimo": 19042.0,
+      "precio_maximo": 1977500.0,
+      "precio_promedio": 512973.0,
+      "precio_minimo_formateado": "$19.042",
+      "precio_maximo_formateado": "$1.977.500",
+      "precio_promedio_formateado": "$512.973",
+      "tiendas_disponibles": 4,
+      "tiendas_agotadas": 0,
+      "total_tiendas": 4
+    },
+    {
+      "nombre": "Enjuague Bucal Clorhexidina Colgate PerioGard 250ml",
+      "sku": "7891024179925",
+      "marca": "Colgate",
+      "categoria": "Enjuagues bucales",
+      "precios_por_tienda": [
+        {
+          "tienda": "FarmatodoCO",
+          "disponibilidad": "Disponible",
+          "precio": 40950.0,
+          "precio_formateado": "$40.950"
+        }
+      ],
+      "precio_minimo": 40950.0,
+      "precio_maximo": 40950.0,
+      "precio_promedio": 40950.0,
+      "precio_minimo_formateado": "$40.950",
+      "precio_maximo_formateado": "$40.950",
+      "precio_promedio_formateado": "$40.950",
+      "tiendas_disponibles": 1,
+      "tiendas_agotadas": 0,
+      "total_tiendas": 1
+    },
+    {
+      "nombre": "Enjuague Bucal Colgate Plax Odor Control 500ml",
+      "sku": "7509546679532",
+      "marca": "Colgate",
+      "categoria": "Enjuagues bucales",
+      "precios_por_tienda": [
+        {
+          "tienda": "ExitoCO",
+          "disponibilidad": "Disponible",
+          "precio": 1337000.0,
+          "precio_formateado": "$1.337.000"
+        },
+        {
+          "tienda": "OlimpicaCO",
+          "disponibilidad": "Disponible",
+          "precio": 15990.0,
+          "precio_formateado": "$15.990"
+        },
+        {
+          "tienda": "LaRebajaVirtualCO",
+          "disponibilidad": "Disponible",
+          "precio": 20200.0,
+          "precio_formateado": "$20.200"
+        },
+        {
+          "tienda": "FarmatodoCO",
+          "disponibilidad": "Disponible",
+          "precio": 21150.0,
+          "precio_formateado": "$21.150"
+        }
+      ],
+      "precio_minimo": 15990.0,
+      "precio_maximo": 1337000.0,
+      "precio_promedio": 348585.0,
+      "precio_minimo_formateado": "$15.990",
+      "precio_maximo_formateado": "$1.337.000",
+      "precio_promedio_formateado": "$348.585",
+      "tiendas_disponibles": 4,
+      "tiendas_agotadas": 0,
+      "total_tiendas": 4
+    },
+    {
+      "nombre": "Enjuague Bucal Colgate Total Encías Prevención Activa 250ml",
+      "sku": "7509546666969",
+      "marca": "Colgate",
+      "categoria": "Enjuagues bucales",
+      "precios_por_tienda": [
+        {
+          "tienda": "LaRebajaVirtualCO",
+          "disponibilidad": "Disponible",
+          "precio": 15800.0,
+          "precio_formateado": "$15.800"
+        },
+        {
+          "tienda": "FarmatodoCO",
+          "disponibilidad": "Disponible",
+          "precio": 15900.0,
+          "precio_formateado": "$15.900"
+        }
+      ],
+      "precio_minimo": 15800.0,
+      "precio_maximo": 15900.0,
+      "precio_promedio": 15850.0,
+      "precio_minimo_formateado": "$15.800",
+      "precio_maximo_formateado": "$15.900",
+      "precio_promedio_formateado": "$15.850",
+      "tiendas_disponibles": 2,
+      "tiendas_agotadas": 0,
+      "total_tiendas": 2
+    },
+    {
+      "nombre": "Enjuague Bucal Colgate Total 12 Encías Reforzadas sin alcohol",
+      "sku": "7509546666969",
+      "marca": "Colgate",
+      "categoria": "Enjuagues bucales",
+      "precios_por_tienda": [
+        {
+          "tienda": "LaRebajaVirtualCO",
+          "disponibilidad": "Disponible",
+          "precio": 15800.0,
+          "precio_formateado": "$15.800"
+        },
+        {
+          "tienda": "FarmatodoCO",
+          "disponibilidad": "Disponible",
+          "precio": 15900.0,
+          "precio_formateado": "$15.900"
+        }
+      ],
+      "precio_minimo": 15800.0,
+      "precio_maximo": 15900.0,
+      "precio_promedio": 15850.0,
+      "precio_minimo_formateado": "$15.800",
+      "precio_maximo_formateado": "$15.900",
+      "precio_promedio_formateado": "$15.850",
+      "tiendas_disponibles": 2,
+      "tiendas_agotadas": 0,
+      "total_tiendas": 2
+    },
+    {
+      "nombre": "Enjuague Bucal Niños Colgate Plax Kids Minions 250ml",
+      "sku": "7891024030806",
+      "marca": "Colgate",
+      "categoria": "Enjuagues bucales",
+      "precios_por_tienda": [
+        {
+          "tienda": "ExitoCO",
+          "disponibilidad": "Disponible",
+          "precio": 1078000.0,
+          "precio_formateado": "$1.078.000"
+        },
+        {
+          "tienda": "JumboCO",
+          "disponibilidad": "Disponible",
+          "precio": 11842.0,
+          "precio_formateado": "$11.842"
+        },
+        {
+          "tienda": "OlimpicaCO",
+          "disponibilidad": "Disponible",
+          "precio": 13150.0,
+          "precio_formateado": "$13.150"
+        },
+        {
+          "tienda": "MerqueoCO",
+          "disponibilidad": "Agotado",
+          "precio": null,
+          "precio_formateado": "N/A"
+        },
+        {
+          "tienda": "LaRebajaVirtualCO",
+          "disponibilidad": "Disponible",
+          "precio": 15900.0,
+          "precio_formateado": "$15.900"
+        },
+        {
+          "tienda": "FarmatodoCO",
+          "disponibilidad": "Disponible",
+          "precio": 15950.0,
+          "precio_formateado": "$15.950"
+        }
+      ],
+      "precio_minimo": 11842.0,
+      "precio_maximo": 1078000.0,
+      "precio_promedio": 226968.4,
+      "precio_minimo_formateado": "$11.842",
+      "precio_maximo_formateado": "$1.078.000",
+      "precio_promedio_formateado": "$226.968",
+      "tiendas_disponibles": 5,
+      "tiendas_agotadas": 1,
+      "total_tiendas": 6
+    },
+    {
+      "nombre": "Palmolive® Décor Series Flor de Manzana y Gardenia Jabón líquido para manos",
+      "sku": "7509546657110",
+      "marca": "Palmolive",
+      "categoria": "Cuidado Personal",
+      "precios_por_tienda": [
+        {
+          "tienda": "FarmatodoCO",
+          "disponibilidad": "Agotado",
+          "precio": null,
+          "precio_formateado": "N/A"
+        },
+        {
+          "tienda": "ExitoCO",
+          "disponibilidad": "Disponible",
+          "precio": 1406200.0,
+          "precio_formateado": "$1.406.200"
+        },
+        {
+          "tienda": "JumboCO",
+          "disponibilidad": "Disponible",
+          "precio": 13867.0,
+          "precio_formateado": "$13.867"
+        }
+      ],
+      "precio_minimo": 13867.0,
+      "precio_maximo": 1406200.0,
+      "precio_promedio": 710033.5,
+      "precio_minimo_formateado": "$13.867",
+      "precio_maximo_formateado": "$1.406.200",
+      "precio_promedio_formateado": "$710.034",
+      "tiendas_disponibles": 2,
+      "tiendas_agotadas": 1,
+      "total_tiendas": 3
+    },
+    {
+      "nombre": "Jabón Palmolive Naturaleza Secreta Pitahaya",
+      "sku": "7509546079080",
+      "marca": "Palmolive",
+      "categoria": "Cuidado Personal",
+      "precios_por_tienda": [
+        {
+          "tienda": "FarmatodoCO",
+          "disponibilidad": "Agotado",
+          "precio": null,
+          "precio_formateado": "N/A"
+        },
+        {
+          "tienda": "ExitoCO",
+          "disponibilidad": "Disponible",
+          "precio": 1254000.0,
+          "precio_formateado": "$1.254.000"
+        },
+        {
+          "tienda": "OlimpicaCO",
+          "disponibilidad": "Disponible",
+          "precio": 16447.0,
+          "precio_formateado": "$16.447"
+        },
+        {
+          "tienda": "JumboCO",
+          "disponibilidad": "Disponible",
+          "precio": 15817.0,
+          "precio_formateado": "$15.817"
+        },
+        {
+          "tienda": "LaRebajaVirtualCO",
+          "disponibilidad": "Disponible",
+          "precio": 15260.0,
+          "precio_formateado": "$15.260"
+        }
+      ],
+      "precio_minimo": 15260.0,
+      "precio_maximo": 1254000.0,
+      "precio_promedio": 325381.0,
+      "precio_minimo_formateado": "$15.260",
+      "precio_maximo_formateado": "$1.254.000",
+      "precio_promedio_formateado": "$325.381",
+      "tiendas_disponibles": 4,
+      "tiendas_agotadas": 1,
+      "total_tiendas": 5
+    },
+    {
+      "nombre": "Palmolive® Naturals Renovación Nutritiva Cereza y Coco",
+      "sku": "MX05983A",
+      "marca": "Palmolive",
+      "categoria": "Cuidado Personal",
+      "precios_por_tienda": [
+        {
+          "tienda": "JumboCO",
+          "disponibilidad": "Disponible",
+          "precio": 16417.0,
+          "precio_formateado": "$16.417"
+        },
+        {
+          "tienda": "ExitoCO",
+          "disponibilidad": "Disponible",
+          "precio": 1254000.0,
+          "precio_formateado": "$1.254.000"
+        },
+        {
+          "tienda": "FarmatodoCO",
+          "disponibilidad": "Disponible",
+          "precio": 16440.0,
+          "precio_formateado": "$16.440"
+        },
+        {
+          "tienda": "LaRebajaVirtualCO",
+          "disponibilidad": "Disponible",
+          "precio": 19600.0,
+          "precio_formateado": "$19.600"
+        },
+        {
+          "tienda": "OlimpicaCO",
+          "disponibilidad": "Agotado",
+          "precio": null,
+          "precio_formateado": "N/A"
+        }
+      ],
+      "precio_minimo": 16417.0,
+      "precio_maximo": 1254000.0,
+      "precio_promedio": 326614.25,
+      "precio_minimo_formateado": "$16.417",
+      "precio_maximo_formateado": "$1.254.000",
+      "precio_promedio_formateado": "$326.614",
+      "tiendas_disponibles": 4,
+      "tiendas_agotadas": 1,
+      "total_tiendas": 5
+    },
+    {
+      "nombre": "Palmolive® Smoothie Berries, Banana y Yogurt",
+      "sku": "7509546689593",
+      "marca": "Palmolive",
+      "categoria": "Cuidado Personal",
+      "precios_por_tienda": [
+        {
+          "tienda": "ExitoCO",
+          "disponibilidad": "Disponible",
+          "precio": 1491000.0,
+          "precio_formateado": "$1.491.000"
+        },
+        {
+          "tienda": "JumboCO",
+          "disponibilidad": "Disponible",
+          "precio": 19342.0,
+          "precio_formateado": "$19.342"
+        },
+        {
+          "tienda": "OlimpicaCO",
+          "disponibilidad": "Disponible",
+          "precio": 16633.0,
+          "precio_formateado": "$16.633"
+        },
+        {
+          "tienda": "FarmatodoCO",
+          "disponibilidad": "Disponible",
+          "precio": 19125.0,
+          "precio_formateado": "$19.125"
+        }
+      ],
+      "precio_minimo": 16633.0,
+      "precio_maximo": 1491000.0,
+      "precio_promedio": 386525.0,
+      "precio_minimo_formateado": "$16.633",
+      "precio_maximo_formateado": "$1.491.000",
+      "precio_promedio_formateado": "$386.525",
+      "tiendas_disponibles": 4,
+      "tiendas_agotadas": 0,
+      "total_tiendas": 4
+    },
+    {
+      "nombre": "Palmolive® Smoothie Almendra, Aguacate y Leche",
+      "sku": "7509546689586",
+      "marca": "Palmolive",
+      "categoria": "Cuidado Personal",
+      "precios_por_tienda": [
+        {
+          "tienda": "FarmatodoCO",
+          "disponibilidad": "Agotado",
+          "precio": null,
+          "precio_formateado": "N/A"
+        },
+        {
+          "tienda": "ExitoCO",
+          "disponibilidad": "Disponible",
+          "precio": 1227000.0,
+          "precio_formateado": "$1.227.000"
+        },
+        {
+          "tienda": "OlimpicaCO",
+          "disponibilidad": "Disponible",
+          "precio": 17990.0,
+          "precio_formateado": "$17.990"
+        }
+      ],
+      "precio_minimo": 17990.0,
+      "precio_maximo": 1227000.0,
+      "precio_promedio": 622495.0,
+      "precio_minimo_formateado": "$17.990",
+      "precio_maximo_formateado": "$1.227.000",
+      "precio_promedio_formateado": "$622.495",
+      "tiendas_disponibles": 2,
+      "tiendas_agotadas": 1,
+      "total_tiendas": 3
+    },
+    {
+      "nombre": "Palmolive Luminous Oils Macadamia y Peonía",
+      "sku": "7509546664231",
+      "marca": "Palmolive",
+      "categoria": "Cuidado Personal",
+      "precios_por_tienda": [
+        {
+          "tienda": "ExitoCO",
+          "disponibilidad": "Disponible",
+          "precio": 1392000.0,
+          "precio_formateado": "$1.392.000"
+        },
+        {
+          "tienda": "LaRebajaVirtualCO",
+          "disponibilidad": "Agotado",
+          "precio": null,
+          "precio_formateado": "N/A"
+        },
+        {
+          "tienda": "FarmatodoCO",
+          "disponibilidad": "Agotado",
+          "precio": null,
+          "precio_formateado": "N/A"
+        },
+        {
+          "tienda": "OlimpicaCO",
+          "disponibilidad": "Disponible",
+          "precio": 15892.0,
+          "precio_formateado": "$15.892"
+        }
+      ],
+      "precio_minimo": 15892.0,
+      "precio_maximo": 1392000.0,
+      "precio_promedio": 703946.0,
+      "precio_minimo_formateado": "$15.892",
+      "precio_maximo_formateado": "$1.392.000",
+      "precio_promedio_formateado": "$703.946",
+      "tiendas_disponibles": 2,
+      "tiendas_agotadas": 2,
+      "total_tiendas": 4
+    },
+    {
+      "nombre": "Palmolive® Naturals Humectación Refrescante Sandía y Lychee",
+      "sku": "7509546676111",
+      "marca": "Palmolive",
+      "categoria": "Cuidado Personal",
+      "precios_por_tienda": [
+        {
+          "tienda": "JumboCO",
+          "disponibilidad": "Disponible",
+          "precio": 15442.0,
+          "precio_formateado": "$15.442"
+        },
+        {
+          "tienda": "OlimpicaCO",
+          "disponibilidad": "Disponible",
+          "precio": 21410.0,
+          "precio_formateado": "$21.410"
+        },
+        {
+          "tienda": "ExitoCO",
+          "disponibilidad": "Disponible",
+          "precio": 1254000.0,
+          "precio_formateado": "$1.254.000"
+        },
+        {
+          "tienda": "FarmatodoCO",
+          "disponibilidad": "Agotado",
+          "precio": null,
+          "precio_formateado": "N/A"
+        },
+        {
+          "tienda": "LaRebajaVirtualCO",
+          "disponibilidad": "Disponible",
+          "precio": 14490.0,
+          "precio_formateado": "$14.490"
+        }
+      ],
+      "precio_minimo": 14490.0,
+      "precio_maximo": 1254000.0,
+      "precio_promedio": 326335.5,
+      "precio_minimo_formateado": "$14.490",
+      "precio_maximo_formateado": "$1.254.000",
+      "precio_promedio_formateado": "$326.336",
+      "tiendas_disponibles": 4,
+      "tiendas_agotadas": 1,
+      "total_tiendas": 5
+    },
+    {
+      "nombre": "Palmolive® Naturals Humectación Refrescante Sandía y Lychee",
+      "sku": "61021558,61021559",
+      "marca": "Palmolive",
+      "categoria": "Cuidado Personal",
+      "precios_por_tienda": [
+        {
+          "tienda": "LaRebajaVirtualCO",
+          "disponibilidad": "Disponible",
+          "precio": 8470.0,
+          "precio_formateado": "$8.470"
+        },
+        {
+          "tienda": "FarmatodoCO",
+          "disponibilidad": "Disponible",
+          "precio": 9040.0,
+          "precio_formateado": "$9.040"
+        },
+        {
+          "tienda": "OlimpicaCO",
+          "disponibilidad": "Disponible",
+          "precio": 8990.0,
+          "precio_formateado": "$8.990"
+        },
+        {
+          "tienda": "ExitoCO",
+          "disponibilidad": "Disponible",
+          "precio": 930000.0,
+          "precio_formateado": "$930.000"
+        },
+        {
+          "tienda": "JumboCO",
+          "disponibilidad": "Disponible",
+          "precio": 9390.0,
+          "precio_formateado": "$9.390"
+        }
+      ],
+      "precio_minimo": 8470.0,
+      "precio_maximo": 930000.0,
+      "precio_promedio": 193178.0,
+      "precio_minimo_formateado": "$8.470",
+      "precio_maximo_formateado": "$930.000",
+      "precio_promedio_formateado": "$193.178",
+      "tiendas_disponibles": 5,
+      "tiendas_agotadas": 0,
+      "total_tiendas": 5
+    },
+    {
+      "nombre": "Palmolive® Naturals Frecura purificante Carbón",
+      "sku": "7509546666341,7509546666389,7509546666372,7509546681160",
+      "marca": "Palmolive",
+      "categoria": "Cuidado Personal",
+      "precios_por_tienda": [
+        {
+          "tienda": "ExitoCO",
+          "disponibilidad": "Agotado",
+          "precio": null,
+          "precio_formateado": "N/A"
+        },
+        {
+          "tienda": "FarmatodoCO",
+          "disponibilidad": "Agotado",
+          "precio": null,
+          "precio_formateado": "N/A"
+        }
+      ],
+      "precio_minimo": null,
+      "precio_maximo": null,
+      "precio_promedio": null,
+      "precio_minimo_formateado": "N/A",
+      "precio_maximo_formateado": "N/A",
+      "precio_promedio_formateado": "N/A",
+      "tiendas_disponibles": 0,
+      "tiendas_agotadas": 2,
+      "total_tiendas": 2
+    },
+    {
+      "nombre": "Palmolive Naturals Exfoliación Diaria Avena y Azúcar Morena",
+      "sku": "7702010410895,7702010911576",
+      "marca": "Palmolive",
+      "categoria": "Cuidado Personal",
+      "precios_por_tienda": [
+        {
+          "tienda": "ExitoCO",
+          "disponibilidad": "Agotado",
+          "precio": null,
+          "precio_formateado": "N/A"
+        }
+      ],
+      "precio_minimo": null,
+      "precio_maximo": null,
+      "precio_promedio": null,
+      "precio_minimo_formateado": "N/A",
+      "precio_maximo_formateado": "N/A",
+      "precio_promedio_formateado": "N/A",
+      "tiendas_disponibles": 0,
+      "tiendas_agotadas": 1,
+      "total_tiendas": 1
+    },
+    {
+      "nombre": "Palmolive® Naturals Intensa Renovación Granada",
+      "sku": "7702010410864,7702010911583",
+      "marca": "Palmolive",
+      "categoria": "Cuidado Personal",
+      "precios_por_tienda": [
+        {
+          "tienda": "ExitoCO",
+          "disponibilidad": "Agotado",
+          "precio": null,
+          "precio_formateado": "N/A"
+        },
+        {
+          "tienda": "FarmatodoCO",
+          "disponibilidad": "Agotado",
+          "precio": null,
+          "precio_formateado": "N/A"
+        }
+      ],
+      "precio_minimo": null,
+      "precio_maximo": null,
+      "precio_promedio": null,
+      "precio_minimo_formateado": "N/A",
+      "precio_maximo_formateado": "N/A",
+      "precio_promedio_formateado": "N/A",
+      "tiendas_disponibles": 0,
+      "tiendas_agotadas": 2,
+      "total_tiendas": 2
+    }
+  ]
+}

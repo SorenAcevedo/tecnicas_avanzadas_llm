@@ -8,12 +8,10 @@ from pydantic_settings import BaseSettings
 class AppSettings(BaseSettings):
     LOG_LEVEL: str = "DEBUG"
     OLLAMA_API_URL: str = "http://localhost:11434"
-    OPENAI_API_KEY: str = "your_openai_api_key_here"
-    GEMINI_API_KEY: str = "your_gemini_api_key_here"
-
-    class Config:
-        env_file = ".env"
-        env_file_encoding = "utf-8"
+    DEFAULT_COLLECTION: str = "colgate_palmolive_kb_gemini_full"
+    VECTOR_DB_PATH: str = "./data/vector_db"
+    GOOGLE_API_KEY: str
+    DB_URI: str
 
 
 settings = AppSettings()

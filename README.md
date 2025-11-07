@@ -546,6 +546,37 @@ flowchart LR
   H --> I[Response Generation]
   I --> J[Streamlit Interface]
 ```
+### Pipeline Futuro (con RAG + Agent)
+
+```mermaid
+flowchart LR
+    %% === Fase 1: Ingesta y Embeddings ===
+    subgraph Ingesta_Offline["Fase 1: Ingesta y Embeddings (Offline)"]
+        A[Ingesta desde data/processed] --> B[Chunking adaptativo con metadatos]
+        B --> C[Embeddings Gemini: models/text-embedding-004]
+        C --> D[Almacenamiento en Chroma: Vector DB persistente]
+    end
+
+    %% === Fase 2: Interacción del usuario / RAG + Agente ===
+    subgraph Interaccion_Online["Fase 2: Interacción del usuario (Online)"]
+        L[Interfaz de usuario en Streamlit] --> F[Agente LangChain]
+        F --> G[Decisión: ¿usar herramienta o generar directamente?]
+        G --> H[Tool: search_knowledge_base - RAG]
+        H --> I[Generación de respuesta con grounding factual]
+        I --> J[Persistencia en Postgres: memoria por thread_id]
+        J --> K[Trimming del historial conversacional]
+    end
+
+    %% === Conexión entre fases ===
+    D -.-> H
+
+    %% === Estilos opcionales ===
+    classDef offline fill:#c7e9ff,stroke:#0077cc,stroke-width:1px;
+    classDef online fill:#d8f5d0,stroke:#228b22,stroke-width:1px;
+    class A,B,C,D offline;
+    class F,G,H,I,J,K,L online;
+
+```
 
 ### 1. Extract (Scraping)
 

@@ -8,6 +8,7 @@ from src.controllers.chatbot_controller import ChatbotController
 from src.config.prompts import PROMPTS
 from src.config.settings import settings
 from src.config.tools import get_tools
+from src.retrieval.vector_store import preload_vector_store
 
 
 def initialize_controller():
@@ -188,6 +189,14 @@ def main():
     st.markdown("---")
     
     # Inicializar componentes
+    # Pre-cargar la colección vectorial una sola vez por sesión de Streamlit
+    if "_kb_preloaded" not in st.session_state:
+        try:
+            preload_vector_store()  # usa colección y ruta por defecto ya fijadas
+        except Exception as e:
+            # No bloquea la UI; se mostrará error al consultar si persiste
+            st.sidebar.warning(f"Vector store no pre-cargado: {e}")
+        st.session_state["_kb_preloaded"] = True
     initialize_chat_history()
     controller = initialize_controller()
     
@@ -199,7 +208,5 @@ def main():
     
     # Manejar entrada del usuario
     handle_user_input(controller)
-
-
 if __name__ == "__main__":
     main()

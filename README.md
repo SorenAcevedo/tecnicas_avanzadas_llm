@@ -14,6 +14,7 @@ Sistema de chatbot inteligente basado en LangChain con arquitectura por capas, m
 - [Características](#características)
 - [Arquitectura](#arquitectura)
 - [Flujo de Datos](#flujo-de-datos)
+- [Tecnologías](#tecnologías)
 - [Requisitos](#requisitos)
 - [Instalación](#instalación)
 - [Configuración](#configuración)
@@ -21,7 +22,7 @@ Sistema de chatbot inteligente basado en LangChain con arquitectura por capas, m
 - [Estructura del Proyecto](#estructura-del-proyecto)
 - [Comandos Make](#comandos-make)
 - [ETL Pipeline](#etl-pipeline)
-- [Tecnologías](#tecnologías)
+- [Referencias](#referencias)
 
 ## ✨ Características
 
@@ -40,78 +41,59 @@ Sistema de chatbot inteligente basado en LangChain con arquitectura por capas, m
 
 El sistema sigue una **Arquitectura por Capas** (Layered Architecture) inspirada en **Clean Architecture**, no MVC tradicional:
 
-```
-┌──────────────────────────────────────────────────────────────┐
-│                    PRESENTATION LAYER                         │
-│  ┌──────────────────────────────────────────────────────┐   │
-│  │  src/views/                                          │   │
-│  │  └─ streamlit_chat_view.py                          │   │
-│  │     • Renderiza interfaz de usuario                 │   │
-│  │     • Captura eventos del usuario                   │   │
-│  │     • Muestra respuestas del chatbot                │   │
-│  └──────────────────┬───────────────────────────────────┘   │
-└─────────────────────┼────────────────────────────────────────┘
-                      │
-                      │ Llama métodos del controlador
-                      ▼
-┌──────────────────────────────────────────────────────────────┐
-│                   APPLICATION LAYER                           │
-│  ┌──────────────────────────────────────────────────────┐   │
-│  │  src/controllers/                                    │   │
-│  │  └─ chatbot_controller.py                           │   │
-│  │     • Coordina flujo de conversación                │   │
-│  │     • Valida inputs del usuario                     │   │
-│  │     • Gestiona sesiones (thread_id)                 │   │
-│  │     • Orquesta operaciones entre capas              │   │
-│  └──────────────────┬───────────────────────────────────┘   │
-└─────────────────────┼────────────────────────────────────────┘
-                      │
-                      │ Usa el modelo de dominio
-                      ▼
-┌──────────────────────────────────────────────────────────────┐
-│                      DOMAIN LAYER                             │
-│  ┌──────────────────────────────────────────────────────┐   │
-│  │  src/models/                                         │   │
-│  │  ├─ chatbot_model.py                                │   │
-│  │  │   • Lógica del agente conversacional             │   │
-│  │  │   • Configuración del LLM                        │   │
-│  │  │   • Trimming de mensajes (middleware)            │   │
-│  │  │   • Invocación del agente con tools              │   │
-│  │  │                                                   │   │
-│  │  ├─ memory/                                          │   │
-│  │  │   └─ short_term_memory.py                        │   │
-│  │  │       • Gestión de checkpointer PostgreSQL       │   │
-│  │  │       • Generación de thread_id único            │   │
-│  │  │       • Persistencia de estado de conversación   │   │
-│  │  │                                                   │   │
-│  │  ├─ retrieval/ (en desarrollo)                      │   │
-│  │  │   ├─ vector_store.py                             │   │
-│  │  │   ├─ embeddings.py                               │   │
-│  │  │   └─ retriever.py                                │   │
-│  │  │       • Base de datos vectorial (Chroma)         │   │
-│  │  │       • Búsqueda por similitud semántica         │   │
-│  │  │       • Generación de embeddings                 │   │
-│  │  │                                                   │   │
-│  │  └─ tools/                                           │   │
-│  │      ├─ product_tools.py                            │   │
-│  │      ├─ company_tools.py                            │   │
-│  │      ├─ rag_tools.py (en desarrollo)                │   │
-│  │      └─ registry.py                                 │   │
-│  │          • Herramientas del agente                  │   │
-│  │          • Funciones ejecutables por el LLM         │   │
-│  └──────────────────────────────────────────────────────┘   │
-└──────────────────────────────────────────────────────────────┘
-                      │
-                      │ Lee configuración
-                      ▼
-┌──────────────────────────────────────────────────────────────┐
-│                   CONFIGURATION LAYER                         │
-│  ┌──────────────────────────────────────────────────────┐   │
-│  │  src/config/                                         │   │
-│  │  ├─ settings.py      (Variables de entorno)         │   │
-│  │  └─ prompts.py       (System prompts)               │   │
-│  └──────────────────────────────────────────────────────┘   │
-└──────────────────────────────────────────────────────────────┘
+```mermaid
+graph TB
+    subgraph PRESENTATION["🎨 PRESENTATION LAYER"]
+        VIEW["src/views/<br/>streamlit_chat_view.py"]
+        VIEW_DESC["• Renderiza interfaz de usuario<br/>• Captura eventos del usuario<br/>• Muestra respuestas del chatbot"]
+    end
+
+    subgraph APPLICATION["⚙️ APPLICATION LAYER"]
+        CTRL["src/controllers/<br/>chatbot_controller.py"]
+        CTRL_DESC["• Coordina flujo de conversación<br/>• Valida inputs del usuario<br/>• Gestiona sesiones thread_id<br/>• Orquesta operaciones entre capas"]
+    end
+
+    subgraph DOMAIN["🧠 DOMAIN LAYER"]
+        MODEL["src/models/<br/>chatbot_model.py"]
+        MODEL_DESC["• Lógica del agente conversacional<br/>• Configuración del LLM<br/>• Trimming de mensajes middleware<br/>• Invocación del agente con tools"]
+        
+        MEMORY["src/memory/<br/>short_term_memory.py"]
+        MEMORY_DESC["• Checkpointer PostgreSQL<br/>• Generación de thread_id único<br/>• Persistencia de estado"]
+        
+        RETRIEVAL["src/retrieval/<br/>vector_store.py, embeddings.py"]
+        RETRIEVAL_DESC["• Base de datos vectorial Chroma<br/>• Búsqueda por similitud semántica<br/>• Generación de embeddings"]
+        
+        TOOLS["src/tools/<br/>faq_tool.py, retrieve_tool.py"]
+        TOOLS_DESC["• Herramientas del agente<br/>• Funciones ejecutables por el LLM"]
+    end
+
+    subgraph CONFIG["📝 CONFIGURATION LAYER"]
+        SETTINGS["src/config/<br/>settings.py, prompts.py"]
+        SETTINGS_DESC["• Variables de entorno<br/>• System prompts del chatbot"]
+    end
+
+    subgraph INFRA["💾 INFRASTRUCTURE"]
+        POSTGRES[("PostgreSQL<br/>Checkpoints")]
+        CHROMA[("ChromaDB<br/>Vector Store")]
+        LLM["LLM APIs<br/>OpenAI/Gemini/Ollama"]
+    end
+
+    VIEW -->|send_message| CTRL
+    CTRL -->|invoke| MODEL
+    MODEL -->|usa| MEMORY
+    MODEL -->|usa| TOOLS
+    MODEL -->|usa| RETRIEVAL
+    MEMORY -->|persiste| POSTGRES
+    RETRIEVAL -->|consulta| CHROMA
+    MODEL -->|llama| LLM
+    MODEL -->|lee| SETTINGS
+    CTRL -->|lee| SETTINGS
+
+    style PRESENTATION fill:#e1f5ff
+    style APPLICATION fill:#fff3e0
+    style DOMAIN fill:#f3e5f5
+    style CONFIG fill:#e8f5e9
+    style INFRA fill:#fce4ec
 ```
 
 ### Responsabilidades por Capa
@@ -155,123 +137,14 @@ El sistema sigue una **Arquitectura por Capas** (Layered Architecture) inspirada
 - **Testability**: Cada capa es testeable independientemente
 - **Independence of Frameworks**: El dominio no depende de Streamlit
 
+##  Requisitos
 
-## � Flujo de Datos
-
-### **Usuario envía un mensaje**
-
-```
-1. USER
-   └─> Escribe mensaje en el chat de Streamlit
-
-2. PRESENTATION LAYER (views/streamlit_chat_view.py)
-   ├─> Captura input con st.chat_input()
-   ├─> Agrega mensaje al historial local de la UI
-   └─> Llama: controller.send_message(messages)
-
-3. APPLICATION LAYER (controllers/chatbot_controller.py)
-   ├─> Valida formato de mensajes
-   ├─> Obtiene thread_id de la sesión
-   └─> Llama: model.invoke(messages, thread_id)
-
-4. DOMAIN LAYER (models/chatbot_model.py)
-   ├─> Construye config con thread_id
-   ├─> Aplica middleware de trimming (mantiene últimos 4 mensajes)
-   ├─> Invoca agent.invoke() con tools disponibles
-   └─> Agent decide si usar herramientas:
-       ├─> search_knowledge_base() → retrieval/retriever.py (en desarrollo)
-       │   └─> Vector DB busca documentos relevantes
-       ├─> get_product_info() → tools/product_tools.py
-       ├─> get_store_hours() → tools/company_tools.py
-       └─> get_company_info() → tools/company_tools.py
-
-5. INFRASTRUCTURE (memory/)
-   ├─> PostgreSQL persiste checkpoint de la conversación
-   └─> Guarda estado en tabla 'checkpoints'
-
-6. RESPONSE FLOW (vuelta)
-   Model → Controller → View
-   └─> Respuesta se renderiza en chat con st.chat_message()
-```
-
-### **Actualización de configuración (temperatura/tokens)**
-
-```
-1. USER
-   └─> Ajusta sliders en sidebar
-   └─> Click en "Aplicar Cambios"
-
-2. VIEW (streamlit_chat_view.py)
-   └─> Llama: controller.update_model_config(temperature, max_tokens)
-
-3. CONTROLLER (chatbot_controller.py)
-   └─> Llama: model.update_model_config(temperature, max_tokens)
-
-4. MODEL (chatbot_model.py)
-   ├─> Valida rangos (temperature: 0.0-2.0, max_tokens > 0)
-   ├─> Actualiza configuración interna
-   ├─> Recrea instancia del LLM con nuevos parámetros
-   └─> Recrea agente con el nuevo modelo
-   
-   • NO reinstancia el ChatbotModel completo
-   • Mantiene la misma conexión a PostgreSQL
-   • Preserva el thread_id de la sesión
-```
-
-### **Búsqueda RAG** (en desarrollo)
-
-```
-1. USER: "¿Qué productos tienen protección antibacterial?"
-
-2. AGENT (LangChain)
-   └─> Decide usar tool: search_knowledge_base()
-
-3. TOOL (tools/rag_tools.py)
-   └─> Llama: retriever.retrieve(query)
-
-4. RETRIEVAL LAYER (retrieval/)
-   ├─> embeddings.py: Genera embedding del query
-   ├─> vector_store.py: Busca en Chroma por similitud
-   └─> retriever.py: Formatea documentos encontrados
-
-5. AGENT
-   ├─> Recibe contexto relevante de la BD vectorial
-   └─> Genera respuesta basada en contexto + LLM
-
-6. RESPONSE → Controller → View → User
-```
-
-## 🔧 Tecnologías
-
-### Core
-- **Python 3.11+**: Lenguaje principal
-- **LangChain**: Framework para LLMs y agentes
-- **LangGraph**: Orquestación de grafos de agentes
-- **Streamlit**: Interfaz de usuario
-
-### LLMs
-- **OpenAI GPT**: Modelos de lenguaje
-- **Google Gemini**: Modelo alternativo
-- **Ollama**: Modelos locales
-
-### Persistencia
-- **PostgreSQL**: Memoria de conversaciones (checkpoints)
-- **Chroma**: Base de datos vectorial para RAG (en desarrollo)
-- **Docker**: Containerización de PostgreSQL
-
-### Herramientas
-- **uv**: Gestor de paquetes Python ultrarrápido
-- **Make**: Automatización de comandos
-- **BeautifulSoup/Selenium**: Web scraping
-- **Pydantic**: Validación de datos
-
-
-## � Requisitos
-
-- Python 3.11+
+- Python 3.12+
 - Docker (para PostgreSQL)
 - uv (gestor de paquetes ultrarrápido)
 - Make (opcional, para comandos automatizados)
+
+## 🔧 Tecnologías
 
 ## 🚀 Instalación
 
@@ -323,9 +196,7 @@ LOG_LEVEL=INFO
 
 ## ⚙️ Configuración
 
-### Configurar el system prompt
-
-Editar `src/config/prompts.py`:
+Editar `src/config/prompts.py` para personalizar el system prompt:
 
 ```python
 PROMPTS = {
@@ -335,15 +206,6 @@ PROMPTS = {
 }
 ```
 
-### Configurar herramientas (tools)
-
-Las herramientas se definen en `src/models/tools/`:
-
-- `product_tools.py`: Información de productos
-- `company_tools.py`: Información corporativa (horarios, contacto)
-- `rag_tools.py`: Búsqueda en base de conocimiento (en desarrollo)
-- `registry.py`: Registro de todas las herramientas
-
 ## 🎮 Uso
 
 ### Iniciar la aplicación
@@ -352,10 +214,7 @@ Las herramientas se definen en `src/models/tools/`:
 # Asegurarse que PostgreSQL está corriendo
 make db-restart
 
-# Ejecutar la aplicación Streamlit
-uv run streamlit run main.py
-
-# O usar el comando make
+# Usar el comando make
 make start
 ```
 
@@ -402,9 +261,8 @@ tecnicas_avanzadas_llm/
 │   │   │
 │   │   └── tools/                # Herramientas del agente
 │   │       ├── __init__.py
-│   │       ├── product_tools.py
-│   │       ├── company_tools.py
-│   │       ├── rag_tools.py      # En desarrollo
+│   │       ├── faq_tool.py
+│   │       ├── retrieve_tool.py
 │   │       └── registry.py
 │   │
 │   ├── controllers/
@@ -458,7 +316,7 @@ tecnicas_avanzadas_llm/
 └── docs/                         # Documentación adicional
 ```
 
-## �️ Comandos Make
+## 🛠️ Comandos Make
 
 ### Base de datos (PostgreSQL)
 
@@ -516,172 +374,28 @@ make chunk
 make start
 ```
 
-## 📊 ETL Pipeline
+## Tecnologías
 
-El sistema incluye un pipeline ETL completo para recolectar y procesar información:
+### Core
+- **Python 3.12+**: Lenguaje principal
+- **LangChain & LangGraph**: Framework para LLMs y agentes
+- **Streamlit**: Interfaz de usuario
 
-### Pipeline Actual (sin RAG)
+### LLMs
+- **OpenAI GPT**: Modelos de lenguaje
+- **Google Gemini**: Modelo alternativo
+- **Ollama**: Modelos locales
 
-```mermaid
-flowchart LR
-  A[Web Scraping] --> B[Raw Data Storage]
-  B --> C[Data Cleaning & Preprocessing]
-  C --> D[Text Conversion]
-  D --> E[Chatbot Tools]
-  E --> F[Response Generation]
-  F --> G[Streamlit Interface]
-```
+### Persistencia
+- **PostgreSQL**: Memoria de conversaciones (checkpoints)
+- **Chroma**: Base de datos vectorial para RAG
+- **Docker**: Containerización de servicios
 
-### Pipeline Futuro (con RAG)
-
-```mermaid
-flowchart LR
-  A[Web Scraping] --> B[Raw Data Storage]
-  B --> C[Data Cleaning]
-  C --> D[Text Chunking]
-  D --> E[Embedding Generation]
-  E --> F[Vector DB Storage]
-  F --> G[RAG Retrieval]
-  G --> H[LLM Processing]
-  H --> I[Response Generation]
-  I --> J[Streamlit Interface]
-```
-### Pipeline Futuro (con RAG + Agent)
-
-```mermaid
-flowchart LR
-    %% === Fase 1: Ingesta y Embeddings ===
-    subgraph Ingesta_Offline["Fase 1: Ingesta y Embeddings (Offline)"]
-        A[Ingesta desde data/processed] --> B[Chunking adaptativo con metadatos]
-        B --> C[Embeddings Gemini: models/text-embedding-004]
-        C --> D[Almacenamiento en Chroma: Vector DB persistente]
-    end
-
-    %% === Fase 2: Interacción del usuario / RAG + Agente ===
-    subgraph Interaccion_Online["Fase 2: Interacción del usuario (Online)"]
-        L[Interfaz de usuario en Streamlit] --> F[Agente LangChain]
-        F --> G[Decisión: ¿usar herramienta o generar directamente?]
-        G --> H[Tool: search_knowledge_base - RAG]
-        H --> I[Generación de respuesta con grounding factual]
-        I --> J[Persistencia en Postgres: memoria por thread_id]
-        J --> K[Trimming del historial conversacional]
-    end
-
-    %% === Conexión entre fases ===
-    D -.-> H
-
-    %% === Estilos opcionales ===
-    classDef offline fill:#c7e9ff,stroke:#0077cc,stroke-width:1px;
-    classDef online fill:#d8f5d0,stroke:#228b22,stroke-width:1px;
-    class A,B,C,D offline;
-    class F,G,H,I,J,K,L online;
-
-```
-
-### 1. Extract (Scraping)
-
-```powershell
-# Scraping de productos Colgate y Palmolive
-make scrape-all
-```
-
-**Extrae información de:**
-- Productos Colgate (nombre, descripción, precio)
-- Productos Palmolive (nombre, descripción, precio)
-- Especificaciones técnicas
-- Disponibilidad
-
-**Archivos generados:**
-- `data/raw/productos_colgate.csv`
-- `data/raw/productos_palmolive.csv`
-
-### 2. Transform (Procesamiento)
-
-```powershell
-# Preprocesar datos crudos
-make preprocess
-
-# Procesar archivos de texto plano
-make txt-preprocess
-```
-
-**Procesamiento incluye:**
-- Limpieza de texto (HTML, caracteres especiales)
-- Normalización de formato
-- Extracción de metadata
-- Conversión a texto plano legible
-
-**Archivos generados:**
-- `data/processed/context_colgate.txt`
-- `data/processed/context_palmolive.txt`
-- `data/processed/company_context.txt`
-
-### 3. Load (Chunking y Vectorización) - En Desarrollo
-
-```powershell
-# Crear chunks y cargar en vector DB
-make chunk
-```
-
-**Proceso (futuro):**
-- Divide documentos en chunks semánticos
-- Genera embeddings con OpenAI/Google
-- Almacena en Chroma (base de datos vectorial)
-- Habilita búsqueda semántica para RAG
-
-## � Notas de Desarrollo
-
-### Agregar nuevas herramientas (tools)
-
-1. Crear función en `src/tools/`:
-
-```python
-# src/models/tools/custom_tools.py
-def my_custom_tool(param: str) -> str:
-    """Descripción de la herramienta."""
-    # Implementación
-    return result
-```
-
-2. Registrar en `src/tools/registry.py`:
-
-```python
-from src.models.tools.custom_tools import my_custom_tool
-
-def get_tools():
-    tools = [
-        # ...existing tools...
-        Tool(
-            name="my_custom_tool",
-            func=my_custom_tool,
-            description="Descripción clara para que el agente la use",
-        ),
-    ]
-    return tools
-```
-
-### Modificar configuración del modelo
-
-Editar valores por defecto en `src/views/streamlit_chat_view.py`:
-
-```python
-def initialize_controller():
-    controller = ChatbotController(
-        model_name="google_genai:gemini-2.5-flash",
-        temperature=0.1,    # Modificar aquí
-        max_tokens=1000,    # Modificar aquí
-        system_prompt=PROMPTS["colgate_palmolive_system"],
-    )
-```
-
-### Cambiar base de datos vectorial (futuro)
-
-El sistema usará Chroma por defecto. Para cambiar a Pinecone o Weaviate:
-
-1. Instalar librería: `uv add pinecone-client`
-2. Modificar `src/retrieval/vector_store.py`
-3. Actualizar configuración en `src/config/settings.py`
-
+### Herramientas
+- **uv**: Gestor de paquetes Python ultrarrápido
+- **Make**: Automatización de comandos
+- **BeautifulSoup/Selenium**: Web scraping
+- **Pydantic**: Validación de datos
 
 ## 🤝 Contribuciones
 
@@ -707,15 +421,6 @@ Las contribuciones son bienvenidas. Por favor:
 
 MIT License - Ver archivo LICENSE para más detalles.
 
-## 👥 Autores
-
-- Juan Jose Bonilla - 22502052
-- Yan Carlos Cuaran Imbacuan - 22502591
-- Nicolas Lozano Mazuera - 22500565
-- Soren Acevedo - 22500566
-
-Universidad Autónoma de Occidente
-
 ---
 
-**Proyecto académico** - Técnicas Avanzadas de LLM - 2025
+**Universidad Autónoma de Occidente** - Técnicas Avanzadas de LLM - 2025

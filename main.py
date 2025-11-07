@@ -19,7 +19,7 @@ def run_streamlit():
     """
     # Ruta al archivo de la vista
     view_path = (
-        Path(__file__).parent / "src" / "views" / "streamlit" / "streamlit_chat_view.py"
+        Path(__file__).parent / "src" / "views" / "streamlit" / "streamlit_threaded_chat_view.py"
     )
 
     # Comando para ejecutar Streamlit

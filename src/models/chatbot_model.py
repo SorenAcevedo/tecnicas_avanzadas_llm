@@ -56,7 +56,9 @@ class ChatbotModel:
             timeout=timeout,
         )
         print("DEBUG: Chat model initialized.")
-        self.tools = []
+        # Asignar las herramientas que vienen del constructor. Si no se pasan, usar lista vacía.
+        # IMPORTANTE: Estas herramientas serán enviadas a create_agent más abajo.
+        self.tools = tools or []
         self.system_prompt = system_prompt
         print("DEBUG: Creating checkpointer context...")
         self._checkpointer_cm = create_checkpointer_context()

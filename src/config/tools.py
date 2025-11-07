@@ -62,9 +62,9 @@ def obtener_contacto(tipo: str = "general") -> str:
 
 # Lista de todas las herramientas disponibles
 AVAILABLE_TOOLS = [
-    buscar_producto,
-    obtener_horarios,
-    obtener_contacto,
+    #buscar_producto,
+    #obtener_horarios,
+    #obtener_contacto,
     get_faq_answer
 ]
 

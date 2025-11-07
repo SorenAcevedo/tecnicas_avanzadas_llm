@@ -57,6 +57,13 @@ def handle_user_input(controller: ChatbotController, messages: list):
         controller: Instancia del ChatbotController.
     """
     if prompt := st.chat_input("Escribe tu mensaje..."):
+        if st.session_state.new_chat:
+            new_thread_name = prompt[:30] # Truncate to 30 chars
+            st.session_state.threads[new_thread_name] = []
+            st.session_state.active_thread = new_thread_name
+            st.session_state.new_chat = False
+            st.rerun()
+
         # Agregar mensaje del usuario al historial
         user_message = {"role": "user", "content": prompt}
         messages.append(user_message)
@@ -78,7 +85,15 @@ def handle_user_input(controller: ChatbotController, messages: list):
                     response = controller.send_message(langchain_messages)
                     
                     # Extraer el contenido de la respuesta
-                    assistant_content = response.get("messages", [])[-1].content
+                    if isinstance(response, list) and len(response) > 0 and isinstance(response[0], dict):
+                        # Respuesta de Gemini
+                        if 'text' in response[0]:
+                            assistant_content = response[0]['text']
+                        else:
+                            assistant_content = str(response)
+                    else:
+                        # Respuesta normal de LangChain
+                        assistant_content = response.get("messages", [])[-1].content
                     
                     # Mostrar respuesta
                     st.markdown(assistant_content)
@@ -141,19 +156,14 @@ def render_model_config_sidebar(controller: ChatbotController):
         
         st.markdown("---")
         st.markdown("### Estado de la Sesión")
-        st.markdown(f"**Mensajes:** {len(st.session_state.messages)}")
+        if st.session_state.active_thread:
+            st.markdown(f"**Mensajes:** {len(st.session_state.threads[st.session_state.active_thread])}")
         st.markdown(f"**Thread ID:** `{st.session_state.controller.thread_id[:8]}...`")
         
         st.markdown("---")
         
-        if st.button("Limpiar Chat", use_container_width=True):
-            st.session_state.messages = []
-            st.rerun()
-        
-        if st.button("Nueva Conversación", use_container_width=True):
-            st.session_state.messages = []
-            if "controller" in st.session_state:
-                del st.session_state.controller
+        if st.session_state.active_thread and st.button("Limpiar Hilo Actual", use_container_width=True):
+            st.session_state.threads[st.session_state.active_thread] = []
             st.rerun()
         
         st.markdown("---")
@@ -174,11 +184,11 @@ def initialize_threading_state():
     Inicializa el estado de la sesión para la gestión de hilos.
     """
     if "threads" not in st.session_state:
-        # Usamos un diccionario para almacenar los hilos y sus mensajes
-        st.session_state.threads = {"General": []}
+        st.session_state.threads = {}
     if "active_thread" not in st.session_state:
-        # El hilo activo por defecto será "General"
-        st.session_state.active_thread = "General"
+        st.session_state.active_thread = None
+    if "new_chat" not in st.session_state:
+        st.session_state.new_chat = True
 
 
 def render_thread_sidebar():
@@ -187,78 +197,31 @@ def render_thread_sidebar():
     """
     st.sidebar.title("Conversaciones")
 
-    # Selector de hilos
-    thread_names = list(st.session_state.threads.keys())
-    st.session_state.active_thread = st.sidebar.selectbox(
-        "Selecciona un hilo",
-        options=thread_names,
-        index=thread_names.index(st.session_state.active_thread)
-    )
+    if st.sidebar.button("Nueva Conversación", use_container_width=True):
+        st.session_state.new_chat = True
+        st.session_state.active_thread = None
+        st.rerun()
 
-    # Crear nuevo hilo
-    new_thread_name = st.sidebar.text_input("Nombre del nuevo hilo")
-    if st.sidebar.button("Crear Hilo"):
-        if new_thread_name and new_thread_name not in st.session_state.threads:
-            st.session_state.threads[new_thread_name] = []
-            st.session_state.active_thread = new_thread_name
-            st.rerun()
-        else:
-            st.sidebar.warning("El nombre del hilo no puede estar vacío o ya existe.")
+    st.sidebar.markdown("---")
 
-    # Eliminar hilo actual
-    if st.sidebar.button("Eliminar Hilo Actual"):
-        if st.session_state.active_thread != "General":
-            del st.session_state.threads[st.session_state.active_thread]
-            st.session_state.active_thread = "General"
-            st.rerun()
-        else:
-            st.sidebar.warning("No se puede eliminar el hilo 'General'.")
+    # Botones para cada hilo
+    for thread_name in list(st.session_state.threads.keys()):
+        col1, col2 = st.sidebar.columns([0.8, 0.2])
+        
+        with col1:
+            if st.button(thread_name, key=f"thread_button_{thread_name}", use_container_width=True):
+                st.session_state.active_thread = thread_name
+                st.session_state.new_chat = False
+                st.rerun()
 
-
-def initialize_threading_state():
-    """
-    Inicializa el estado de la sesión para la gestión de hilos.
-    """
-    if "threads" not in st.session_state:
-        # Usamos un diccionario para almacenar los hilos y sus mensajes
-        st.session_state.threads = {"General": []}
-    if "active_thread" not in st.session_state:
-        # El hilo activo por defecto será "General"
-        st.session_state.active_thread = "General"
-
-
-def render_thread_sidebar():
-    """
-    Renderiza la interfaz de gestión de hilos en la barra lateral.
-    """
-    st.sidebar.title("Conversaciones")
-
-    # Selector de hilos
-    thread_names = list(st.session_state.threads.keys())
-    st.session_state.active_thread = st.sidebar.selectbox(
-        "Selecciona un hilo",
-        options=thread_names,
-        index=thread_names.index(st.session_state.active_thread)
-    )
-
-    # Crear nuevo hilo
-    new_thread_name = st.sidebar.text_input("Nombre del nuevo hilo")
-    if st.sidebar.button("Crear Hilo"):
-        if new_thread_name and new_thread_name not in st.session_state.threads:
-            st.session_state.threads[new_thread_name] = []
-            st.session_state.active_thread = new_thread_name
-            st.rerun()
-        else:
-            st.sidebar.warning("El nombre del hilo no puede estar vacío o ya existe.")
-
-    # Eliminar hilo actual
-    if st.sidebar.button("Eliminar Hilo Actual"):
-        if st.session_state.active_thread != "General":
-            del st.session_state.threads[st.session_state.active_thread]
-            st.session_state.active_thread = "General"
-            st.rerun()
-        else:
-            st.sidebar.warning("No se puede eliminar el hilo 'General'.")
+        with col2:
+            with st.popover("", use_container_width=True):
+                if st.button("Eliminar", key=f"delete_button_{thread_name}", use_container_width=True):
+                    del st.session_state.threads[thread_name]
+                    if st.session_state.active_thread == thread_name:
+                        st.session_state.active_thread = None
+                        st.session_state.new_chat = True
+                    st.rerun()
 
 
 def main():
@@ -280,7 +243,11 @@ def main():
     
     # Inicializar componentes
     initialize_threading_state() # Nueva función para hilos
-    active_thread_messages = st.session_state.threads[st.session_state.active_thread]
+    
+    if st.session_state.active_thread is None:
+        active_thread_messages = []
+    else:
+        active_thread_messages = st.session_state.threads[st.session_state.active_thread]
     
     controller = initialize_controller() # El controlador se inicializa una vez por sesión
     

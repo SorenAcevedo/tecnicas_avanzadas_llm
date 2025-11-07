@@ -63,7 +63,7 @@ graph TB
         RETRIEVAL["src/retrieval/<br/>vector_store.py, embeddings.py"]
         RETRIEVAL_DESC["• Base de datos vectorial Chroma<br/>• Búsqueda por similitud semántica<br/>• Generación de embeddings"]
         
-        TOOLS["src/tools/<br/>faq_tool.py, retrieve_tool.py"]
+        TOOLS["src/tools/<br/>faq_tool.py, retrieve_tool.py, price_tool.py"]
         TOOLS_DESC["• Herramientas del agente<br/>• Funciones ejecutables por el LLM"]
     end
 
@@ -263,6 +263,7 @@ tecnicas_avanzadas_llm/
 │   │       ├── __init__.py
 │   │       ├── faq_tool.py
 │   │       ├── retrieve_tool.py
+│   │       ├── price_tool.py
 │   │       └── registry.py
 │   │
 │   ├── controllers/
@@ -291,7 +292,8 @@ tecnicas_avanzadas_llm/
 │   │   ├── preprocessing.py
 │   │   ├── plain_products_processing.py
 │   │   ├── plain_youtube_processing.py
-│   │   └── plain_company_processing.py
+│   │   ├── plain_company_processing.py
+│   │   └── price_processing.py   # Procesamiento de precios
 │   │
 │   └── load/                     # Carga de datos (en desarrollo)
 │
@@ -310,7 +312,9 @@ tecnicas_avanzadas_llm/
 │   │
 │   ├── vector_db/                # Base de datos vectorial (en desarrollo)
 │   └── qa/
-│       └── qa_colgate_palmolive.csv
+│       ├── qa_colgate_palmolive.csv
+│       ├── faq.json
+│       └── prices.json           # Precios consolidados de productos
 │
 ├── tests/                        # Tests unitarios (en desarrollo)
 └── docs/                         # Documentación adicional
@@ -365,6 +369,59 @@ make txt-preprocess            # Procesar todos los archivos txt
 
 # Chunking de documentos para vector DB (en desarrollo)
 make chunk
+```
+
+### Herramientas del Agente
+
+El chatbot cuenta con herramientas especializadas que el LLM puede invocar automáticamente:
+
+#### 1. **FAQ Tool** (`faq_tool.py`)
+Busca respuestas en preguntas frecuentes usando coincidencia aproximada.
+
+```python
+get_faq_answer(query: str) -> str
+```
+
+**Ejemplo:**
+- Usuario: "¿Cuál es el horario de atención?"
+- Tool: Busca en `data/qa/faq.json` y retorna la respuesta más similar
+
+#### 2. **Retrieve Tool** (`retrieve_tool.py`)
+Búsqueda semántica en la base de conocimiento usando RAG.
+
+```python
+search_knowledge_base(query: str) -> str
+```
+
+**Ejemplo:**
+- Usuario: "Cuéntame sobre los productos de blanqueamiento"
+- Tool: Busca en ChromaDB y retorna información relevante
+
+#### 3. **Price Tool** (`price_tool.py`)
+Consulta precios de productos Colgate y Palmolive en diferentes tiendas.
+
+```python
+get_product_prices(query: str, tienda: Optional[str] = None) -> str
+```
+
+**Características:**
+- Búsqueda fuzzy de productos por nombre
+- Comparación de precios entre tiendas
+- Información de disponibilidad
+- Identificación automática de mejor oferta
+- Filtrado por tienda específica
+
+**Ejemplos:**
+- Usuario: "¿Cuánto cuesta la crema dental Colgate Total?"
+- Tool: Retorna precios en todas las tiendas disponibles
+- Usuario: "¿Cuál es el precio en Éxito del jabón Palmolive?"
+- Tool: Filtra y muestra solo precios de ExitoCO
+
+**Tiendas soportadas:** ExitoCO, JumboCO, OlimpicaCO, FarmatodoCO, LaRebajaVirtualCO, MerqueoCO
+
+**Procesamiento de datos:** Para actualizar precios, ejecutar:
+```powershell
+python etl/transform/price_processing.py
 ```
 
 ### Iniciar aplicación

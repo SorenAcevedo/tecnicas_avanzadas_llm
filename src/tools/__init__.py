@@ -1,7 +1,8 @@
 from src.tools.faq_tool import get_faq_answer
 from src.tools.retrieve_tool import search_knowledge_base
+from src.tools.price_tool import get_product_prices
 
-AVAILABLE_TOOLS = [get_faq_answer, search_knowledge_base]
+AVAILABLE_TOOLS = [get_faq_answer, search_knowledge_base, get_product_prices]
 
 
 def get_tools():

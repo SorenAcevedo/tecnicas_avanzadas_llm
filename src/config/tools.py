@@ -5,6 +5,7 @@ Define herramientas personalizadas que el agente puede usar.
 
 from langchain.tools import tool
 from typing import Optional
+from src.tools.faq_tool import get_faq_answer
 
 
 @tool
@@ -61,9 +62,10 @@ def obtener_contacto(tipo: str = "general") -> str:
 
 # Lista de todas las herramientas disponibles
 AVAILABLE_TOOLS = [
-    buscar_producto,
-    obtener_horarios,
-    obtener_contacto,
+    #buscar_producto,
+    #obtener_horarios,
+    #obtener_contacto,
+    get_faq_answer
 ]
 
 

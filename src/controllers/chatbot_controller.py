@@ -22,7 +22,15 @@ class ChatbotController:
         Returns:
             dict: Respuesta generada por el agente.
         """
-        return self.model.invoke(messages, thread_id=self.thread_id)
+        response = self.model.invoke(messages, thread_id=self.thread_id)
+        
+        # Si la respuesta es una lista y contiene el formato de Gemini
+        if isinstance(response, list) and len(response) > 0 and isinstance(response[0], dict):
+            if 'text' in response[0]:
+                return {"messages": [{"content": response[0]['text']}]}
+        
+        # Si es una respuesta normal de LangChain
+        return response
     
     def update_model_config(self, temperature: float = None, max_tokens: int = None) -> None:
         """

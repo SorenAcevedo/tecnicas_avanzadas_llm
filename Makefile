@@ -23,6 +23,33 @@ txt-preprocess: txt-products-preprocess txt-youtube-preprocess txt-company-prepr
 chunk:
 	uv run python src/processing/chunking.py
 
+# ====================================
+# RAG / Vector Store Commands
+# ====================================
+
+# Instalar y correr ChromaDB localmente
+install-chroma:
+	docker pull chromadb/chroma:latest
+
+# Iniciar ChromaDB con Docker
+chroma-docker:
+	docker run -d --name chroma-db -p 8000:8000 chromadb/chroma:latest
+
+# Ingestar datos procesados al vector store (ChromaDB)
+ingest:
+	uv run python -m src.retrieval.ingest_chroma
+
+# Ingestar con límite de documentos (útil para testing)
+ingest-test:
+	uv run python -m src.retrieval.ingest_chroma --limit 50 --batch 10
+
+# Ingestar con configuración custom
+ingest-custom:
+	uv run python -m src.retrieval.ingest_chroma --batch 48 --sleep 1.5
+
+# Pipeline completo: scraping -> preprocessing -> ingesta
+pipeline: scrape-all txt-preprocess ingest
+
 start: db-restart
 	uv run main.py
 

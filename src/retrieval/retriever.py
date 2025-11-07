@@ -11,13 +11,14 @@ try:
 except Exception:  # fallback if logger isn't available early
     _logger = None
 
-from .vector_store import get_chroma, DEFAULT_COLLECTION, DEFAULT_PERSIST_DIR
-
+from .vector_store import get_chroma
+DEFAULT_COLLECTION = 'colgate_palmolive_kb_gemini_full'
+DEFAULT_PERSIST_DIR: str = "./data/vector_db"
 
 def search(
     query: str,
     top_k: int = 4,
-    filter_type: Optional[str] = None,  # "product" | "company" | None
+    filter_type: Optional[str] = None,
 ) -> List[Dict]:
     """Search the Chroma store, returning metadata + text for top results.
 

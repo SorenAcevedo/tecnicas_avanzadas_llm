@@ -9,11 +9,9 @@ from typing import Optional, Tuple, Dict
 
 from langchain_chroma import Chroma
 
+from src.config.settings import settings
 from .embeddings import get_embeddings
 
-
-DEFAULT_COLLECTION = os.getenv("VECTOR_DB_COLLECTION", "colgate_palmolive_kb_gemini_full")
-DEFAULT_PERSIST_DIR = os.getenv("VECTOR_DB_PATH", "./data/vector_db")
 
 # Cachés en memoria del proceso para evitar recrear objetos por consulta
 _EMBEDDINGS_SINGLETON = None
@@ -27,7 +25,9 @@ def _get_embeddings_cached():
     return _EMBEDDINGS_SINGLETON
 
 
-def get_chroma(collection: Optional[str] = None, persist_dir: Optional[str] = None) -> Chroma:
+def get_chroma(
+    collection: Optional[str] = None, persist_dir: Optional[str] = None
+) -> Chroma:
     """Open or create a Chroma collection with persistence.
 
     Args:
@@ -49,12 +49,16 @@ def get_chroma(collection: Optional[str] = None, persist_dir: Optional[str] = No
     store = Chroma(
         collection_name=collection,
         embedding_function=embeddings,
-        persist_directory=persist_dir,
+        host="localhost",
+        port=8000,
+        ssl=False
     )
     _CHROMA_CACHE[key] = store
     return store
 
 
-def preload_vector_store(collection: Optional[str] = None, persist_dir: Optional[str] = None) -> None:
+def preload_vector_store(
+    collection: Optional[str] = None, persist_dir: Optional[str] = None
+) -> None:
     """Inicializa en memoria el vector store por defecto para esta sesión de proceso."""
     get_chroma(collection=collection, persist_dir=persist_dir)

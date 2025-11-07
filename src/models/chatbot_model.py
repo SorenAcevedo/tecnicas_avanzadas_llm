@@ -48,23 +48,17 @@ class ChatbotModel:
         self.temperature = temperature
         self.max_tokens = max_tokens
         self.timeout = timeout
-        print("DEBUG: Initializing chat model...")
         self.model = init_chat_model(
             model_name,
             temperature=temperature,
             max_tokens=max_tokens,
             timeout=timeout,
         )
-        print("DEBUG: Chat model initialized.")
-        # Asignar las herramientas que vienen del constructor. Si no se pasan, usar lista vacía.
-        # IMPORTANTE: Estas herramientas serán enviadas a create_agent más abajo.
-        self.tools = tools or []
+        self.tools = tools
         self.system_prompt = system_prompt
-        print("DEBUG: Creating checkpointer context...")
         self._checkpointer_cm = create_checkpointer_context()
         self.checkpointer = self._checkpointer_cm.__enter__()
         self.checkpointer.setup()
-        print("DEBUG: Checkpointer context created and setup complete.")
         self.agent = self._create_agent()
 
     @staticmethod
@@ -111,8 +105,8 @@ class ChatbotModel:
             ValueError: Si los parámetros están fuera de los rangos válidos.
         """
         if temperature is not None:
-            if not 0.0 <= temperature <= 2.0:
-                raise ValueError("Temperature must be between 0.0 and 2.0")
+            if not 0.0 <= temperature <= 1.0:
+                raise ValueError("Temperature must be between 0.0 and 1.0")
             self.temperature = temperature
 
         if max_tokens is not None:
@@ -128,7 +122,23 @@ class ChatbotModel:
         )
         self.agent = self._create_agent()
 
-    def invoke(self, messages: list, thread_id: str = None, **kwargs):
+    def _get_text_from_content(self, content) -> str:
+        """
+        Extrae texto plano del contenido del mensaje, manejando listas si es necesario.
+
+        Args:
+            content: Contenido del mensaje (puede ser str o lista de dicts).
+
+        Returns:
+            str: Texto plano extraído del contenido.
+        """
+        if isinstance(content, list):
+            return " ".join(item.get("text", "") for item in content if "text" in item)
+        return content
+
+    def invoke(
+        self, messages: list, thread_id: str = None, output_keys="messages", **kwargs
+    ):
         """
         Invoca el agente con historial de mensajes y un identificador de conversación único.
         Si no se provee thread_id, se genera uno nuevo (uuid4).
@@ -141,10 +151,24 @@ class ChatbotModel:
         Returns:
             dict: Respuesta generada por el agente.
         """
+        print(thread_id, 11111111)
         if thread_id is None:
             thread_id = generate_thread_id()
+
         config = {"configurable": {"thread_id": thread_id}}
-        return self.agent.invoke({"messages": messages}, config)
+
+        response = self.agent.invoke(
+            {"messages": messages}, config, output_keys=output_keys
+        )
+
+        if isinstance(response, dict) and "messages" in response:
+            last_message = response["messages"][-1]
+            return self._get_text_from_content(last_message.content)
+
+        if isinstance(response, list):
+            return self._get_text_from_content(response[-1].content)
+
+        return self._get_text_from_content(response["messages"][-1].content)
 
     def __del__(self):
         """Cerrar el context manager al destruir el objeto."""

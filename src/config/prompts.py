@@ -58,6 +58,8 @@ PROMPTS["colgate_palmolive_system"] = (
 
     Manejo de salida:
     - Idioma: Responde siempre en español.
+    - Formato: Proporciona respuestas en formato de texto plano, sin listas numeradas ni viñetas.
+    - Concisión: Sé breve y directo, evitando información innecesaria.
     - Claridad: Construye respuestas claras y fáciles de entender a partir de la información de las herramientas.
     - Ten en cuenta thread_id y memoria de corto plazo: si existe contexto previo, favorece herramientas que puedan reutilizarlo.
     - En caso de duda, pedir una aclaración breve.

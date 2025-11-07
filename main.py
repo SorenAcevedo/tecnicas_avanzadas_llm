@@ -8,7 +8,8 @@ import subprocess
 from dotenv import load_dotenv
 from pathlib import Path
 
-load_dotenv()
+# Carga variables de entorno desde .env, priorizando sobre variables de sistema
+load_dotenv(override=True)
 
 from src.config.settings import settings
 

@@ -3,7 +3,7 @@ Logger centralizado para el proyecto.
 Provee funciones para obtener loggers configurados según el nivel definido en las variables de entorno.
 """
 import logging
-from src.core.config.settings import settings
+from src.config.settings import settings
 
 def get_logger(name=None):
     """

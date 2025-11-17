@@ -1,51 +1,73 @@
 """
-Script de ejecución para la aplicación Streamlit.
+Módulo principal para iniciar la aplicación FastAPI.
 """
 
-import sys
-import subprocess
+import logging
 
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from dotenv import load_dotenv
-from pathlib import Path
 
-# Carga variables de entorno desde .env, priorizando sobre variables de sistema
-load_dotenv(override=True)
+# Cargar variables de entorno desde .env
+load_dotenv()
 
+# Importación de configuraciones
 from src.config.settings import settings
+from src.config.logger import get_logger
+
+# Importación de rutas
+from src.api.routes import router
+
+# Configuración de logging
+logger = get_logger(__name__)
+
+# Creación de la app
+app = FastAPI(
+    title="Colgate LLM API",
+    description="API para interactuar con el modelo de lenguaje de Colgate utilizando FastAPI.",
+    version="1.0.0",
+)
+
+# Configuración de CORS desde settings
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+# Inclusión de routers
+app.include_router(router, prefix="/api/v1")
 
 
-def run_streamlit():
+@app.get("/")
+async def root():
     """
-    Ejecuta la aplicación Streamlit.
+    Endpoint de salud para verificar que la API está funcionando.
     """
-    # Ruta al archivo de la vista
-    view_path = (
-        Path(__file__).parent / "src" / "views" / "streamlit" / "streamlit_threaded_chat_view.py"
-    )
+    return {"status": "ok", "message": "API running"}
 
-    # Comando para ejecutar Streamlit
-    cmd = [
-        sys.executable,
-        "-m",
-        "streamlit",
-        "run",
-        str(view_path),
-        "--server.port=8501",
-        "--server.headless=true",
-    ]
 
-    print("🚀 Iniciando aplicación Streamlit...")
-    print(f"📂 Archivo: {view_path}")
-    print(f"🌐 URL: http://localhost:8501")
-    print("-" * 50)
-
-    try:
-        subprocess.run(cmd)
-    except KeyboardInterrupt:
-        print("\n👋 Aplicación detenida por el usuario.")
-    except Exception as e:
-        print(f"❌ Error al ejecutar Streamlit: {e}")
+@app.get("/health")
+async def health_check():
+    """
+    Endpoint de comprobación de salud para monitoreo.
+    """
+    return {
+        "status": "ok",
+        "version": app.version,
+        "environment": settings.ENVIRONMENT,
+    }
 
 
 if __name__ == "__main__":
-    run_streamlit()
+    import uvicorn
+
+    # Si se ejecuta directamente, iniciar con uvicorn
+    uvicorn.run(
+        "main:app",
+        host=settings.API_HOST,
+        port=settings.API_PORT,
+        reload=settings.DEBUG,
+    )

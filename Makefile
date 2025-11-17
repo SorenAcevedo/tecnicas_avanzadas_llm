@@ -96,3 +96,9 @@ db-reset: db-remove db-start
 # Verificar estado del contenedor
 db-status:
 	docker ps -a --filter name=uao_llm
+
+# ====================================
+# API / Server Commands
+# ====================================
+api-start:
+	uv run fastapi run main.py --port 8001 

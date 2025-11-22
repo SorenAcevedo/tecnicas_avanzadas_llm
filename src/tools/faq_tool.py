@@ -16,17 +16,52 @@ def string_similarity(a: str, b: str) -> float:
     """
     return SequenceMatcher(None, a, b).ratio()
 
-@tool
-def get_faq_answer(query: str) -> str:
+import json
+from pathlib import Path
+from langchain.tools import tool
+from difflib import SequenceMatcher
+from pydantic import BaseModel, Field
+
+def string_similarity(a: str, b: str) -> float:
     """
-    Busca y recupera la respuesta a una pregunta frecuente del archivo faq.json.
-    Usa coincidencia aproximada para encontrar la pregunta más similar.
+    Calcula la similitud entre dos cadenas usando el algoritmo de ratio de secuencia.
+    
+    Args:
+        a: Primera cadena.
+        b: Segunda cadena.
+        
+    Returns:
+        float: Valor entre 0 y 1 indicando la similitud (1 = idénticas).
+    """
+    return SequenceMatcher(None, a, b).ratio()
+
+class FaqInput(BaseModel):
+    """Esquema de entrada para la herramienta de búsqueda en preguntas frecuentes."""
+    query: str = Field(..., description="La pregunta del usuario que se buscará en las FAQs.")
+
+@tool
+def faq_tool(faq_input: FaqInput) -> str:
+    """
+    Busca y recupera la respuesta a una pregunta frecuente (FAQ) desde un archivo JSON.
+
+    Esta herramienta utiliza un algoritmo de coincidencia aproximada (fuzzy matching) para encontrar
+    la pregunta más similar a la consulta del usuario en el archivo 'data/qa/faq.json'.
+    Es ideal para responder preguntas generales sobre la empresa, productos o políticas.
+
+    El proceso es el siguiente:
+    1. Normaliza la pregunta del usuario (minúsculas, sin puntuación).
+    2. Compara la pregunta normalizada con cada pregunta en el archivo de FAQs.
+    3. Si encuentra una pregunta con un nivel de similitud superior a un umbral (60%),
+       devuelve la respuesta correspondiente junto con el porcentaje de coincidencia.
 
     Args:
-        query (str): La pregunta a buscar.
+        faq_input (FaqInput): Un objeto que contiene la pregunta a buscar.
+            - query (str): La pregunta del usuario.
 
     Returns:
-        str: La respuesta a la pregunta más similar, o un mensaje indicando que no se encontró.
+        str: La respuesta a la pregunta más similar encontrada, con una indicación de la
+             precisión de la coincidencia. Si no se encuentra ninguna coincidencia adecuada,
+             devuelve un mensaje indicando que no se encontró una respuesta.
     """
     faq_path = Path(__file__).parent.parent.parent / "data" / "qa" / "faq.json"
     
@@ -39,7 +74,7 @@ def get_faq_answer(query: str) -> str:
         return "Error: No se pudo leer el archivo faq.json. Asegúrate de que sea un JSON válido."
 
     # Normalizar la query
-    normalized_query = query.lower().strip().replace("¿", "").replace("?", "").replace("¡", "").replace("!", "").replace(".", "")
+    normalized_query = faq_input.query.lower().strip().replace("¿", "").replace("?", "").replace("¡", "").replace("!", "").replace(".", "")
     
     # Encontrar la pregunta más similar
     best_match = None

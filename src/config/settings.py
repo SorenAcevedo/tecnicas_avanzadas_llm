@@ -12,6 +12,17 @@ class AppSettings(BaseSettings):
     VECTOR_DB_PATH: str = "./data/vector_db"
     GOOGLE_API_KEY: str
     DB_URI: str
+    
+    API_HOST: str = "0.0.0.0"
+    API_PORT: int = 8001
+    API_KEY: str
+
+    # SMTP Configuration for sending emails
+    SMTP_SERVER: str
+    SMTP_PORT: int
+    SMTP_USER: str
+    SMTP_PASSWORD: str
+    SMTP_SENDER_EMAIL: str
 
 
 settings = AppSettings()

@@ -13,7 +13,8 @@ Sistema de chatbot inteligente basado en LangChain con arquitectura por capas, m
 
 - [Características](#características)
 - [Arquitectura](#arquitectura)
-- [Flujo de Datos](#flujo-de-datos)
+- [Flujo de Datos - Entrega 3](#flujo-de-datos---entrega-3)
+- [API REST](#api-rest)
 - [Tecnologías](#tecnologías)
 - [Requisitos](#requisitos)
 - [Instalación](#instalación)
@@ -137,6 +138,187 @@ graph TB
 - **Testability**: Cada capa es testeable independientemente
 - **Independence of Frameworks**: El dominio no depende de Streamlit
 
+## 🔄 Flujo de Datos - Entrega 3
+
+### Integración WhatsApp con API REST y n8n
+
+```mermaid
+sequenceDiagram
+    participant Usuario
+    participant WhatsApp
+    participant n8n as n8n Webhook
+    participant API as FastAPI<br/>(API REST)
+    participant Chatbot as Chatbot Controller
+    participant LLM as LLM Model
+    participant DB as PostgreSQL<br/>(Memoria)
+
+    Usuario->>WhatsApp: Envía mensaje
+    WhatsApp->>n8n: Webhook recibe mensaje
+    n8n->>API: POST /send-message<br/>{message, cellphone}
+    
+    API->>Chatbot: send_message(messages, thread_id)
+    Chatbot->>LLM: invoke(messages, thread_id)
+    
+    LLM->>DB: Consulta historial (thread_id)
+    DB-->>LLM: Retorna contexto conversacional
+    
+    LLM->>LLM: Procesa mensaje con contexto
+    LLM-->>Chatbot: Genera respuesta
+    Chatbot-->>API: Retorna respuesta
+    
+    API-->>n8n: 200 OK<br/>{output: "respuesta"}
+    n8n->>WhatsApp: Envía respuesta
+    WhatsApp->>Usuario: Recibe respuesta
+```
+
+### Flujo de Actualización de Configuración (Endpoint Protegido)
+
+```mermaid
+sequenceDiagram
+    participant Admin as Administrador
+    participant API as FastAPI<br/>(API REST)
+    participant Chatbot as Chatbot Controller
+    participant Model as Chatbot Model
+
+    Admin->>API: PUT /update-model<br/>{api_key, temperature?, max_tokens?}
+    
+    API->>API: Valida API Key
+    
+    alt API Key válida
+        API->>Chatbot: update_model_config(temperature, max_tokens)
+        Chatbot->>Model: Actualiza configuración
+        Model-->>Chatbot: Configuración actualizada
+        Chatbot-->>API: Confirmación
+        API-->>Admin: 200 OK<br/>{message, temperature, max_tokens}
+    else API Key inválida
+        API-->>Admin: 401 Unauthorized<br/>"API key inválida"
+    end
+```
+
+## 🌐 API REST
+
+El sistema expone una API REST construida con FastAPI para integración con servicios externos como WhatsApp vía n8n.
+
+### Endpoints Disponibles
+
+#### 1. **POST /send-message** - Enviar mensaje al chatbot
+
+**Descripción:** Envía un mensaje al chatbot y recibe una respuesta conversacional.
+
+**Request Body:**
+```json
+{
+  "message": "Hola, ¿cuáles son los productos de Colgate?",
+  "cellphone": "3001234567"
+}
+```
+
+**Response:**
+```json
+{
+  "output": "¡Hola! Colgate tiene una amplia gama de productos para el cuidado bucal..."
+}
+```
+
+**Códigos de estado:**
+- `200 OK`: Mensaje procesado exitosamente
+- `500 Internal Server Error`: Error al procesar el mensaje
+
+**Características:**
+- El campo `cellphone` se usa como `thread_id` único para mantener el contexto conversacional
+- La memoria persiste en PostgreSQL por número de teléfono
+- Soporta conversaciones multi-turno con contexto
+
+---
+
+#### 2. **PUT /update-model** - Actualizar configuración del modelo
+
+**Descripción:** Actualiza la configuración del modelo LLM (temperatura y tokens máximos). Requiere autenticación con API key.
+
+**Request Body:**
+```json
+{
+  "api_key": "your-secret-api-key",
+  "temperature": 0.7,
+  "max_tokens": 1500
+}
+```
+
+**Response:**
+```json
+{
+  "message": "Configuración del modelo actualizada exitosamente",
+  "temperature": 0.7,
+  "max_tokens": 1500
+}
+```
+
+**Códigos de estado:**
+- `200 OK`: Configuración actualizada exitosamente
+- `400 Bad Request`: Parámetros inválidos o faltantes
+- `401 Unauthorized`: API key inválida
+- `500 Internal Server Error`: Error al actualizar configuración
+
+**Validaciones:**
+- `temperature`: Debe estar entre 0.0 y 2.0
+- `max_tokens`: Debe estar entre 1 y 8192
+- Al menos uno de los parámetros (`temperature` o `max_tokens`) debe ser proporcionado
+
+**Seguridad:**
+- Requiere API key válida configurada en `settings.API_KEY`
+- La API key debe ser enviada en el cuerpo de la petición
+
+---
+
+### Ejemplo de Uso con cURL
+
+**Enviar mensaje:**
+```powershell
+curl -X POST "http://localhost:8001/send-message" `
+  -H "Content-Type: application/json" `
+  -d '{
+    "message": "Hola, quiero información sobre productos",
+    "cellphone": "3001234567"
+  }'
+```
+
+**Actualizar configuración del modelo:**
+```powershell
+curl -X PUT "http://localhost:8001/update-model" `
+  -H "Content-Type: application/json" `
+  -d '{
+    "api_key": "your-secret-api-key",
+    "temperature": 0.5,
+    "max_tokens": 2000
+  }'
+```
+
+### Configuración de la API
+
+En el archivo `.env`:
+```env
+# API Configuration
+API_HOST=0.0.0.0
+API_PORT=8001
+API_KEY=your-secret-api-key-change-in-production
+```
+
+### Iniciar el servidor API
+
+```powershell
+# Opción 1: Usar uvicorn directamente
+uvicorn main:app --host 0.0.0.0 --port 8001 --reload
+
+# Opción 2: Usar make (si está configurado)
+make api-start
+```
+
+### Documentación Interactiva
+
+Una vez iniciado el servidor, la documentación interactiva está disponible en:
+- **Swagger UI**: http://localhost:8001/docs
+- **ReDoc**: http://localhost:8001/redoc
+
 ##  Requisitos
 
 - Python 3.12+
@@ -187,8 +369,20 @@ GOOGLE_API_KEY=your_google_key_here
 # PostgreSQL (memoria del chatbot)
 DB_URI=postgresql://student:12345678@localhost:5442/uao_llm
 
+# API Configuration
+API_HOST=0.0.0.0
+API_PORT=8001
+API_KEY=your-secret-api-key-change-in-production
+
 # Vector Database (en desarrollo)
 VECTOR_DB_PATH=./data/vector_db
+
+# SMTP Configuration (para envío de cotizaciones)
+SMTP_SERVER=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USER=your-email@gmail.com
+SMTP_PASSWORD=your-app-password
+SMTP_SENDER_EMAIL=your-email@gmail.com
 
 # Logging
 LOG_LEVEL=INFO
@@ -379,7 +573,7 @@ El chatbot cuenta con herramientas especializadas que el LLM puede invocar autom
 Busca respuestas en preguntas frecuentes usando coincidencia aproximada.
 
 ```python
-get_faq_answer(query: str) -> str
+faq_tool(faq_input: FaqInput) -> str
 ```
 
 **Ejemplo:**
@@ -390,7 +584,7 @@ get_faq_answer(query: str) -> str
 Búsqueda semántica en la base de conocimiento usando RAG.
 
 ```python
-search_knowledge_base(query: str) -> str
+retrieve_tool(retrieve_input: RetrieveInput) -> str
 ```
 
 **Ejemplo:**
@@ -401,7 +595,7 @@ search_knowledge_base(query: str) -> str
 Consulta precios de productos Colgate y Palmolive en diferentes tiendas.
 
 ```python
-get_product_prices(query: str, tienda: Optional[str] = None) -> str
+price_tool(price_input: PriceInput) -> str
 ```
 
 **Características:**

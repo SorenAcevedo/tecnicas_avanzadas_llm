@@ -19,50 +19,63 @@ class ProductItem(BaseModel):
     price: float = Field(..., gt=0, description="Precio unitario del producto.")
     quantity: int = Field(..., gt=0, description="Cantidad del producto.")
 
+class EmailInput(BaseModel):
+    """Esquema de entrada para la herramienta de envío de cotizaciones por correo."""
+    recipient_email: str = Field(..., description="La dirección de correo electrónico del destinatario.")
+    pdf_path: str = Field(..., description="La ruta absoluta al archivo PDF de la cotización que se adjuntará.")
+    products: List[ProductItem] = Field(..., description="Una lista de los productos incluidos en la cotización para generar el cuerpo del correo.")
+    grand_total: float = Field(..., gt=0, description="El monto total de la cotización para incluir en el cuerpo del correo.")
+
 @tool
-def email_quote_tool(
-    recipient_email: str,
-    pdf_path: str,
-    products: List[ProductItem],
-    grand_total: float
-) -> str:
+def email_quote_tool(email_input: EmailInput) -> str:
     """
-    Envía un correo electrónico con la cotización en formato PDF como adjunto.
+    Envía una cotización detallada por correo electrónico, adjuntando el archivo PDF correspondiente.
+
+    Esta herramienta se utiliza para enviar al cliente el resumen de su cotización y el documento
+    PDF formal. Construye un correo electrónico en formato HTML con el desglose de los productos,
+    sus cantidades y subtotales, junto con el total general. El PDF generado previamente es
+    adjuntado al correo.
+
+    La configuración del servidor SMTP (servidor, puerto, usuario, contraseña) se obtiene de
+    las variables de entorno, por lo que es crucial que estén correctamente configuradas.
 
     Args:
-        recipient_email: La dirección de correo del destinatario.
-        pdf_path: La ruta absoluta al archivo PDF de la cotización.
-        products: Una lista de los productos en la cotización para el cuerpo del email.
-        grand_total: El total de la cotización para el cuerpo del email.
+        email_input (EmailInput): Un objeto que contiene toda la información necesaria para el envío.
+            - recipient_email (str): La dirección de correo del destinatario.
+            - pdf_path (str): La ruta absoluta donde se encuentra el archivo PDF de la cotización.
+            - products (List[ProductItem]): La lista de productos para el resumen en el cuerpo del correo.
+            - grand_total (float): El total de la cotización para mostrar en el cuerpo del correo.
 
     Returns:
-        Un mensaje de confirmación o un error.
+        str: Un mensaje de confirmación indicando si el correo fue enviado exitosamente o
+             un mensaje de error detallando la causa del fallo (ej. archivo no encontrado,
+             error de autenticación SMTP, etc.).
     """
-    if not Path(pdf_path).is_file():
-        return f"Error: El archivo PDF no se encontró en la ruta: {pdf_path}"
+    if not Path(email_input.pdf_path).is_file():
+        return f"Error: El archivo PDF no se encontró en la ruta: {email_input.pdf_path}"
 
     # Crear el cuerpo del correo
     text_body = "<h3>Resumen de su Cotización</h3>"
     text_body += "<ul>"
-    for product in products:
+    for product in email_input.products:
         subtotal = product.price * product.quantity
         text_body += f"<li>{product.name} (x{product.quantity}): ${subtotal:,.2f}</li>"
     text_body += "</ul>"
-    text_body += f"<p><strong>Total General: ${grand_total:,.2f}</strong></p>"
+    text_body += f"<p><strong>Total General: ${email_input.grand_total:,.2f}</strong></p>"
     text_body += "<p>Gracias por su interés. Adjunto encontrará la cotización detallada en formato PDF.</p>"
 
     # Crear el mensaje
     msg = MIMEMultipart()
     msg['From'] = settings.SMTP_SENDER_EMAIL
-    msg['To'] = recipient_email
+    msg['To'] = email_input.recipient_email
     msg['Subject'] = "Su Cotización de Productos"
     msg.attach(MIMEText(text_body, 'html'))
 
     # Adjuntar el PDF
     try:
-        with open(pdf_path, "rb") as f:
-            part = MIMEApplication(f.read(), Name=Path(pdf_path).name)
-        part['Content-Disposition'] = f'attachment; filename="{Path(pdf_path).name}"'
+        with open(email_input.pdf_path, "rb") as f:
+            part = MIMEApplication(f.read(), Name=Path(email_input.pdf_path).name)
+        part['Content-Disposition'] = f'attachment; filename="{Path(email_input.pdf_path).name}"'
         msg.attach(part)
     except Exception as e:
         return f"Error al adjuntar el archivo PDF: {e}"
@@ -73,7 +86,7 @@ def email_quote_tool(
             server.starttls()
             server.login(settings.SMTP_USER, settings.SMTP_PASSWORD)
             server.send_message(msg)
-        return f"Correo enviado exitosamente a {recipient_email}."
+        return f"Correo enviado exitosamente a {email_input.recipient_email}."
     except smtplib.SMTPAuthenticationError:
         return "Error de autenticación SMTP. Revisa las credenciales en el archivo .env."
     except Exception as e:

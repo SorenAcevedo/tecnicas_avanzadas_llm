@@ -379,7 +379,7 @@ El chatbot cuenta con herramientas especializadas que el LLM puede invocar autom
 Busca respuestas en preguntas frecuentes usando coincidencia aproximada.
 
 ```python
-get_faq_answer(query: str) -> str
+faq_tool(faq_input: FaqInput) -> str
 ```
 
 **Ejemplo:**
@@ -390,7 +390,7 @@ get_faq_answer(query: str) -> str
 Búsqueda semántica en la base de conocimiento usando RAG.
 
 ```python
-search_knowledge_base(query: str) -> str
+retrieve_tool(retrieve_input: RetrieveInput) -> str
 ```
 
 **Ejemplo:**
@@ -401,7 +401,7 @@ search_knowledge_base(query: str) -> str
 Consulta precios de productos Colgate y Palmolive en diferentes tiendas.
 
 ```python
-get_product_prices(query: str, tienda: Optional[str] = None) -> str
+price_tool(price_input: PriceInput) -> str
 ```
 
 **Características:**

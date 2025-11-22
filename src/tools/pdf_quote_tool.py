@@ -19,19 +19,35 @@ class ProductItem(BaseModel):
     price: float = Field(..., gt=0, description="Precio unitario del producto.")
     quantity: int = Field(..., gt=0, description="Cantidad del producto.")
 
+class PdfInput(BaseModel):
+    """Esquema de entrada para la herramienta de generación de PDF."""
+    products: List[ProductItem] = Field(..., description="Una lista de productos para incluir en la cotización.")
+    grand_total: float = Field(..., gt=0, description="El costo total de la cotización.")
+
 @tool
-def pdf_quote_tool(products: List[ProductItem], grand_total: float) -> str:
+def pdf_quote_tool(pdf_input: PdfInput) -> str:
     """
     Genera un archivo PDF con el detalle de una cotización y lo guarda en el servidor.
 
+    Esta herramienta crea un documento PDF formal que detalla una cotización. El PDF incluye
+    un encabezado, la fecha de generación, una tabla con los productos, cantidades, precios
+    unitarios y subtotales, y finalmente, el costo total general.
+
+    El archivo se guarda en el directorio 'data/quotes' con un nombre único generado a partir
+    de la fecha, hora y un identificador único para evitar colisiones.
+
     Args:
-        products: Una lista de productos, cada uno con 'name', 'price', y 'quantity'.
-        grand_total: El costo total de la cotización.
+        pdf_input (PdfInput): Un objeto que contiene la información para la cotización.
+            - products (List[ProductItem]): Una lista de productos, donde cada uno debe tener
+              'name' (str), 'price' (float) y 'quantity' (int).
+            - grand_total (float): El costo total de la cotización.
 
     Returns:
-        La ruta absoluta del archivo PDF generado o un mensaje de error.
+        str: La ruta absoluta del archivo PDF generado en caso de éxito, o un mensaje
+             de error si no se proporcionaron productos o si ocurrió un fallo durante
+             la creación del documento.
     """
-    if not products:
+    if not pdf_input.products:
         return "Error: No se proporcionaron productos para generar la cotización."
 
     # Crear directorio para las cotizaciones si no existe
@@ -60,7 +76,7 @@ def pdf_quote_tool(products: List[ProductItem], grand_total: float) -> str:
         table_data = [
             ["Producto", "Cantidad", "Precio Unitario", "Subtotal"]
         ]
-        for product in products:
+        for product in pdf_input.products:
             subtotal = product.price * product.quantity
             table_data.append([
                 product.name,
@@ -70,7 +86,7 @@ def pdf_quote_tool(products: List[ProductItem], grand_total: float) -> str:
             ])
         
         # Fila del total
-        table_data.append(["", "", Paragraph("<b>Total General</b>", styles['Normal']), Paragraph(f"<b>${grand_total:,.2f}</b>", styles['Normal'])])
+        table_data.append(["", "", Paragraph("<b>Total General</b>", styles['Normal']), Paragraph(f"<b>${pdf_input.grand_total:,.2f}</b>", styles['Normal'])])
 
         # Crear tabla y aplicar estilos
         quote_table = Table(table_data)

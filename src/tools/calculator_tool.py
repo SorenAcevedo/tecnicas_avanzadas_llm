@@ -26,16 +26,29 @@ class CalculationResult(BaseModel):
 @tool
 def calculator_tool(quote_input: QuoteInput) -> str:
     """
-    Calcula el costo total para una lista de productos.
-    Para cada producto, multiplica su precio por la cantidad para obtener el subtotal.
-    Finalmente, suma todos los subtotales para obtener el gran total de la cotización.
+    Calcula el costo total para una lista de productos, generando subtotales y un total general.
+
+    Esta herramienta es útil para generar cotizaciones detalladas. Para cada producto en la lista
+    de entrada, multiplica su precio unitario por la cantidad solicitada para obtener el subtotal.
+    Luego, suma los subtotales de todos los productos para calcular el costo total de la cotización.
+
+    La herramienta devuelve un string en formato JSON que contiene una lista de los subtotales
+    por producto, el total general de la cotización y un resumen detallado en texto plano
+    ideal para ser mostrado directamente al usuario.
 
     Args:
-        quote_input: Un objeto que contiene una lista de productos. Cada producto
-                     debe tener 'name' (str), 'price' (float), y 'quantity' (int).
+        quote_input (QuoteInput): Un objeto que encapsula la lista de productos a cotizar.
+            - products (List[ProductItem]): Una lista donde cada elemento representa un producto
+              y debe contener:
+                - name (str): El nombre del producto.
+                - price (float): El precio unitario del producto (debe ser mayor que 0).
+                - quantity (int): La cantidad de unidades del producto (debe ser mayor que 0).
 
     Returns:
-        Un string JSON con los subtotales, el total general y un resumen detallado.
+        str: Un string en formato JSON con la siguiente estructura:
+             - "subtotals": Una lista de diccionarios, cada uno con "product" y "subtotal".
+             - "grand_total": El costo total de la cotización.
+             - "details": Un resumen en texto formateado con el desglose de la cotización.
     """
     products = quote_input.products
     if not products:

@@ -33,3 +33,51 @@ class SendMessageResponse(BaseModel):
         description="Respuesta generada por el agente",
         example="Hola, ¿en qué puedo ayudarte?",
     )
+
+
+class UpdateModelRequest(BaseModel):
+    """
+    Schema para actualizar la configuración del modelo.
+    """
+
+    api_key: str = Field(
+        ...,
+        description="API key para autenticación",
+        example="my-secret-api-key"
+    )
+    temperature: Optional[float] = Field(
+        None,
+        description="Temperatura del modelo (0.0 a 2.0)",
+        ge=0.0,
+        le=2.0,
+        example=0.7
+    )
+    max_tokens: Optional[int] = Field(
+        None,
+        description="Número máximo de tokens",
+        ge=1,
+        le=8192,
+        example=1500
+    )
+
+
+class UpdateModelResponse(BaseModel):
+    """
+    Schema para la respuesta de actualización del modelo.
+    """
+
+    message: str = Field(
+        ...,
+        description="Mensaje de confirmación",
+        example="Configuración del modelo actualizada exitosamente"
+    )
+    temperature: Optional[float] = Field(
+        None,
+        description="Temperatura actualizada",
+        example=0.7
+    )
+    max_tokens: Optional[int] = Field(
+        None,
+        description="Max tokens actualizado",
+        example=1500
+    )

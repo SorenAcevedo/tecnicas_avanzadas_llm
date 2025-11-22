@@ -15,6 +15,7 @@ class AppSettings(BaseSettings):
     
     API_HOST: str = "0.0.0.0"
     API_PORT: int = 8001
+    API_KEY: str
 
     # SMTP Configuration for sending emails
     SMTP_SERVER: str
